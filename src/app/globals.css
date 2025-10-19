@@ -2,25 +2,60 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #1f2937;
+  --primary: #2563eb;
+  --secondary: #64748b;
+  --accent: #f3f4f6;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* A4 Print Styles */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  body {
+    margin: 0;
+    background: white !important;
+  }
+  
+  .cv-container {
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 !important;
+    padding: 20mm !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* CV Container */
+.cv-container {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20mm;
+}
+
+@media screen and (max-width: 850px) {
+  .cv-container {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+  }
 }
