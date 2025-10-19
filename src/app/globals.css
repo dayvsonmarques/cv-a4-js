@@ -3,8 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #1f2937;
-  --primary: #2563eb;
-  --secondary: #64748b;
+  --primary: #374151;
+  --secondary: #6b7280;
   --accent: #f3f4f6;
 }
 
@@ -49,6 +49,12 @@ body {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 20mm;
+}
+
+/* Force all emojis and icons to be grayscale */
+.icon-bw {
+  filter: grayscale(100%);
+  color: #1f2937;
 }
 
 @media screen and (max-width: 850px) {
