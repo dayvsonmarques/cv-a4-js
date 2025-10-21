@@ -27,13 +27,19 @@ body {
     background: white !important;
   }
   
-  .cv-container {
+  .cv-page {
     width: 210mm !important;
     height: 297mm !important;
     margin: 0 !important;
     padding: 20mm !important;
     box-shadow: none !important;
     border: none !important;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .cv-page:last-child {
+    page-break-after: auto;
   }
   
   .no-print {
@@ -41,14 +47,34 @@ body {
   }
 }
 
-/* CV Container */
-.cv-container {
+/* CV Pages Container */
+.cv-pages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Individual CV Page */
+.cv-page {
   width: 210mm;
   min-height: 297mm;
+  height: 297mm;
   margin: 0 auto;
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 20mm;
+  padding: 20mm 20mm 25mm 20mm; /* Aumentado padding inferior */
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page break helper */
+.page-break {
+  page-break-after: always;
+  break-after: page;
 }
 
 /* Force all emojis and icons to be grayscale */
@@ -58,10 +84,16 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  .cv-container {
+  .cv-page {
     width: 100%;
+    min-height: auto;
+    height: auto;
     margin: 0;
     padding: 20px;
     box-shadow: none;
+  }
+  
+  .cv-pages-wrapper {
+    gap: 0;
   }
 }
