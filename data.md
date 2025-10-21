@@ -1,22 +1,20 @@
-Dayvson Marques
-desenvolvedor web full stack
-JS | React | Node | PHP 
+# Dayvson Marques
+### desenvolvedor web full stack
+### JS | React | Node | PHP 
 📍 Recife – PE, Brasil
-35 anos
+36 anos
 81 99962-3374
 dayvson.marques@gmail.com
-Linkedin
-Github
+[Linkedin](https://www.linkedin.com/in/dayvsonmarques/)
+[Github](https://github.com/dayvsonmarques)
 dayvsonmarques.dev.br
 
 
-
-
-Sobre
+## Sobre
 Desenvolvedor web full stack,  com +15 anos de experiência no desenvolvimento de sites, lojas online e aplicações web, e-commerce (b2b/b2c), aplicações web para gestão de dados, análise de marketing, e-learning, crm e plataformas de streaming de vídeo. Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, Com experiência em análise, desenvolvimento e manutenção de sites, e-commerces e aplicações web. Prática em ambientes Linux, Docker, CI/CD e infraestrutura cloud e VPS. Atuando em diferentes contextos profissionais: fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance.
 Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção de aplicações web. Experiência em projetos voltados a e-commerce (b2b/b2c), gestão de dados, análise de marketing, e-learning, crm e plataformas de streaming de vídeo. Atuando em diferentes contextos profissionais: fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance.
 
-🧠 Habilidades Técnicas
+## Habilidades Técnicas
 Front-end
 HTML5 | CSS3 / SASS / SCSS | Bootstrap | TailwindCSS | Material UI | JavaScript | TypeScript | React | Vue | Next 
 Back-end
@@ -35,7 +33,7 @@ Jest | React Testing Library | PHPUnit |
 IA & Ferramentas de Apoio
 Low-code | Vibe Coding | Cursor | GitHub Copilot
 
-Experiência Profissional
+## Experiência Profissional
 Desenvolvedor Web Full Stack (Freelancer)
  08/2024 – Atual
  Desenvolvimento e manutenção de sites e e-commerces responsivos.
@@ -91,7 +89,7 @@ Bacharelado em Sistemas de Informação
  Uninabuco (2008 – 2012)
 Curso: Desenvolvimento Web com Java (Softex Recife)
  2013 – 200h
- 
+
 Idiomas
 Inglês: Leitura (Avançado), Conversação (Básico)
 Espanhol: Leitura (Intermediário), Conversação (Básico)

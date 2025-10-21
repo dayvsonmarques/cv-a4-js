@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 py-8">
@@ -14,29 +16,35 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-gray-600">
             <div className="flex items-center gap-2">
-              <span className="icon-bw text-black">⚏</span>
-              <span>36 anos</span>
-            </div>
-           
-            <div className="flex items-center gap-2">
-              <span className="icon-bw text-black">☎</span>
-              <span>(81) 99962-3374</span>
-            </div>
-            <div className="flex items-center gap-2">
               <span className="icon-bw text-black">⌘</span>
               <span>Recife – PE, Brasil</span>
             </div>
             <div className="flex items-center gap-2">
+              <span className="icon-bw text-black">⚏</span>
+              <span>36 anos</span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="icon-bw text-black">☎</span>
+              <span>(81) 99962-3374</span>
+            </div>
+
+            <div className="flex items-center gap-2">
               <span className="icon-bw text-black">⚡</span>
               <span>dayvsonmarques.dev.br</span>
             </div>
-             <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2">
               <span className="icon-bw text-black">✉</span>
               <span>dayvson.marques@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="icon-bw text-black">⚏</span>
-              <span>LinkedIn | GitHub</span>
+              <span><Link href="https://www.linkedin.com/in/dayvsonmarques/">LinkedIn</Link></span>
+
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="icon-bw text-black">⚏</span>
+              <span><Link href="https://github.com/dayvsonmarques">GitHub</Link></span>
             </div>
           </div>
         </header>
@@ -46,7 +54,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold text-gray-900 mb-4 border-b-2 border-gray-800 pb-2">
             Sobre
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-justify">
             Desenvolvedor web full stack, com mais de 15 anos de experiência no desenvolvimento
             de sites, lojas online e aplicações web, e-commerce (B2B/B2C), aplicações web para
             gestão de dados, análise de marketing, e-learning, CRM e plataformas de streaming de vídeo.
@@ -245,17 +253,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Print Button */}
-        <div className="no-print mt-8 text-center">
-          <button
-            onClick={() => window.print()}
-            className="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-900 transition-colors flex items-center gap-2 mx-auto"
-          >
-            <span>⎙</span>
-            Imprimir CV
-          </button>
-        </div>
       </div>
     </div>
   );
