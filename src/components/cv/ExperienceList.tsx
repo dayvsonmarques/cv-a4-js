@@ -5,6 +5,8 @@ interface ExperienceItemProps {
 }
 
 export function ExperienceItem({ experience }: ExperienceItemProps) {
+  const periods = experience.period.split(' | ');
+  
   return (
     <div>
       <div className="flex justify-between items-start mb-1.5">
@@ -12,7 +14,11 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
           <h3 className="font-semibold text-gray-900">{experience.title}</h3>
           <p className="text-gray-600">{experience.company}</p>
         </div>
-        <span className="text-sm text-gray-500">{experience.period}</span>
+        <div className="text-gray-500 text-right">
+          {periods.map((period, index) => (
+            <div key={index} className="text-sm">{period}</div>
+          ))}
+        </div>
       </div>
       <ul className="list-disc list-inside text-gray-700 ml-4 space-y-0.5">
         {experience.responsibilities.map((responsibility, index) => (

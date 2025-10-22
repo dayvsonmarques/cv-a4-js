@@ -24,8 +24,8 @@ export const cvData: CVData = {
   },
   
   about: [
-    'Desenvolvedor web full stack, com mais de 15 anos de experiência no desenvolvimento de sites, lojas online e aplicações web, e-commerces (B2B/B2C), aplicações web para gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de videos por assinatura.',
-    'Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção de aplicações web. de vídeo. Atuando em diferentes contextos profissionais: fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance.',
+    'Desenvolvedor web full stack, +15 anos de experiência em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance. Experiência no desenvolvimento de sites, e-commerces (B2B/B2C) e aplicações web (gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de streaming).',
+    'Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção. ',
   ],
   
   education: [
@@ -44,50 +44,108 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: 'Front-end',
-      skills: ['html5', 'css3/sass', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Next.js', 'Bootstrap', 'Tailwind CSS'],
+      skills: [
+        'Html5',
+        'Css3 | Sass',
+        'JavaScript',
+        'TypeScript',
+        'React',
+        'Vue',
+        'Next.js',
+        'UX/UI', 
+        'Bootstrap',
+        'Tailwind CSS',
+        'Material UI',
+        'Design Systems',
+        'Responsivo'
+      ],
       badgeClass: 'bg-gray-200 text-gray-800',
     },
     {
       title: 'Back-end',
-      skills: ['Php', 'Laravel', 'Node', 'WordPress', 'WooCommerce', 'AdonisJS', 'Prisma'],
+      skills: [
+        'PHP',
+        'Laravel',
+        'Node.js',
+        'AdonisJS',
+        'Prisma',
+        'WordPress',
+        'WooCommerce',
+      ],
       badgeClass: 'bg-gray-300 text-gray-900',
     },
     {
       title: 'Banco de Dados',
-      skills: ['MySQL', 'PostgreSQL', 'SQL Server', 'MongoDB', 'Redis'],
+      skills: [
+        'MySQL',
+        'PostgreSQL',
+        'SQL Server',
+        'MongoDB',
+        'Redis',
+      ],
       badgeClass: 'bg-gray-400 text-white',
     },
     {
       title: 'Infraestrutura & Cloud',
-      skills: ['AWS', 'Google Cloud', 'Docker', 'Linux', 'CI/CD', 'Nginx'],
+      skills: [
+        'AWS',
+        'Google Cloud',
+        'Docker',
+        'Linux',
+        'CI/CD',
+        'Apache | Nginx',
+        'Jenkins'
+      ],
       badgeClass: 'bg-gray-500 text-white',
+    },
+    {
+      title: 'Testes',
+      skills: [
+        'Jest',
+        'React Testing Library',
+        'PHPUnit',
+      ],
+      badgeClass: 'bg-gray-600 text-white',
+    },
+    {
+      title: 'IA & Ferramentas',
+      skills: [
+        'Low-code',
+        'Cursor',
+        'GitHub Copilot',
+      ],
+      badgeClass: 'bg-gray-700 text-white',
     },
   ],
   
   languages: [
-    { name: 'Inglês', level: 'Leitura Avançada / Conversação Básica' },
-    { name: 'Espanhol', level: 'Leitura Intermediária / Conversação Básica' },
+    { 
+      name: 'Inglês', 
+      level: 'Leitura Avançada / Conversação Básica' 
+    },
+    { 
+      name: 'Espanhol', 
+      level: 'Leitura Intermediária / Conversação Básica' 
+    },
   ],
   
   experiences: [
     {
-      title: 'Desenvolvedor Web Full Stack (Freelancer)',
-      company: 'Autônomo',
+      title: 'Desenvolvedor Web Full Stack',
+      company: 'Freelancer',
       period: '08/2024 - Atual',
       responsibilities: [
         'Desenvolvimento e manutenção de sites e e-commerces responsivos',
-        'Stack: Next.js, React, TypeScript, Node.js, PostgreSQL, WordPress',
-        'Implementação de soluções com HTML5, CSS3 e JavaScript',
+        'Stack: Next.js, React, JavaScript | TypeScript, Node.js, PostgreSQL, WordPress',
       ],
     },
     {
-      title: 'Desenvolvedor Full Stack',
+      title: 'Desenvolvedor Full Stack / Ecommerce',
       company: 'Agile Ecommerce',
-      period: '01/2024 - 07/2024',
+      period: '01/2024 - 07/2024 | 01/2019 - 07/2019',
       responsibilities: [
-        'Desenvolvimento e manutenção de e-commerce B2B',
-        'Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript',
-        'Implementação de funcionalidades para comércio eletrônico',
+        'Prototipação (MVP), desenvolvimento e manutenção de e-commerce B2B integrado com multi',
+        'Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap',
       ],
     },
     {
@@ -96,18 +154,7 @@ export const cvData: CVData = {
       period: '08/2019 - 03/2023',
       responsibilities: [
         'Desenvolvimento de plataformas de e-commerce e streaming',
-        'Stack: ReactJS, HTML5, CSS3/SASS, JavaScript, Oracle Cloud Commerce',
-        'Utilização de Bootstrap e jQuery para interfaces responsivas',
-      ],
-    },
-    {
-      title: 'Desenvolvedor Ecommerce',
-      company: 'Agile Ecommerce',
-      period: '01/2019 - 07/2019',
-      responsibilities: [
-        'Prototipação de e-commerce B2B integrado com ERPs',
-        'Stack: Laravel, PHP, HTML5, CSS3, JavaScript, Bootstrap',
-        'Desenvolvimento de soluções de integração',
+        'Stack: ReactJS, HTML5, CSS3/SASS, Bootstrap, JavaScript, Oracle Cloud Commerce',
       ],
     },
     {
@@ -116,48 +163,16 @@ export const cvData: CVData = {
       period: '03/2018 - 01/2019',
       responsibilities: [
         'Sistemas web EAD, e-commerces e gestão financeira',
-        'Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery',
-        'Trabalho com bancos MySQL e SQL Server',
+        'Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server',
       ],
     },
     {
-      title: 'Desenvolvedor Web (Freelancer)',
-      company: 'Autônomo',
-      period: '03/2017 - 03/2018',
+      title: 'Desenvolvedor Wordpress',
+      company: 'Agências de Publicidade | Freelancer',
+      period: '05/2013 - 03/2018',
       responsibilities: [
-        'Desenvolvimento de lojas online, plugins e templates',
-        'Stack: WordPress, WooCommerce, Laravel, PHP 7, HTML5, CSS3/SASS',
-        'Criação de soluções customizadas para e-commerce',
-      ],
-    },
-    {
-      title: 'Desenvolvedor Web',
-      company: 'Bold Comunicação',
-      period: '12/2015 - 02/2017',
-      responsibilities: [
-        'Criação de sites e e-commerces',
-        'Stack: Laravel, WordPress, HTML5, CSS3/SASS, JavaScript',
-        'Desenvolvimento front-end e back-end',
-      ],
-    },
-    {
-      title: 'Desenvolvedor Front-end',
-      company: 'Agências de Publicidade',
-      period: '02/2015 - 11/2015',
-      responsibilities: [
-        'Desenvolvimento de lojas online e templates',
-        'Stack: PHP, WordPress, OpenCart, HTML, CSS, JavaScript',
-        'Implementação de interfaces responsivas',
-      ],
-    },
-    {
-      title: 'Desenvolvedor Web (Freelancer)',
-      company: 'Autônomo',
-      period: '06/2013 - 01/2015',
-      responsibilities: [
-        'Manutenção de sites e lojas online',
-        'Stack: WordPress, PHP, HTML, CSS, MySQL',
-        'Suporte e evolução de projetos web',
+        'Desenvolvimento de sites, lojas online (produtos e serviços), criação de temas, plugins, integrações e customizações',
+        'Stack: PHP 7, WordPress, WooCommerce, Laravel, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL',
       ],
     },
     {
@@ -165,9 +180,8 @@ export const cvData: CVData = {
       company: 'Corptech',
       period: '04/2011 - 04/2013',
       responsibilities: [
-        'Desenvolvimento de ERP web integrado ao SAP',
-        'Stack: Java (J2EE, JSP, JSF, Hibernate), MySQL, PostgreSQL',
-        'Integração com Google Maps e Google Charts',
+        'Desenvolvimento de ERP web integrado a SAP',
+        'Stack: Java (J2EE, JSP, JSF, Hibernate), MySQL, PostgreSQL, Google Maps e Google Charts',
       ],
     },
   ],

@@ -28,8 +28,10 @@ Analise e Monitoramento: CloudWatch, Grafana, Datadog, Sentry, Hotjar e Google A
 
 Metodologias e Gestão
 Scrum | Kanban | XP | Jira | Trello | Asana
+
 Testes
 Jest | React Testing Library | PHPUnit | 
+
 IA & Ferramentas de Apoio
 Low-code | Vibe Coding | Cursor | GitHub Copilot
 

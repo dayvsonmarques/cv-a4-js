@@ -14,7 +14,7 @@ export function SkillsGrid({ categories }: SkillsGridProps) {
             {category.skills.map((skill, skillIndex) => (
               <span 
                 key={skillIndex} 
-                className={`${category.badgeClass} px-2 py-1 rounded text-sm`}
+                className={`${category.badgeClass} px-2 py-0.5 rounded text-xs`}
               >
                 {skill}
               </span>
