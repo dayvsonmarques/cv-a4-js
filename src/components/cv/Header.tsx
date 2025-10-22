@@ -9,9 +9,9 @@ interface HeaderProps {
 
 export function Header({ name, title, contacts }: HeaderProps) {
   return (
-    <header className="mb-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">{name}</h1>
-      <p className="text-xl text-gray-600 mb-4">{title}</p>
+    <header className="mb-5">
+      <h1 className="text-3xl font-bold text-gray-900 mb-1.5">{name}</h1>
+      <p className="text-xl text-gray-600 mb-3">{title}</p>
       
       <div className="flex flex-wrap gap-4 text-sm text-gray-600">
         {contacts.map((contact, index) => (

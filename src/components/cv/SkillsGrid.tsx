@@ -6,11 +6,11 @@ interface SkillsGridProps {
 
 export function SkillsGrid({ categories }: SkillsGridProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
       {categories.map((category, index) => (
         <div key={index}>
-          <h3 className="font-medium text-gray-900 mb-3">{category.title}</h3>
-          <div className="flex flex-wrap gap-2">
+          <h3 className="font-medium text-gray-900 mb-2">{category.title}</h3>
+          <div className="flex flex-wrap gap-1.5">
             {category.skills.map((skill, skillIndex) => (
               <span 
                 key={skillIndex} 

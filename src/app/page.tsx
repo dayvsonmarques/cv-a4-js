@@ -26,7 +26,7 @@ export default function Home() {
             contacts={personalInfo.contacts}
           />
 
-          <Section title="Sobre" className="mb-8">
+          <Section title="Sobre" className="mb-5">
             <About paragraphs={about} />
           </Section>
 

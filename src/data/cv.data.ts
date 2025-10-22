@@ -44,17 +44,17 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: 'Front-end',
-      skills: ['HTML5', 'CSS3/SASS', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Next.js', 'Bootstrap', 'Tailwind CSS'],
+      skills: ['html5', 'css3/sass', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Next.js', 'Bootstrap', 'Tailwind CSS'],
       badgeClass: 'bg-gray-200 text-gray-800',
     },
     {
       title: 'Back-end',
-      skills: ['PHP 8', 'Laravel', 'Node.js', 'WordPress', 'WooCommerce', 'AdonisJS', 'Prisma'],
+      skills: ['Php', 'Laravel', 'Node', 'WordPress', 'WooCommerce', 'AdonisJS', 'Prisma'],
       badgeClass: 'bg-gray-300 text-gray-900',
     },
     {
       title: 'Banco de Dados',
-      skills: ['MySQL', 'PostgreSQL', 'SQL Server', 'NoSQL'],
+      skills: ['MySQL', 'PostgreSQL', 'SQL Server', 'MongoDB', 'Redis'],
       badgeClass: 'bg-gray-400 text-white',
     },
     {
@@ -71,36 +71,43 @@ export const cvData: CVData = {
   
   experiences: [
     {
-      title: 'Desenvolvedor Backend Freelancer',
-      company: 'Autonomo',
-      period: '02/2019 - Atual',
+      title: 'Desenvolvedor Web Full Stack (Freelancer)',
+      company: 'Autônomo',
+      period: '08/2024 - Atual',
       responsibilities: [
-        'Desenvolvimento de APIs e microsserviços',
-        'Stack: Python (Django, FastAPI), Node.js, TypeScript',
-        'DevOps: Docker, CI/CD, AWS, monitoramento',
-        'Arquitetura de soluções escaláveis',
+        'Desenvolvimento e manutenção de sites e e-commerces responsivos',
+        'Stack: Next.js, React, TypeScript, Node.js, PostgreSQL, WordPress',
+        'Implementação de soluções com HTML5, CSS3 e JavaScript',
       ],
     },
     {
-      title: 'Desenvolvedor Backend Sênior',
+      title: 'Desenvolvedor Full Stack',
       company: 'Agile Ecommerce',
-      period: '03/2021 - 01/2022',
+      period: '01/2024 - 07/2024',
       responsibilities: [
-        'Desenvolvimento de plataforma white-label de e-commerce',
-        'Stack: Python, FastAPI, Next.js, PostgreSQL, Redis',
-        'Arquitetura de microsserviços e APIs RESTful',
-        'Integração com gateways de pagamento',
+        'Desenvolvimento e manutenção de e-commerce B2B',
+        'Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript',
+        'Implementação de funcionalidades para comércio eletrônico',
       ],
     },
     {
-      title: 'Desenvolvedor Full Stack Pleno',
+      title: 'Analista Front-end Pleno',
       company: 'Accenture',
-      period: '01/2019 - 02/2021',
+      period: '08/2019 - 03/2023',
       responsibilities: [
-        'Sistemas bancários e financeiros para grandes clientes',
-        'Stack: Java, Spring Boot, React, Oracle DB',
-        'Metodologias ágeis (Scrum) e DevOps',
-        'Code review e mentoria de desenvolvedores júnior',
+        'Desenvolvimento de plataformas de e-commerce e streaming',
+        'Stack: ReactJS, HTML5, CSS3/SASS, JavaScript, Oracle Cloud Commerce',
+        'Utilização de Bootstrap e jQuery para interfaces responsivas',
+      ],
+    },
+    {
+      title: 'Desenvolvedor Ecommerce',
+      company: 'Agile Ecommerce',
+      period: '01/2019 - 07/2019',
+      responsibilities: [
+        'Prototipação de e-commerce B2B integrado com ERPs',
+        'Stack: Laravel, PHP, HTML5, CSS3, JavaScript, Bootstrap',
+        'Desenvolvimento de soluções de integração',
       ],
     },
     {
@@ -111,6 +118,46 @@ export const cvData: CVData = {
         'Sistemas web EAD, e-commerces e gestão financeira',
         'Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery',
         'Trabalho com bancos MySQL e SQL Server',
+      ],
+    },
+    {
+      title: 'Desenvolvedor Web (Freelancer)',
+      company: 'Autônomo',
+      period: '03/2017 - 03/2018',
+      responsibilities: [
+        'Desenvolvimento de lojas online, plugins e templates',
+        'Stack: WordPress, WooCommerce, Laravel, PHP 7, HTML5, CSS3/SASS',
+        'Criação de soluções customizadas para e-commerce',
+      ],
+    },
+    {
+      title: 'Desenvolvedor Web',
+      company: 'Bold Comunicação',
+      period: '12/2015 - 02/2017',
+      responsibilities: [
+        'Criação de sites e e-commerces',
+        'Stack: Laravel, WordPress, HTML5, CSS3/SASS, JavaScript',
+        'Desenvolvimento front-end e back-end',
+      ],
+    },
+    {
+      title: 'Desenvolvedor Front-end',
+      company: 'Agências de Publicidade',
+      period: '02/2015 - 11/2015',
+      responsibilities: [
+        'Desenvolvimento de lojas online e templates',
+        'Stack: PHP, WordPress, OpenCart, HTML, CSS, JavaScript',
+        'Implementação de interfaces responsivas',
+      ],
+    },
+    {
+      title: 'Desenvolvedor Web (Freelancer)',
+      company: 'Autônomo',
+      period: '06/2013 - 01/2015',
+      responsibilities: [
+        'Manutenção de sites e lojas online',
+        'Stack: WordPress, PHP, HTML, CSS, MySQL',
+        'Suporte e evolução de projetos web',
       ],
     },
     {
