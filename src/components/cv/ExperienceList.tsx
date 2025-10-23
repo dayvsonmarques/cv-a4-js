@@ -8,15 +8,15 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
   const periods = experience.period.split(' | ');
   
   return (
-    <div>
-      <div className="flex justify-between items-start mb-1.5">
+    <div className="mb-8">
+      <div className="flex justify-between items-start mb-1">
         <div>
           <h3 className="font-semibold text-gray-900">{experience.title}</h3>
           <p className="text-gray-600">{experience.company}</p>
         </div>
-        <div className="text-gray-500 text-right">
+        <div className="text-sm text-gray-500 text-right">
           {periods.map((period, index) => (
-            <div key={index} className="text-sm">{period}</div>
+            <div key={index}>{period}</div>
           ))}
         </div>
       </div>

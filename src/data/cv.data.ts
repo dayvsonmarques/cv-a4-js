@@ -24,7 +24,7 @@ export const cvData: CVData = {
   },
   
   about: [
-    'Desenvolvedor web full stack, +15 anos de experiência em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance. Experiência no desenvolvimento de sites, e-commerces (B2B/B2C) e aplicações web (gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de streaming).',
+    'Desenvolvedor web full stack com +15 anos de experiência em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance. Experiência no desenvolvimento de sites, e-commerces (B2B/B2C) e aplicações web (gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de streaming).',
     'Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção. ',
   ],
   
