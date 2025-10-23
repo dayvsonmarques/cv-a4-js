@@ -11,8 +11,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), 'Inter', sans-serif;
+  font-family: var(--font-body), 'Plus Jakarta Sans', sans-serif;
   line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), 'Space Grotesk', sans-serif;
+  font-weight: 600;
 }
 
 /* A4 Print Styles */
@@ -24,25 +34,58 @@ body {
   
   body {
     margin: 0;
+    padding: 0;
     background: white !important;
   }
   
-  .cv-page {
-    width: 210mm !important;
-    height: 297mm !important;
+  /* Remove o wrapper cinza na impressão */
+  .min-h-screen {
+    background: white !important;
+    padding: 0 !important;
     margin: 0 !important;
-    padding-top: 15mm !important;
-    padding-left: 20mm !important;
-    padding-right: 20mm !important;
-    padding-bottom: 35mm !important; /* Aumentado para garantir margem na impressão */
+    min-height: auto !important;
+  }
+  
+  .cv-pages-wrapper {
+    display: block !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .cv-page {
+    display: block !important;
+    width: 210mm !important;
+    min-height: 297mm !important;
+    margin: 0 auto !important;
+    padding: 10mm 15mm !important;
     box-shadow: none !important;
     border: none !important;
-    page-break-after: always;
-    page-break-inside: avoid;
+    background: white !important;
+    break-inside: avoid !important;
+    break-after: page !important;
   }
-
+  
   .cv-page:last-child {
-    page-break-after: auto;
+    break-after: auto !important;
+  }
+  
+  html, body {
+    height: auto !important;
+  }
+  
+  /* Força grid de 2 colunas na impressão */
+  .grid {
+    display: grid !important;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  
+  /* Mantém flex-wrap para as badges */
+  .flex-wrap {
+    flex-wrap: wrap !important;
   }
   
   .no-print {
@@ -66,10 +109,7 @@ body {
   margin: 0 auto;
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding-top: 15mm;
-  padding-left: 20mm;
-  padding-right: 20mm;
-  padding-bottom: 35mm; /* Aumentado ainda mais para garantir margem */
+  padding: 10mm 15mm;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;

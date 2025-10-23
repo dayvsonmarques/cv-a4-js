@@ -5,18 +5,18 @@ export const cvData: CVData = {
     name: 'Dayvson Marques',
     title: 'Desenvolvedor Web Full Stack',
     contacts: [
-      { icon: '⌘', text: 'Recife – PE, Brasil' },
-      { icon: '⚏', text: '36 anos' },
-      { icon: '☎', text: '(81) 99962-3374' },
-      { icon: '⚡', text: 'dayvsonmarques.dev.br' },
-      { icon: '✉', text: 'dayvson.marques@gmail.com' },
+      { icon: '📍', text: 'Recife – PE, Brasil' },
+      { icon: '🎂', text: '36 anos' },
+  { icon: 'ⓦ', text: '(81) 99962-3374' },
+      { icon: '🌐', text: 'dayvsonmarques.dev.br' },
+      { icon: '📧', text: 'dayvson.marques@gmail.com' },
       { 
-        icon: '⚏', 
+        icon: '💼', 
         text: 'LinkedIn', 
         href: 'https://www.linkedin.com/in/dayvsonmarques/' 
       },
       { 
-        icon: '⚏', 
+        icon: '💻', 
         text: 'GitHub', 
         href: 'https://github.com/dayvsonmarques' 
       },
@@ -111,8 +111,9 @@ export const cvData: CVData = {
       title: 'IA & Ferramentas',
       skills: [
         'Low-code',
-        'Cursor',
+        'Cursor AI',
         'GitHub Copilot',
+        'Claude Code',
       ],
       badgeClass: 'bg-gray-700 text-white',
     },
