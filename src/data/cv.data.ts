@@ -5,18 +5,18 @@ export const cvData: CVData = {
     name: 'Dayvson Marques',
     title: 'Desenvolvedor Web Full Stack',
     contacts: [
-      { icon: '📍', text: 'Recife – PE, Brasil' },
-      { icon: '🎂', text: '36 anos' },
-  { icon: 'ⓦ', text: '(81) 99962-3374' },
-      { icon: '🌐', text: 'dayvsonmarques.dev.br' },
-      { icon: '📧', text: 'dayvson.marques@gmail.com' },
+      { icon: 'location', text: 'Recife – PE, Brasil' },
+      { icon: 'age', text: '36 anos' },
+  { icon: 'whatsapp', text: '(81) 99962-3374' },
+  { icon: 'email', text: 'dayvson.marques@gmail.com', href: 'mailto:dayvson.marques@gmail.com' },
+  { icon: 'website', text: 'Site', href: 'https://dayvsonmarques.dev.br' },
       { 
-        icon: '💼', 
+        icon: 'linkedin', 
         text: 'LinkedIn', 
         href: 'https://www.linkedin.com/in/dayvsonmarques/' 
       },
       { 
-        icon: '💻', 
+        icon: 'github', 
         text: 'GitHub', 
         href: 'https://github.com/dayvsonmarques' 
       },
@@ -87,7 +87,7 @@ export const cvData: CVData = {
     {
       title: 'Infraestrutura & Cloud',
       skills: [
-        'AWS Services',
+        'AWS',
         'Google Cloud',
         'Docker',
         'Linux',
@@ -105,6 +105,7 @@ export const cvData: CVData = {
         'Cursor AI',
         'GitHub Copilot',
         'Claude Code',
+        'Bolt diy',
       ],
       badgeClass: 'bg-gray-900 text-white',
     },
@@ -169,7 +170,7 @@ export const cvData: CVData = {
       company: 'Agile Ecommerce',
       period: '01/2024 - 07/2024 | 01/2019 - 07/2019',
       responsibilities: [
-        'Prototipação (MVP), desenvolvimento e manutenção de e-commerce B2B integrado com multi',
+        'Prototipação (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs. ',
         'Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap',
       ],
     },

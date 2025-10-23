@@ -1,5 +1,14 @@
+export type ContactIconType =
+  | 'location'
+  | 'age'
+  | 'whatsapp'
+  | 'website'
+  | 'email'
+  | 'linkedin'
+  | 'github';
+
 export interface ContactInfo {
-  icon: string;
+  icon: ContactIconType;
   text: string;
   href?: string;
 }

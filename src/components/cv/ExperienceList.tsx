@@ -1,7 +1,26 @@
+import { ReactNode } from 'react';
 import { Experience } from '@/types/cv.types';
 
 interface ExperienceItemProps {
   experience: Experience;
+}
+
+function formatResponsibility(text: string): ReactNode {
+  const stackIndex = text.toLowerCase().indexOf('stack:');
+  if (stackIndex === -1) {
+    return text;
+  }
+
+  const prefix = text.slice(0, stackIndex);
+  const suffix = text.slice(stackIndex + 'stack:'.length);
+
+  return (
+    <>
+      {prefix}
+      <strong>Stack:</strong>
+      {suffix}
+    </>
+  );
 }
 
 export function ExperienceItem({ experience }: ExperienceItemProps) {
@@ -22,7 +41,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
       </div>
       <ul className="list-disc list-inside text-gray-700 ml-4 space-y-0.5">
         {experience.responsibilities.map((responsibility, index) => (
-          <li key={index}>{responsibility}</li>
+          <li key={index}>{formatResponsibility(responsibility)}</li>
         ))}
       </ul>
     </div>
