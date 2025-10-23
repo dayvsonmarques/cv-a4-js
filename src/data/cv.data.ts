@@ -57,7 +57,6 @@ export const cvData: CVData = {
         'Tailwind CSS',
         'Material UI',
         'Design Systems',
-        'Responsivo'
       ],
       badgeClass: 'bg-gray-200 text-gray-800',
     },
@@ -88,7 +87,7 @@ export const cvData: CVData = {
     {
       title: 'Infraestrutura & Cloud',
       skills: [
-        'AWS',
+        'AWS Services',
         'Google Cloud',
         'Docker',
         'Linux',
@@ -98,15 +97,7 @@ export const cvData: CVData = {
       ],
       badgeClass: 'bg-gray-500 text-white',
     },
-    {
-      title: 'Testes',
-      skills: [
-        'Jest',
-        'React Testing Library',
-        'PHPUnit',
-      ],
-      badgeClass: 'bg-gray-600 text-white',
-    },
+
     {
       title: 'IA & Ferramentas',
       skills: [
@@ -115,7 +106,40 @@ export const cvData: CVData = {
         'GitHub Copilot',
         'Claude Code',
       ],
+      badgeClass: 'bg-gray-900 text-white',
+    },
+    {
+      title: 'Análise & Monitoramento',
+      skills: [
+        'CloudWatch',
+        'Grafana',
+        'Datadog',
+        'Sentry',
+        'Hotjar',
+        'Google Analytics',
+      ],
       badgeClass: 'bg-gray-700 text-white',
+    },
+    {
+      title: 'Testes',
+      skills: [
+        'Jest',
+        'React Testing Library',
+        'PHPUnit',
+      ],
+      badgeClass: 'bg-gray-800 text-white',
+    },
+    {
+      title: 'Metodologias & Gestão',
+      skills: [
+        'Scrum',
+        'Kanban',
+        'XP',
+        'Jira',
+        'Trello',
+        'Asana',
+      ],
+      badgeClass: 'bg-gray-600 text-white',
     },
   ],
   
