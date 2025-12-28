@@ -27,7 +27,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
   const periods = experience.period.split(' | ');
   
   return (
-    <div className="mb-8">
+    <div className="mb-3">
       <div className="flex justify-between items-start mb-1">
         <div>
           <h3 className="font-semibold text-gray-900">{experience.title}</h3>

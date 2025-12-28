@@ -37,10 +37,6 @@ export default function Home() {
           <Section title="Habilidades Técnicas">
             <SkillsGrid categories={skillCategories} />
           </Section>
-
-          <Section title="Idiomas">
-            <LanguagesList languages={languages} />
-          </Section>
         </CVPage>
         {/* Fim da Página 1 */}
 
@@ -48,6 +44,10 @@ export default function Home() {
         <CVPage>
           <Section title="Experiência Profissional">
             <ExperienceList experiences={experiences} />
+          </Section>
+
+          <Section title="Idiomas">
+            <LanguagesList languages={languages} />
           </Section>
         </CVPage>
         {/* Fim da Página 2 */}

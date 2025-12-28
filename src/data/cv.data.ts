@@ -1,216 +1,214 @@
-import { CVData } from '@/types/cv.types';
+import { CVData } from "@/types/cv.types";
 
 export const cvData: CVData = {
   personalInfo: {
-    name: 'Dayvson Marques',
-    title: 'Desenvolvedor Web Full Stack',
+    name: "Dayvson Marques",
+    title: "Desenvolvedor Web Full Stack",
     contacts: [
-      { icon: 'location', text: 'Recife – PE, Brasil' },
-      { icon: 'age', text: '36 anos' },
-  { icon: 'whatsapp', text: '(81) 99962-3374' },
-  { icon: 'email', text: 'dayvson.marques@gmail.com', href: 'mailto:dayvson.marques@gmail.com' },
-  { icon: 'website', text: 'Site', href: 'https://dayvsonmarques.dev.br' },
-      { 
-        icon: 'linkedin', 
-        text: 'LinkedIn', 
-        href: 'https://www.linkedin.com/in/dayvsonmarques/' 
+      { icon: "location", text: "Recife – PE, Brasil" },
+      { icon: "age", text: "36 anos" },
+      { icon: "whatsapp", text: "(81) 99962-3374" },
+      {
+        icon: "email",
+        text: "dayvson.marques@gmail.com",
+        href: "mailto:dayvson.marques@gmail.com",
       },
-      { 
-        icon: 'github', 
-        text: 'GitHub', 
-        href: 'https://github.com/dayvsonmarques' 
+      { icon: "website", text: "Site", href: "https://dayvsonmarques.dev.br" },
+      {
+        icon: "linkedin",
+        text: "LinkedIn",
+        href: "https://www.linkedin.com/in/dayvsonmarques/",
+      },
+      {
+        icon: "github",
+        text: "GitHub",
+        href: "https://github.com/dayvsonmarques",
       },
     ],
   },
-  
+
   about: [
-    'Desenvolvedor web full stack com +15 anos de experiência em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance. Experiência no desenvolvimento de sites, e-commerces (B2B/B2C) e aplicações web (gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de streaming). Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção. ',
+    "Desenvolvedor web full stack com +15 anos de experiência em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance. Experiência no desenvolvimento de sites, e-commerces (B2B/B2C) e aplicações web (gestão de dados, análise de marketing, e-learning/ead, CRM e plataformas de streaming). Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção. ",
   ],
-  
+
   education: [
     {
-      title: 'Bacharelado em Sistemas de Informação',
-      institution: 'UniNabuco',
-      period: '2008 - 2012',
+      title: "Bacharelado em Sistemas de Informação",
+      institution: "UniNabuco",
+      period: "2008 - 2012",
     },
     {
-      title: 'Desenvolvimento Web com Java',
-      institution: 'Softex Recife - 200h',
-      period: '2013',
+      title: "Desenvolvimento Web com Java",
+      institution: "Softex Recife",
+      period: "2013",
     },
   ],
-  
+
   skillCategories: [
     {
-      title: 'Front-end',
+      title: "Front-end",
       skills: [
-        'Html5',
-        'Css3 | Sass',
-        'JavaScript',
-        'TypeScript',
-        'React',
-        'React Native',
-        'Vue',
-        'Next.js',
-        'Design Responsivo',
-        'UX/UI', 
-        'Figma',
-        'Bootstrap',
-        'Tailwind CSS',
-        'Material UI',
-        'Design Systems',
+        "Html5",
+        "Css3",
+        'Scss | Sass',
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "React Native",
+        "Vue",
+        "Next js",
+        "Design Responsivo",
+        "UX / UI",
+        "Figma",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Material UI",
+        "Design Systems",
+        'Storybook'
       ],
-      badgeClass: 'bg-gray-200 text-gray-800',
+      badgeClass: "bg-gray-200 text-gray-800",
     },
     {
-      title: 'Back-end',
+      title: "Back-end & banco de dados",
       skills: [
-        'PHP',
-        'Laravel',
-        'Node.js',
-        'AdonisJS',
-        'Prisma',
-        'WordPress',
-        'WooCommerce',
+        "PHP",
+        "Laravel",
+        "Node",
+        "Adonis",
+        "Prisma",
+        "Swagger",
+        "WordPress",
+        "WooCommerce",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "MongoDB",
+        "Redis",
+        "GraphQL",
       ],
-      badgeClass: 'bg-gray-300 text-gray-900',
+      badgeClass: "bg-gray-300 text-gray-900",
     },
     {
-      title: 'Banco de Dados',
+      title: "Infraestrutura & Cloud",
       skills: [
-        'MySQL',
-        'PostgreSQL',
-        'SQL Server',
-        'MongoDB',
-        'Redis',
+        "AWS",
+        "Google Cloud",
+        "Docker",
+        "Linux",
+        "CI/CD",
+        "Apache | Nginx",
+        "Jenkins",
+        "Laravel Horizon",
       ],
-      badgeClass: 'bg-gray-400 text-white',
-    },
-    {
-      title: 'Infraestrutura & Cloud',
-      skills: [
-        'AWS',
-        'Google Cloud',
-        'Docker',
-        'Linux',
-        'CI/CD',
-        'Apache | Nginx',
-        'Jenkins'
-      ],
-      badgeClass: 'bg-gray-500 text-white',
+      badgeClass: "bg-gray-500 text-white",
     },
 
     {
-      title: 'IA & Ferramentas',
+      title: "IA & Ferramentas",
       skills: [
-        'Low-code',
-        'Cursor AI',
-        'GitHub Copilot',
-        'Claude Code',
-        'Bolt diy',
+        "Low-code",
+        "Cursor AI",
+        "GitHub Copilot",
+        "PHPStorm",
+        "Claude Sonnet"
       ],
-      badgeClass: 'bg-gray-900 text-white',
+      badgeClass: "bg-gray-900 text-white",
     },
     {
-      title: 'Análise & Monitoramento',
+      title: "Análise & Monitoramento",
       skills: [
-        'CloudWatch',
-        'Grafana',
-        'Datadog',
-        'Sentry',
-        'Hotjar',
-        'Google Analytics',
+        "Laravel Telescope",
+        "CloudWatch",
+        "Grafana",
+        "Datadog",
+        "Sentry",
+        "Hotjar",
+        "Google Analytics",
       ],
-      badgeClass: 'bg-gray-700 text-white',
+      badgeClass: "bg-gray-700 text-white",
     },
     {
-      title: 'Testes',
+      title: "Testes, Metodologias & Gestão",
       skills: [
-        'Jest',
-        'React Testing Library',
-        'PHPUnit',
-        'Pest',
+        "Jest",
+        "React Testing Library",
+        "PHPUnit",
+        "Pest",
+        "A / B",
+        "Unitários",
+        "Integração",
+        "Carga",
+        "Scrum", "Kanban", "XP", "Jira", "Trello"
       ],
-      badgeClass: 'bg-gray-800 text-white',
+      badgeClass: "bg-gray-800 text-white",
     },
-    {
-      title: 'Metodologias & Gestão',
-      skills: [
-        'Scrum',
-        'Kanban',
-        'XP',
-        'Jira',
-        'Trello',
-        'Asana',
-      ],
-      badgeClass: 'bg-gray-600 text-white',
-    },
+    
   ],
-  
+
   languages: [
-    { 
-      name: 'Inglês', 
-      level: 'Leitura Avançada / Conversação Básica' 
+    {
+      name: "Inglês",
+      level: "Leitura Avançada / Conversação Básica",
     },
-    { 
-      name: 'Espanhol', 
-      level: 'Leitura Intermediária / Conversação Básica' 
+    {
+      name: "Espanhol",
+      level: "Leitura Intermediária / Conversação Básica",
     },
   ],
-  
+
   experiences: [
     {
-      title: 'Desenvolvedor Web Full Stack',
-      company: 'Freelancer',
-      period: '08/2024 - Atual',
+      title: "Desenvolvedor Web Full Stack",
+      company: "Freelancer",
+      period: "08/2024 - Atual",
       responsibilities: [
-        'Desenvolvimento e manutenção de sites e e-commerces responsivos',
-        'Stack: Next.js, React, JavaScript | TypeScript, Node.js, PostgreSQL, WordPress',
+        "Desenvolvimento e manutenção de sites e e-commerces responsivos",
+        "Stack: Next.js, React, JavaScript | TypeScript, Node.js, PostgreSQL, WordPress",
       ],
     },
     {
-      title: 'Desenvolvedor Full Stack / Ecommerce',
-      company: 'Agile Ecommerce',
-      period: '01/2024 - 07/2024 | 01/2019 - 07/2019',
+      title: "Desenvolvedor Full Stack / Ecommerce",
+      company: "Agile Ecommerce (Startup)",
+      period: "01/2024 - 07/2024 | 01/2019 - 07/2019",
       responsibilities: [
-        'Prototipação (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs. ',
-        'Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap',
+        "Prototipação (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs. ",
+        "Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap",
       ],
     },
     {
-      title: 'Analista Front-end Pleno',
-      company: 'Accenture',
-      period: '08/2019 - 03/2023',
+      title: "Analista Front-end Pleno",
+      company: "Accenture",
+      period: "08/2019 - 03/2023",
       responsibilities: [
-        'Desenvolvimento de plataformas de e-commerce e streaming',
-        'Stack: ReactJS, HTML5, CSS3/SASS, Bootstrap, JavaScript, Oracle Cloud Commerce',
+        "Desenvolvimento de plataformas de e-commerce e streaming",
+        "Stack: ReactJS, HTML5, CSS3/SASS, Bootstrap, JavaScript, Oracle Cloud Commerce",
       ],
     },
     {
-      title: 'Desenvolvedor PHP',
-      company: 'Idealizza',
-      period: '03/2018 - 01/2019',
+      title: "Desenvolvedor PHP",
+      company: "Idealizza",
+      period: "03/2018 - 01/2019",
       responsibilities: [
-        'Sistemas web EAD, e-commerces e gestão financeira',
-        'Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server',
+        "Sistemas web EAD, e-commerces e gestão financeira",
+        "Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server",
       ],
     },
     {
-      title: 'Desenvolvedor Wordpress',
-      company: 'Agências de Publicidade | Freelancer',
-      period: '05/2013 - 03/2018',
+      title: "Desenvolvedor Wordpress",
+      company: "Agências de Publicidade | Freelancer",
+      period: "05/2013 - 03/2018",
       responsibilities: [
-        'Desenvolvimento de sites, lojas online (produtos e serviços), criação de temas, plugins, integrações e customizações',
-        'Stack: PHP 7, WordPress, WooCommerce, Laravel, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL',
+        "Desenvolvimento de sites, lojas online (produtos e serviços), criação de temas, plugins, integrações e customizações",
+        "Stack: PHP 7, WordPress, WooCommerce, Laravel, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL",
       ],
     },
     {
-      title: 'Desenvolvedor Web',
-      company: 'Corptech',
-      period: '04/2011 - 04/2013',
+      title: "Desenvolvedor Web",
+      company: "Corptech",
+      period: "04/2011 - 04/2013",
       responsibilities: [
-        'Desenvolvimento de ERP web integrado a SAP',
-        'Stack: Java (J2EE, JSP, JSF, Hibernate), MySQL, PostgreSQL, Google Maps e Google Charts',
+        "Desenvolvimento de ERP web integrado a SAP",
+        "Stack: Java (J2EE, JSP, JSF, Hibernate), MySQL, PostgreSQL, Google Maps e Google Charts",
       ],
     },
   ],
