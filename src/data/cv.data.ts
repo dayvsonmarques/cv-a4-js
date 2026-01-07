@@ -44,8 +44,8 @@ export const cvData: CVData = {
     {
       title: 'Front-end',
       skills: [
-        'Html5',
-        'Css3 | Sass',
+        'HTML 5',
+        'CSS 3 | SASS',
         'JavaScript',
         'TypeScript',
         'React',
@@ -67,7 +67,7 @@ export const cvData: CVData = {
       skills: [
         'PHP',
         'Laravel',
-        'Node.js',
+        'NodeJS',
         'AdonisJS',
         'Prisma',
         'WordPress',
@@ -165,7 +165,7 @@ export const cvData: CVData = {
       period: '08/2024 - Atual',
       responsibilities: [
         'Desenvolvimento e manutenção de sites e e-commerces responsivos',
-        'Stack: Next.js, React, JavaScript | TypeScript, Node.js, PostgreSQL, WordPress',
+        'Stack: Next.js, React, JavaScript | TypeScript, NodeJS, PostgreSQL, WordPress',
       ],
     },
     {
@@ -192,7 +192,7 @@ export const cvData: CVData = {
       period: '03/2018 - 01/2019',
       responsibilities: [
         'Sistemas web EAD, e-commerces e gestão financeira',
-        'Stack: PHP, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server',
+        'Stack: PHP, NodeJS, Docker, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server',
       ],
     },
     {
@@ -201,7 +201,7 @@ export const cvData: CVData = {
       period: '05/2013 - 03/2018',
       responsibilities: [
         'Desenvolvimento de sites, lojas online (produtos e serviços), criação de temas, plugins, integrações e customizações',
-        'Stack: PHP 7, WordPress, WooCommerce, Laravel, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL',
+        'Stack: PHP 7, WordPress, WooCommerce, Laravel, NodeJS, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL',
       ],
     },
     {
