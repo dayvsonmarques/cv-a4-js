@@ -10,7 +10,7 @@ export const cvData: CVData = {
       { icon: "whatsapp", text: "(81) 99962-3374" },
       {
         icon: "email",
-        text: "dayvson.marques@gmail.com",
+        text: "Email",
         href: "mailto:dayvson.marques@gmail.com",
       },
       { icon: "website", text: "Site", href: "https://dayvsonmarques.dev.br" },

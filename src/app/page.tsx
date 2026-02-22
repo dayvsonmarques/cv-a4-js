@@ -2,17 +2,13 @@
 
 import { cvData } from '@/data/cv.data';
 import {
-  Header,
   Section,
   About,
   EducationList,
-  SkillsGrid,
-  LanguagesList,
-  ExperienceList,
 } from '@/components/cv';
 
 export default function Home() {
-  const { personalInfo, about, education, skillCategories, languages, experiences } = cvData;
+  const { personalInfo, education, languages, experiences } = cvData;
   return (
     <>
       <style>{`
@@ -86,6 +82,10 @@ export default function Home() {
           <About />
         </Section>
 
+        <Section title="Educação">
+          <EducationList items={education} />
+        </Section>
+
         <section style={{ marginBottom: '1.2em' }}>
           <h3 style={{ fontSize: '1.2em', marginBottom: '0.3em' }}>Idiomas</h3>
           <ul style={{ margin: 0, paddingLeft: '1.2em' }}>
@@ -97,15 +97,28 @@ export default function Home() {
 
         <section className="break-print" style={{ marginBottom: '0.8em', lineHeight: 1.25 }}>
           <h3 style={{ fontSize: '1.2em', marginBottom: '0.25em' }}>Experiência Profissional</h3>
-          <ul style={{ margin: 0, paddingLeft: '1.2em' }}>
-            {experiences.map((exp, i) => (
-              <li key={i} style={{ marginBottom: '0.35em' }}>
-                <strong>{exp.title}</strong> - {exp.company} ({exp.period})
-                <ul style={{ margin: 0, paddingLeft: '1.2em' }}>
-                  {exp.responsibilities.map((r, j) => <li key={j} style={{ marginBottom: '0.06em' }}>{r}</li>)}
-                </ul>
-              </li>
-            ))}
+          <ul style={{ margin: 0, paddingLeft: '0.8em' }}>
+            {experiences.map((exp, i) => {
+              const stackLine = exp.responsibilities.find(r => /stack:/i.test(r));
+              const activityLines = exp.responsibilities.filter(r => !/stack:/i.test(r));
+
+              return (
+                <li key={i} style={{ marginBottom: '0.6em' }}>
+                  <div style={{ fontWeight: 700 }}>{exp.title} {exp.company ? (<span style={{ fontWeight: 400 }}>({exp.company})</span>) : null}</div>
+                  <div style={{ fontSize: '0.95em', color: '#555', marginTop: '0.1em' }}><strong>Período:</strong> {exp.period}</div>
+
+                  <div style={{ marginTop: '0.25em' }}>
+                    <span style={{ fontSize: '0.95em', fontWeight: 600, marginRight: '0.35em' }}>Atividades:</span>
+                    <span style={{ fontSize: '0.95em' }}>{activityLines.join(' ').trim()}</span>
+                    {stackLine && (
+                      <div style={{ marginTop: '0.15em', fontSize: '0.95em' }}>
+                        <strong>Tecnologias:</strong> {stackLine.replace(/.*stack:/i, '').trim()}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </section>
       </main>
