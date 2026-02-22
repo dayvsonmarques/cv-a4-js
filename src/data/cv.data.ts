@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor web full stack com mais de 15 anos de experiência no desenvolvimento de sites, lojas online e aplicações web, incluindo e-commerce (B2B/B2C), gestão de dados, análise de marketing, e-learning, CRM e plataformas de streaming de vídeo. Graduado em Sistemas de Informação (UniNabuco, 2012). Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção de aplicações web. Experiência em ambientes Linux, Docker, CI/CD, cloud e VPS, com atuação em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance."
+    "Desenvolvedor web full stack desde 2010, Graduado em Sistemas de Informação (UniNabuco, 2012). Com mais de 15 anos de experiência no desenvolvimento de sites, lojas online e aplicações web, incluindo e-commerce (B2B/B2C), gestão de dados, análise de marketing, e-learning, CRM e plataformas de streaming de vídeo.  Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção de aplicações web. Experiência em ambientes Linux, Docker, CI/CD, cloud e VPS, com atuação em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance."
   ],
 
   education: [
@@ -43,13 +43,8 @@ export const cvData: CVData = {
       period: "2013",
     },
     {
-      title: "Curso Git e GitHub Ninja",
-      institution: "Udemy | Fernando Daciuk",
-      period: "2018",
-    },
-    {
-      title: "Desenvolvimento Web Assistido por IA",
-      institution: "???",
+      title: "Github Copilot",
+      institution: "EV.G | Microsoft",
       period: "2025",
     },
   ],
