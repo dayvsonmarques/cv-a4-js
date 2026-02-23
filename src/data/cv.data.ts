@@ -159,8 +159,8 @@ export const cvData: CVData = {
       ],
     },
     {
-      title: "Desenvolvedor Full Stack / Ecommerce",
-      company: "Agile Ecommerce (Startup)",
+      title: "Desenvolvedor Fullstack",
+      company: "Agile Ecommerce [Startup]",
       period: "06/2023 - 07/2024 | 01/2019 - 07/2019",
       responsibilities: [
         "Prototipação de produto minimo viável (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs.",
