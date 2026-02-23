@@ -74,15 +74,6 @@ h6 {
     break-after: auto !important;
   }
   
-    font-size: var(--cv-font-base);
-    line-height: var(--cv-line-height);
-    break-after: auto !important;
-  }
-  
-    font-size: var(--cv-name-size);
-    height: auto !important;
-  }
-  
   /* Força grid de 2 colunas na impressão */
   .grid {
     display: grid !important;
