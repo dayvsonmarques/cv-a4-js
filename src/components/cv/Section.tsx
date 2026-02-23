@@ -6,12 +6,10 @@ interface SectionProps {
   className?: string;
 }
 
-export function Section({ title, children, className = 'mb-4' }: SectionProps) {
+export function Section({ title, children, className = 'cv__section' }: SectionProps) {
   return (
     <section className={className}>
-      <h2 className="text-xl font-semibold text-gray-900 mb-3 border-b-2 border-gray-800 pb-1.5">
-        {title}
-      </h2>
+      <h3 className="cv__section-title">{title}</h3>
       {children}
     </section>
   );

@@ -58,12 +58,12 @@ h6 {
     width: 210mm !important;
     min-height: 297mm !important;
     margin: 0 auto !important;
-    padding: 10mm 15mm !important;
+    padding: 6mm 12mm !important;
     box-shadow: none !important;
     border: none !important;
     background: white !important;
     break-inside: avoid !important;
-    break-after: page !important;
+    break-after: auto !important;
   }
   
   .cv-page:last-child {
@@ -97,7 +97,7 @@ h6 {
 .cv-pages-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -108,8 +108,8 @@ h6 {
   height: 297mm;
   margin: 0 auto;
   background: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 10mm 15mm;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+  padding: 6mm 12mm;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -121,6 +121,139 @@ h6 {
 .page-break {
   page-break-after: always;
   break-after: page;
+}
+
+/* BEM CV styles (replace inline styles) */
+.cv {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0;
+  padding: 12mm 12mm;
+  font-family: monospace;
+  color: #222;
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+.cv__header {
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.cv__name {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
+.cv__title {
+  font-size: 1.6em;
+  margin: 0 0 0.35em 0;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.cv__meta {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #444;
+}
+
+.cv__section {
+  margin-bottom: 0.9em;
+}
+
+.cv__section-title {
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: .4em;
+  padding-bottom: .4em;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cv__contacts-list,
+.cv__languages-list,
+.cv__education-list,
+.cv__experience-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.cv__contacts-item,
+.cv__languages-item {
+  margin-bottom: 0.1em;
+}
+
+.cv__about {
+  color: #333;
+}
+
+.cv__experience-list {
+  padding-left: 0.8em;
+}
+
+.cv__exp-item {
+  margin-bottom: 2em;
+}
+
+.cv__exp-title {
+  font-weight: 700;
+}
+
+.cv__exp-period {
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 0.1em;
+}
+
+.cv__exp-activities {
+  margin-top: 0.25em;
+  display: block;
+}
+
+.cv__exp-activities-label {
+  font-size: 0.95em;
+  font-weight: 600;
+  margin-right: 0.35em;
+}
+
+.cv__exp-activities-text {
+  font-size: 0.95em;
+}
+
+.cv__exp-tech {
+  margin-top: 0.15em;
+  font-size: 0.95em;
+}
+
+/* small screens adjustments */
+@media screen and (max-width: 850px) {
+  .cv {
+    padding: 20px;
+  }
+}
+
+/* Force experiences section to start on a new page when printing */
+@media print {
+  .cv__experiences {
+    page-break-before: always !important;
+    break-before: page !important;
+    margin-top: 0 !important;
+    line-height: 1.40 !important;
+  }
+}
+
+/* Also add break behavior for screen/print fallback */
+.cv__experiences {
+  page-break-before: always;
+  break-before: page;
+  margin-top: 4mm;
+  line-height: 1.45;
 }
 
 /* Force all emojis and icons to be grayscale */
