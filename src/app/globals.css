@@ -48,13 +48,21 @@ h6 {
   
   .cv-pages-wrapper {
     display: block !important;
+    /* CV sizing variables */
+    --cv-font-base: 12pt;
+    --cv-line-height: 1.6;
+    --cv-name-size: 2em;
+    --cv-title-size: 1.6em;
+    --cv-section-title-size: 1.4em;
+    --cv-meta-size: 1em;
+    --cv-body-size: 0.95em;
     gap: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
   }
   
   .cv-page {
-    display: block !important;
+    line-height: var(--cv-line-height);
     width: 210mm !important;
     min-height: 297mm !important;
     margin: 0 auto !important;
@@ -66,11 +74,12 @@ h6 {
     break-after: auto !important;
   }
   
-  .cv-page:last-child {
+    font-size: var(--cv-font-base);
+    line-height: var(--cv-line-height);
     break-after: auto !important;
   }
   
-  html, body {
+    font-size: var(--cv-name-size);
     height: auto !important;
   }
   
@@ -78,20 +87,20 @@ h6 {
   .grid {
     display: grid !important;
   }
-  
+    font-size: var(--cv-title-size);
   .grid-cols-1 {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   
   /* Mantém flex-wrap para as badges */
   .flex-wrap {
-    flex-wrap: wrap !important;
+    font-size: var(--cv-meta-size);
   }
   
   .no-print {
     display: none !important;
   }
-}
+    font-size: var(--cv-section-title-size);
 
 /* CV Pages Container */
 .cv-pages-wrapper {
@@ -100,24 +109,24 @@ h6 {
   gap: 10px;
   align-items: center;
 }
-
+    font-size: var(--cv-body-size);
 /* Individual CV Page */
 .cv-page {
   width: 210mm;
   min-height: 297mm;
   height: 297mm;
-  margin: 0 auto;
+    font-size: var(--cv-body-size);
   background: white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
   padding: 6mm 12mm;
   box-sizing: border-box;
   overflow: hidden;
-  position: relative;
+    font-size: var(--cv-body-size);
   display: flex;
   flex-direction: column;
 }
 
-/* Page break helper */
+    font-size: var(--cv-body-size);
 .page-break {
   page-break-after: always;
   break-after: page;
