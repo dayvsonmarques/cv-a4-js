@@ -78,7 +78,6 @@ h6 {
   .grid {
     display: grid !important;
   }
-    font-size: var(--cv-title-size);
   .grid-cols-1 {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
@@ -91,7 +90,7 @@ h6 {
   .no-print {
     display: none !important;
   }
-    font-size: var(--cv-section-title-size);
+}
 
 /* CV Pages Container */
 .cv-pages-wrapper {
@@ -100,24 +99,20 @@ h6 {
   gap: 10px;
   align-items: center;
 }
-    font-size: var(--cv-body-size);
 /* Individual CV Page */
 .cv-page {
   width: 210mm;
   min-height: 297mm;
   height: 297mm;
-    font-size: var(--cv-body-size);
   background: white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
   padding: 6mm 12mm;
   box-sizing: border-box;
   overflow: hidden;
-    font-size: var(--cv-body-size);
   display: flex;
   flex-direction: column;
 }
 
-    font-size: var(--cv-body-size);
 .page-break {
   page-break-after: always;
   break-after: page;

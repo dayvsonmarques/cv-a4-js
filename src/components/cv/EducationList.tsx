@@ -6,15 +6,15 @@ interface EducationListProps {
 
 export function EducationList({ items }: EducationListProps) {
   return (
-    <div className="flex flex-col space-y-3">
+    <ul className="cv__education-list">
       {items.map((item, index) => (
-        <div key={index}>
+        <li key={index}>
           <div className="flex flex-col gap-1">
-            <h3 className="font-semibold text-gray-900">{item.title}</h3>
-            <span className="text-sm text-gray-600">{item.institution} ({item.period})</span>
+            <span className="font-semibold text-gray-900">{item.title}</span>
+            <span className="text-gray-600">{item.institution} ({item.period})</span>
           </div>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
