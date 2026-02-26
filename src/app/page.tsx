@@ -1,7 +1,7 @@
 'use client';
 
 import { cvData } from '@/data/cv.data';
-import { Section, About, EducationList } from '@/components/cv';
+import { Section, About, EducationList, Skills } from '@/components/cv';
 
 export default function Home() {
   const { personalInfo, education, languages, experiences } = cvData;
@@ -36,9 +36,11 @@ export default function Home() {
           <About />
         </Section>
 
-        <Section title="Educação">
+        <Skills />
+
+        <section className="cv__section cv__experiences">
           <EducationList items={education} />
-        </Section>
+        </section>
 
         <section className="cv__section">
           <h3 className="cv__section-title">Idiomas</h3>
@@ -73,6 +75,8 @@ export default function Home() {
             })}
           </ul>
         </section>
+        
+        
       </main>
     </>
   );

@@ -106,7 +106,7 @@ h6 {
   height: 297mm;
   background: white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
-  padding: 6mm 12mm;
+  padding: 5mm 12mm;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
@@ -123,7 +123,7 @@ h6 {
   width: 210mm;
   min-height: 297mm;
   margin: 0;
-  padding: 12mm 12mm;
+  padding: 10mm 12mm;
   font-family: monospace;
   color: #222;
   background: #fff;
@@ -233,6 +233,20 @@ h6 {
   }
 }
 
+/* On screen allow scrolling and normal flow so all sections are visible */
+@media screen {
+  .cv {
+    min-height: auto !important;
+    overflow: visible !important;
+    padding: 16px !important;
+    width: auto !important;
+  }
+
+  .cv-pages-wrapper {
+    display: block !important;
+  }
+}
+
 /* Force experiences section to start on a new page when printing */
 @media print {
   .cv__experiences {
@@ -269,5 +283,21 @@ h6 {
   
   .cv-pages-wrapper {
     gap: 0;
+  }
+}
+
+/* Ensure .cv is scrollable on screen so content added after experiences is reachable */
+@media screen {
+  .cv {
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 20px !important;
+  }
+
+  .cv-page {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
   }
 }

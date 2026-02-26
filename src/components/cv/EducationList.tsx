@@ -6,7 +6,9 @@ interface EducationListProps {
 
 export function EducationList({ items }: EducationListProps) {
   return (
-    <ul className="cv__education-list">
+    <div>
+      <h3 className="cv__section-title">Educação</h3>
+      <ul className="cv__education-list">
       {items.map((item, index) => (
         <li key={index}>
           <div className="flex flex-col gap-1">
@@ -15,6 +17,8 @@ export function EducationList({ items }: EducationListProps) {
           </div>
         </li>
       ))}
-    </ul>
+      </ul>
+    </div>
   );
+
 }

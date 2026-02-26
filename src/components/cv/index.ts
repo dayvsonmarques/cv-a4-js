@@ -3,6 +3,7 @@ export { Section } from './Section';
 export { About } from './About';
 export { EducationList } from './EducationList';
 export { SkillsGrid } from './SkillsGrid';
+export { Skills } from './Skills';
 export { LanguagesList } from './LanguagesList';
 export { ExperienceList } from './ExperienceList';
 export { CVPage } from './CVPage';

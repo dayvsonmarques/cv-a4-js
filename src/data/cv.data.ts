@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor web full stack desde 2010, Graduado em Sistemas de Informação (UniNabuco, 2012). Com mais de 15 anos de experiência no desenvolvimento de sites, lojas online e aplicações web, incluindo e-commerce (B2B/B2C), gestão de dados, análise de marketing, e-learning, CRM e plataformas de streaming de vídeo.  Sólida vivência em engenharia de software, atuando em todo o ciclo de desenvolvimento — da idealização e planejamento à implementação e manutenção de aplicações web. Experiência em ambientes Linux, Docker, CI/CD, cloud e VPS, com atuação em fábricas de software, agências digitais, estúdios criativos, startups e projetos freelance."
+    "Desenvolvedor web full stack desde 2010, graduado em Sistemas de Informação (UniNabuco, 2012). Mais de 15 anos desenvolvendo sites, e-commerces e aplicações web (B2B/B2C), com foco em engenharia de software e ciclo completo de desenvolvimento. Experiência em Linux, Docker, CI/CD e ambientes cloud, atuando em agências, startups e projetos freelance."
   ],
 
   education: [
@@ -109,6 +109,7 @@ export const cvData: CVData = {
         "GitHub Copilot",
         "Cursor",
         "Automação de código",
+        "Claude Code",
         "Ferramentas de produtividade baseadas em IA"
       ],
       badgeClass: "bg-gray-900 text-white",
