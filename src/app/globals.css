@@ -13,6 +13,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-body), 'Plus Jakarta Sans', sans-serif;
   line-height: 1.6;
+  font-size: 16px;
 }
 
 h1,
@@ -24,6 +25,12 @@ h6 {
   font-family: var(--font-heading), 'Space Grotesk', sans-serif;
   font-weight: 600;
 }
+
+/* Harmonized heading scale */
+h1 { font-size: 2rem; line-height: 1.05; }
+h2 { font-size: 1.5rem; line-height: 1.1; }
+h3 { font-size: 1.15rem; line-height: 1.2; }
+h4 { font-size: 1rem; }
 
 /* A4 Print Styles */
 @media print {
@@ -128,8 +135,8 @@ h6 {
   color: #222;
   background: #fff;
   box-sizing: border-box;
-  font-size: 12pt;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .cv__header {
@@ -138,7 +145,7 @@ h6 {
 }
 
 .cv__name {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 0.1em;
   font-weight: 900;
   letter-spacing: 2px;
@@ -146,15 +153,15 @@ h6 {
 }
 
 .cv__title {
-  font-size: 1.6em;
+  font-size: 1.25em;
   margin: 0 0 0.35em 0;
   font-weight: 400;
   color: var(--secondary);
 }
 
 .cv__meta {
-  font-size: 1em;
-  margin-bottom: 1em;
+  font-size: 0.95rem;
+  margin-bottom: 0.9em;
   color: #444;
 }
 
@@ -166,7 +173,7 @@ h6 {
   border-bottom: 2px solid #e5e7eb;
   margin-bottom: .4em;
   padding-bottom: .4em;
-  font-size: 1.4em;
+  font-size: 1.05rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -177,6 +184,15 @@ h6 {
 .cv__experience-list {
   margin: 0;
   padding-left: 1.2em;
+  font-size: 0.98rem;
+}
+
+/* Make languages list display in two columns on medium+ screens */
+.cv__languages-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem 0.75rem;
+  padding-left: 1.2em;
 }
 
 .cv__contacts-item,
@@ -186,6 +202,7 @@ h6 {
 
 .cv__about {
   color: #333;
+  font-size: 1rem;
 }
 
 .cv__experience-list {
@@ -198,10 +215,11 @@ h6 {
 
 .cv__exp-title {
   font-weight: 700;
+  font-size: 1.02rem;
 }
 
 .cv__exp-period {
-  font-size: 0.95em;
+  font-size: 1rem;
   color: #555;
   margin-top: 0.1em;
 }
@@ -212,18 +230,18 @@ h6 {
 }
 
 .cv__exp-activities-label {
-  font-size: 0.95em;
+  font-size: 1rem;
   font-weight: 600;
   margin-right: 0.35em;
 }
 
 .cv__exp-activities-text {
-  font-size: 0.95em;
+  font-size: 1rem;
 }
 
 .cv__exp-tech {
   margin-top: 0.15em;
-  font-size: 0.95em;
+  font-size: 1rem;
 }
 
 /* small screens adjustments */

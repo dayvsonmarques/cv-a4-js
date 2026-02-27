@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor web full stack desde 2010, graduado em Sistemas de Informação (UniNabuco, 2012). Mais de 15 anos desenvolvendo sites, e-commerces e aplicações web (B2B/B2C), com foco em engenharia de software e ciclo completo de desenvolvimento. Experiência em Linux, Docker, CI/CD e ambientes cloud, atuando em agências, startups e projetos freelance."
+    "Desenvolvedor web full stack desde 2010, graduado em Sistemas de Informação (UniNabuco, 2012). Ao longo de mais de 15 anos atuei no planejamento, desenvolvimento e manutenção de sites, plataformas de e‑commerce (B2B/B2C) e aplicações web corporativas, integrando front‑end e back‑end, automações e integrações com ERPs e APIs. Tenho ampla experiência com React/Next.js, Node.js, PHP/Laravel, bancos relacionais e NoSQL, Docker, CI/CD e ambientes cloud (AWS/GCP). Valorizo código limpo, testes automatizados, acessibilidade e boas práticas de UX, trabalhando em times ágeis para entregar soluções escaláveis e orientadas a resultados."
   ],
 
   education: [
@@ -43,9 +43,9 @@ export const cvData: CVData = {
       period: "2013",
     },
     {
-      title: "Github Copilot",
+      title: "Github Copilot e Desenvolvimento Web com IA",
       institution: "EV.G | Microsoft",
-      period: "2025",
+      period: "2025 | 2026",
     },
   ],
 
@@ -110,13 +110,13 @@ export const cvData: CVData = {
         "Cursor",
         "Automação de código",
         "Claude Code",
-        "Ferramentas de produtividade baseadas em IA"
       ],
       badgeClass: "bg-gray-900 text-white",
     },
     {
       title: "Análise & Monitoramento",
       skills: [
+        "Laravel Horizons",
         "CloudWatch",
         "Grafana",
         "Datadog",
@@ -133,7 +133,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello", "Asana"],
+      skills: ["Jira", "Azure", "Scrum", "Kanban", "XP", "Trello",  "Asana"],
       badgeClass: "bg-gray-600 text-white",
     },
   ],
@@ -141,19 +141,19 @@ export const cvData: CVData = {
   languages: [
     {
       name: "Inglês",
-      level: "Leitura Avançada / Conversação Básica",
+      level: "B1",
     },
     {
       name: "Espanhol",
-      level: "Leitura Intermediária / Conversação Básica",
+      level: "A2",
     },
   ],
 
   experiences: [
     {
       title: "Desenvolvedor Web Full Stack",
-      company: "Freelancer",
-      period: "08/2024 - 12/2025",
+      company: "PJ",
+      period: "09/2024 - 2026",
       responsibilities: [
         "Desenvolvimento e manutenção de sites, aplicações web e e-commerces responsivos",
         "Stack: Next.js, React, JavaScript | TypeScript, NodeJS, PostgreSQL, PHP, Laravel, WordPress",
@@ -162,7 +162,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor Fullstack",
       company: "Agile Ecommerce [Startup]",
-      period: "06/2023 - 07/2024 | 01/2019 - 07/2019",
+      period: "06/2023 - 08/2024 | 01/2019 - 08/2019",
       responsibilities: [
         "Prototipação de produto minimo viável (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs.",
         "Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap, Responsive Design.",

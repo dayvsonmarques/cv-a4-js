@@ -38,10 +38,6 @@ export default function Home() {
 
         <Skills />
 
-        <section className="cv__section cv__experiences">
-          <EducationList items={education} />
-        </section>
-
         <section className="cv__section">
           <h3 className="cv__section-title">Idiomas</h3>
           <ul className="cv__languages-list">
@@ -49,6 +45,10 @@ export default function Home() {
               <li key={i} className="cv__languages-item">{l.name}: {l.level}</li>
             ))}
           </ul>
+        </section>
+
+        <section className="cv__section cv__experiences">
+          <EducationList items={education} />
         </section>
 
         <section className="cv__section cv__experiences">
@@ -75,10 +75,10 @@ export default function Home() {
             })}
           </ul>
         </section>
-        
-        
+
+
       </main>
     </>
   );
 }
- 
+
