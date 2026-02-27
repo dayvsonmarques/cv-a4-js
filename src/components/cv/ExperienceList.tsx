@@ -25,26 +25,27 @@ function formatResponsibility(text: string): ReactNode {
 
 export function ExperienceItem({ experience }: ExperienceItemProps) {
   const periods = experience.period.split(' | ');
-  
+
   return (
-    <div className="mb-8">
-      <div className="flex justify-between items-start mb-1">
-        <div>
-          <h3 className="font-semibold text-gray-900">{experience.title}</h3>
-          <p className="text-gray-600">{experience.company}</p>
+    <article className="experiences__item">
+      <header className="experiences__header">
+        <div className="experiences__meta">
+          <h3 className="experiences__title font-semibold text-gray-900">{experience.title}</h3>
+          <p className="experiences__company text-gray-600">{experience.company}</p>
         </div>
-        <div className="text-sm text-gray-500 text-right">
+        <div className="experiences__period text-sm text-gray-500 text-right">
           {periods.map((period, index) => (
             <div key={index}>{period}</div>
           ))}
         </div>
-      </div>
-      <ul className="list-disc list-inside text-gray-700 ml-4 space-y-0.5">
+      </header>
+
+      <ul className="experiences__responsibilities list-disc list-inside text-gray-700 ml-4 space-y-0.5">
         {experience.responsibilities.map((responsibility, index) => (
-          <li key={index}>{formatResponsibility(responsibility)}</li>
+          <li key={index} className="experiences__responsibility">{formatResponsibility(responsibility)}</li>
         ))}
       </ul>
-    </div>
+    </article>
   );
 }
 
@@ -54,10 +55,10 @@ interface ExperienceListProps {
 
 export function ExperienceList({ experiences }: ExperienceListProps) {
   return (
-    <div className="space-y-3">
+    <section className="experiences">
       {experiences.map((experience, index) => (
         <ExperienceItem key={index} experience={experience} />
       ))}
-    </div>
+    </section>
   );
 }
