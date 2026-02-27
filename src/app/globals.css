@@ -84,6 +84,7 @@ h4 { font-size: 1rem; }
   /* Força grid de 2 colunas na impressão */
   .grid {
     display: grid !important;
+    align-items: start !important;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -96,6 +97,16 @@ h4 { font-size: 1rem; }
   
   .no-print {
     display: none !important;
+  }
+
+  /* Avoid breaking Education/Languages sections across pages */
+  .cv__education,
+  .cv__education-list,
+  .cv__languages,
+  .cv__languages-list {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    -webkit-column-break-inside: avoid !important;
   }
 }
 
@@ -169,6 +180,56 @@ h4 { font-size: 1rem; }
   margin-bottom: 0.9em;
 }
 
+/* Row layout for Education + Languages */
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem 1.25rem;
+  align-items: start;
+}
+.row .col {
+  /* keep each column together when printing/exporting */
+  break-inside: avoid;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+
+/* Column modifiers (semantic) */
+.col--2-3 {
+  /* occupies the first column (2fr) */
+}
+.col--1-3 {
+  /* occupies the second column (1fr) */
+}
+
+@media print {
+  .row {
+    grid-template-columns: 2fr 1fr !important;
+    /* Use table layout in print to keep columns together */
+    display: table !important;
+    table-layout: fixed !important;
+    width: 100% !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .row .col {
+    display: table-cell !important;
+    vertical-align: top !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    -webkit-column-break-inside: avoid !important;
+  }
+  .col--2-3 { width: 66.6666% !important; }
+  .col--1-3 { width: 33.3333% !important; }
+}
+
+@media screen and (max-width: 850px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
 .cv__section-title {
   border-bottom: 2px solid #e5e7eb;
   margin-bottom: .8em; /* extra spacing after the title bar */
@@ -193,6 +254,15 @@ h4 { font-size: 1rem; }
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.25rem 0.75rem;
   padding-left: 1.2em;
+}
+
+/* single-column modifier (used when LanguagesSection rendered in a narrow column) */
+.cv__languages-list--single {
+  display: block;
+  padding-left: 0;
+}
+.cv__languages-list--single .cv__languages-item {
+  margin-bottom: 0.25rem;
 }
 
 .cv__contacts-item,
@@ -313,7 +383,6 @@ h4 { font-size: 1rem; }
 .cv__experiences {
   page-break-before: always;
   break-before: page;
-  margin-top: 4mm;
   line-height: 1.45;
 }
 

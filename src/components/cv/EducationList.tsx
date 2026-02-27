@@ -6,7 +6,7 @@ interface EducationListProps {
 
 export function EducationList({ items }: EducationListProps) {
   return (
-    <div>
+    <div className="cv__education">
       <h3 className="cv__section-title">Educação</h3>
       <ul className="cv__education-list">
       {items.map((item, index) => (
