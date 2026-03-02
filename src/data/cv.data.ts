@@ -11,18 +11,18 @@ export const cvData: CVData = {
       {
         icon: "email",
         text: "Email",
-        href: "mailto:dayvson.marques@gmail.com",
+        href: "dayvson.marques@gmail.com",
       },
-      { icon: "website", text: "Site", href: "https://dayvsonmarques.dev.br" },
+      { icon: "website", text: "Site", href: "dayvsonmarques.dev.br" },
       {
         icon: "linkedin",
         text: "LinkedIn",
-        href: "https://www.linkedin.com/in/dayvsonmarques/",
+        href: "linkedin.com/in/dayvsonmarques/",
       },
       {
         icon: "github",
         text: "GitHub",
-        href: "https://github.com/dayvsonmarques",
+        href: "github.com/dayvsonmarques",
       },
     ],
   },

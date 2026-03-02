@@ -371,9 +371,13 @@ h4 { font-size: 1rem; }
 
 /* Force experiences section to start on a new page when printing */
 @media print {
+  /* Avoid forcing a new page for experiences to prevent blank pages */
   .cv__experiences {
-    page-break-before: always !important;
-    break-before: page !important;
+    /* prefer to keep the section together but do not force a page break */
+    page-break-before: avoid !important;
+    break-before: auto !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
     margin-top: 0 !important;
     line-height: 1.40 !important;
   }
@@ -381,8 +385,9 @@ h4 { font-size: 1rem; }
 
 /* Also add break behavior for screen/print fallback */
 .cv__experiences {
-  page-break-before: always;
-  break-before: page;
+  /* Do not force a separate page on screen; prefer keeping content together */
+  page-break-before: avoid;
+  break-before: auto;
   line-height: 1.45;
 }
 
