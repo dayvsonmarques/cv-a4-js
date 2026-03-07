@@ -34,6 +34,32 @@ h4 { font-size: 1rem; }
 
 /* A4 Print Styles */
 @media print {
+  /* Set A4 page size and small margins to avoid extra blank page in Firefox */
+  @page {
+    size: A4;
+    margin: 6mm;
+  }
+
+  /* Ensure document height is automatic for printing (Firefox fix) */
+  html, body {
+    height: auto !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Allow cv-page to size to its content instead of forcing fixed height */
+  .cv-page {
+    height: auto !important;
+    min-height: auto !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Prevent a trailing .page-break from adding an empty page */
+  .page-break:last-child {
+    display: none !important;
+  }
+
   * {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
@@ -71,14 +97,21 @@ h4 { font-size: 1rem; }
   .cv-page {
     line-height: var(--cv-line-height);
     width: 210mm !important;
-    min-height: 297mm !important;
+    /* Make page height flexible in print to avoid blank trailing page */
+    height: auto !important;
+    min-height: auto !important;
     margin: 0 auto !important;
-    padding: 6mm 12mm !important;
+    padding: 4mm 8mm !important;
     box-shadow: none !important;
     border: none !important;
     background: white !important;
     break-inside: avoid !important;
     break-after: auto !important;
+  }
+
+  /* Reduce outer cv padding for print so content fits into fewer pages */
+  .cv {
+    padding: 4mm 8mm !important;
   }
   
   /* Força grid de 2 colunas na impressão */
