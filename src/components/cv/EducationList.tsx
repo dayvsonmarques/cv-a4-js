@@ -11,10 +11,9 @@ export function EducationList({ items }: EducationListProps) {
       <ul className="cv__education-list">
       {items.map((item, index) => (
         <li key={index}>
-          <div className="flex flex-col gap-1">
-            <span className="font-semibold text-gray-900">{item.title}</span>
-            <span className="text-gray-600">{item.institution} ({item.period})</span>
-          </div>
+          <strong className="font-semibold text-gray-900">{item.title}</strong>
+          <br />
+          <span className="text-gray-600">{item.institution} · {item.period}</span>
         </li>
       ))}
       </ul>
