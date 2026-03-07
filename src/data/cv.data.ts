@@ -48,7 +48,7 @@ export const cvData: CVData = {
     {
       title: "Github Copilot e Desenvolvimento Web com IA",
       institution: "EV.G (Escola Virtual do Governo)| Microsoft",
-      period: "2025 | 2026",
+      period: "2026",
     },
   ],
 

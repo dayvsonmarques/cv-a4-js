@@ -34,10 +34,10 @@ h4 { font-size: 1rem; }
 
 /* A4 Print Styles */
 @media print {
-  /* Set A4 page size and small margins to avoid extra blank page in Firefox */
+  /* Set A4 page size with standard 20mm margins — applies to EVERY physical print page */
   @page {
     size: A4;
-    margin: 6mm;
+    margin: 20mm;
   }
 
   /* Ensure document height is automatic for printing (Firefox fix) */
@@ -96,12 +96,12 @@ h4 { font-size: 1rem; }
   
   .cv-page {
     line-height: var(--cv-line-height);
-    width: 210mm !important;
+    width: 100% !important;
     /* Make page height flexible in print to avoid blank trailing page */
     height: auto !important;
     min-height: auto !important;
-    margin: 0 auto !important;
-    padding: 4mm 8mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
     box-shadow: none !important;
     border: none !important;
     background: white !important;
@@ -109,9 +109,9 @@ h4 { font-size: 1rem; }
     break-after: auto !important;
   }
 
-  /* Reduce outer cv padding for print so content fits into fewer pages */
+  /* @page already applies 20mm margins — no extra padding needed on the element */
   .cv {
-    padding: 4mm 8mm !important;
+    padding: 0 !important;
   }
   
   /* Força grid de 2 colunas na impressão */
@@ -157,7 +157,7 @@ h4 { font-size: 1rem; }
   height: 297mm;
   background: white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
-  padding: 5mm 12mm;
+  padding: 20mm;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
@@ -174,7 +174,7 @@ h4 { font-size: 1rem; }
   width: 210mm;
   min-height: 297mm;
   margin: 0;
-  padding: 10mm 12mm;
+  padding: 20mm;
   font-family: monospace;
   color: #222;
   background: #fff;
@@ -393,7 +393,6 @@ h4 { font-size: 1rem; }
   .cv {
     min-height: auto !important;
     overflow: visible !important;
-    padding: 16px !important;
     width: auto !important;
   }
 
@@ -451,7 +450,6 @@ h4 { font-size: 1rem; }
     min-height: auto !important;
     max-height: none !important;
     overflow: visible !important;
-    padding: 20px !important;
   }
 
   .cv-page {
