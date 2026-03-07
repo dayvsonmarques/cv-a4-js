@@ -8,7 +8,7 @@ interface ExperiencesSectionProps {
 
 export function ExperiencesSection({ experiences }: ExperiencesSectionProps) {
   return (
-    <Section title="Experiência Profissional">
+    <Section title="Experiência Profissional" className="cv__section cv__experiences">
       <ExperienceList experiences={experiences} />
     </Section>
   );

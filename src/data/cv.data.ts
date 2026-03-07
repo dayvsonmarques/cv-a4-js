@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação. Especialista no desenvolvimento e manutenção de aplicações web diversas (ERPs, e-commerces (B2B/B2C), plataformas EAD, sistemas corporativos responsivos [...]).",
-    "Sólida experiência em bancos de dados relacionais (PostgreSQL, MySQL, SQL Server) e NoSQL (MongoDB, Redis), com atuação em planejamento, implementação, otimização de performance e escalabilidade. Domínio avançado em back-end (PHP, Laravel, Node.js) e front-end (React, Next.js, Tailwind CSS e BootstrapCSS), integração de APIs, gateways de pagamentos e sistemas legados.",
-    "Experiência relevante em ambientes ágeis (scrum, git, jira). Vivência no desenvolvimento de projetos inovadores, como MVPs de e-commerce com integração a ERPs, dashboards analíticos, painéis administrativos, mapas georreferenciados e relatórios customizados diversos.",
-    "Atuação em multinacional como Analista Front-end Sênior, responsável por soluções de ecommerces de serviços e plataforma de stream de vídeos por assinatura, com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance, segurança, customização de funcionalidades / templates e melhoria contínua de processos.",
+    "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista no desenvolvimento de aplicações web diversas (ERPs, e-commerces (B2B/B2C), plataformas EAD, sites responsivos, sistemas corporativos [...]).",
+    "Sólida experiência em bancos de dados relacionais (PostgreSQL, MySQL, SQL Server) e NoSQL (MongoDB, Redis), com atuação em planejamento, implementação, otimização de performance e escalabilidade. Domínio avançado em back-end (PHP, Laravel, Node.js) e front-end (React, Vue.js), integração de APIs, gateways de pagamentos e manutenção em sistemas legados.",
+    "Experiência relevante em ambientes ágeis (scrum, git, jira). Vivência no desenvolvimento de projetos de inovação, MVP de e-commerce com integração a ERPs, dashboards analíticos, painéis administrativos, mapas georreferenciados e relatórios customizados diversos.",
+    "Atuação em multinacional como Analista Front-end Sênior, responsável por soluções de ecommerces de serviços e plataforma de stream de vídeos por assinatura, com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança.",
   ],
 
   education: [
@@ -155,8 +155,8 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor Web Full Stack",
-      company: "PJ",
-      period: "09/2024 - 2026",
+      company: "Autônomo",
+      period: "10/2025 - 2026",
       responsibilities: [
         "Desenvolvimento e manutenção de sites, aplicações web e e-commerces responsivos",
         "Stack: Next.js, React, JavaScript | TypeScript, NodeJS, PostgreSQL, PHP, Laravel, WordPress",
@@ -165,7 +165,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor Fullstack",
       company: "Agile Ecommerce [Startup]",
-      period: "06/2023 - 08/2024 | 01/2019 - 08/2019",
+      period: "06/2023 - 09/2025",
       responsibilities: [
         "Prototipação de produto minimo viável (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs.",
         "Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap, Responsive Design.",
