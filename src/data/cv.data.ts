@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista no desenvolvimento de aplicações web diversas (ERPs, e-commerces (B2B/B2C), plataformas EAD, sites responsivos, sistemas corporativos [...]).",
+    "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista no desenvolvimento de aplicações web diversas: ERPs, e-commerces B2B/B2C, plataformas EAD, sistemas corporativos e SaaS.",
     "Sólida experiência em bancos de dados relacionais (PostgreSQL, MySQL, SQL Server) e NoSQL (MongoDB, Redis), com atuação em planejamento, implementação, otimização de performance e escalabilidade. Domínio avançado em back-end (PHP, Laravel, Node.js) e front-end (React, Vue.js), integração de APIs, gateways de pagamentos e manutenção em sistemas legados.",
     "Experiência relevante em ambientes ágeis (scrum, git, jira). Vivência no desenvolvimento de projetos de inovação, MVP de e-commerce com integração a ERPs, dashboards analíticos, painéis administrativos, mapas georreferenciados e relatórios customizados diversos.",
     "Atuação em multinacional como Analista Front-end Sênior, responsável por soluções de ecommerces de serviços e plataforma de stream de vídeos por assinatura, com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança.",
@@ -41,7 +41,7 @@ export const cvData: CVData = {
       period: "2008 - 2012",
     },
     {
-      title: "Desenvolvimento Web com Java (200h)",
+      title: "Desenvolvimento Web com Java",
       institution: "Softex Recife",
       period: "2013",
     },
@@ -56,21 +56,22 @@ export const cvData: CVData = {
     {
       title: "Front-end",
       skills: [
-        "HTML 5",
-        "CSS 3 | SASS",
+        "HTML5",
+        "CSS3",
+        "SASS/SCSS",
         "JavaScript",
         "TypeScript",
         "React",
         "React Native",
-        "Vue",
+        "Vue.js",
         "Next.js",
-        "Design Responsivo",
+        "jQuery",
+        "Responsive Design",
         "UX/UI",
         "Figma",
         "Bootstrap",
         "Tailwind CSS",
         "Material UI",
-        "Design Systems",
       ],
       badgeClass: "bg-gray-200 text-gray-800",
     },
@@ -80,6 +81,7 @@ export const cvData: CVData = {
         "PHP",
         "Laravel",
         "NodeJS",
+        "REST API",
         "AdonisJS",
         "Prisma",
         "WordPress",
@@ -97,10 +99,14 @@ export const cvData: CVData = {
       skills: [
         "AWS",
         "Google Cloud",
+        "Azure",
         "Docker",
         "Linux",
         "CI/CD",
-        "Apache | Nginx",
+        "SSH",
+        "Cloudflare",
+        "Apache",
+        "Nginx",
         "Jenkins",
       ],
       badgeClass: "bg-gray-500 text-white",
@@ -136,7 +142,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Jira", "Azure", "Scrum", "Kanban", "XP", "Trello",  "Asana"],
+      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello", "Asana"],
       badgeClass: "bg-gray-600 text-white",
     },
   ],
@@ -163,7 +169,7 @@ export const cvData: CVData = {
       skills: ["Next.js", "React", "JavaScript", "TypeScript", "NodeJS", "PostgreSQL", "PHP", "Laravel", "WordPress"],
     },
     {
-      title: "Desenvolvedor PHP",
+      title: "Desenvolvedor Full Stack",
       company: "Agile Ecommerce [Startup]",
       period: "06/2023 - 09/2025",
       responsibilities: [
@@ -176,9 +182,9 @@ export const cvData: CVData = {
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 03/2023",
       responsibilities: [
-        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Promovido a Sênior após resultados consistentes. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile, implementando melhorias e novas funcionalidades.",
+        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Promovido a Sênior após resultados consistentes. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile (React Native), implementando melhorias e novas funcionalidades.",
       ],
-      skills: ["ReactJS", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
+      skills: ["ReactJS", "React Native", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
     },
     {
       title: "Desenvolvedor PHP",
@@ -190,13 +196,13 @@ export const cvData: CVData = {
       skills: ["PHP", "NodeJS", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
     },
     {
-      title: "Desenvolvedor Wordpress",
+      title: "Desenvolvedor Web Full Stack",
       company: "Agências de Publicidade",
       period: "05/2013 - 03/2018",
       responsibilities: [
-        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento e integrações com mídias sociais.\n\n Desenvolvi e-commerces nos segmentos de turismo, fotografia e produtos odontológicos; com cálculo dinâmico de preços x regras de vendas \n- Lave Online: plataforma de lavanderia com pacotes por kg/peças, retirada em domicílio, integração com gateways de pagamentos para assinaturas recorrentes e histórico do cliente\n- SOS Neuro: agendamento online por especialidade, médico e horário; entrega de resultados e área do cliente personalizada",
+        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento, mail marketing e integrações com mídias sociais. Deploy via SSH, configuração de ambiente de produção e segurança com Cloudflare. Desenvolvi e-commerces nos segmentos de turismo, fotografia e produtos odontológicos. Lave Online: plataforma de lavanderia com cálculo automático de itens x preços, retirada em domicílio e assinaturas recorrentes. SOS Neuro: agendamento online por especialidade, médico e horário, com área do cliente personalizada.",
       ],
-      skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL"],
+      skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL", "SSH", "Cloudflare", "Linux"],
     },
     {
       title: "Desenvolvedor Web",

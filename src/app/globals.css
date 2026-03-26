@@ -265,8 +265,9 @@ h4 { font-size: 1rem; }
 
 .cv__section-title {
   border-bottom: 2px solid #e5e7eb;
-  margin-bottom: .8em; /* extra spacing after the title bar */
-  padding-bottom: .6em; /* space between border and following content */
+  margin-top: 1.6rem;
+  margin-bottom: .8em;
+  padding-bottom: .6em;
   font-size: 1.15rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -279,6 +280,10 @@ h4 { font-size: 1rem; }
   margin: 0;
   padding-left: 1.2em;
   font-size: 0.98rem;
+}
+
+.cv__education-list li {
+  margin-bottom: 1rem;
 }
 
 /* Make languages list display in two columns on medium+ screens */
@@ -354,7 +359,7 @@ h4 { font-size: 1rem; }
   list-style: none;
 }
 .experiences__item {
-  margin-bottom: 1rem; /* reduced spacing between experiences */
+  margin-bottom: 1.6rem;
 }
 .experiences__header {
   display: flex;
@@ -406,26 +411,23 @@ h4 { font-size: 1rem; }
   }
 }
 
-/* Force experiences section to start on a new page when printing */
 @media print {
-  /* Avoid forcing a new page for experiences to prevent blank pages */
   .cv__experiences {
-    /* prefer to keep the section together but do not force a page break */
     page-break-before: avoid !important;
     break-before: auto !important;
-    page-break-inside: avoid !important;
-    break-inside: avoid !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
     margin-top: 0 !important;
     line-height: 1.40 !important;
   }
 }
 
-/* Also add break behavior for screen/print fallback */
 .cv__experiences {
-  /* Do not force a separate page on screen; prefer keeping content together */
   page-break-before: avoid;
   break-before: auto;
+  break-inside: auto;
   line-height: 1.45;
+  margin-top: 1.8rem;
 }
 
 /* Force all emojis and icons to be grayscale */
