@@ -155,28 +155,28 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor Web Full Stack",
-      company: "Autônomo",
+      company: "Consultor Independente (Freelancer)",
       period: "10/2025 - 2026",
       responsibilities: [
-        "Desenvolvimento e manutenção de sites, aplicações web e e-commerces responsivos",
+        "Prestação de serviços como PJ para empresas dos setores de cartão de crédito e planos de saúde. Desenvolvimento de sites e portais para clientes nos setores de saúde, governo e eventos públicos — incluindo site oficial de seminário da Secretaria de Saúde (DGASP/PE) e site para profissional de saúde.",
       ],
       skills: ["Next.js", "React", "JavaScript", "TypeScript", "NodeJS", "PostgreSQL", "PHP", "Laravel", "WordPress"],
     },
     {
-      title: "Desenvolvedor Fullstack",
+      title: "Desenvolvedor PHP",
       company: "Agile Ecommerce [Startup]",
       period: "06/2023 - 09/2025",
       responsibilities: [
-        "Prototipação de produto minimo viável (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs.",
+        "Desenvolvimento fullstack de plataforma SaaS B2B que sincroniza vendas online com ERPs de indústrias e distribuidores, automatizando pedidos, estoque e faturamento em tempo real. MVP aprovado no programa de aceleração de startups do Grupo Ser Educacional. Atuação no desenvolvimento de APIs REST com Laravel Lumen e no front-end do produto.",
       ],
-      skills: ["Laravel", "PHP 7", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
+      skills: ["Laravel", "Laravel Lumen", "REST API", "PHP", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
     },
     {
       title: "Analista Front-end Sênior",
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 03/2023",
       responsibilities: [
-        "Desenvolvimento e customização de e-commerce de serviços e plataforma de streaming de vídeos.",
+        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Promovido a Sênior após resultados consistentes. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile, implementando melhorias e novas funcionalidades.",
       ],
       skills: ["ReactJS", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
     },
@@ -185,7 +185,7 @@ export const cvData: CVData = {
       company: "Idealizza",
       period: "03/2018 - 01/2019",
       responsibilities: [
-        "Desenvolvimento e Manutenção de Sistemas web EAD, e-commerces e gestão financeira",
+        "Desenvolvimento de plataformas EAD (Thinkr) para concursos públicos (OAB, Bombeiros, Enfermagem...) e treinamentos corporativos, com simulados online e acompanhamento de progresso. Sistema de gestão de empréstimos para o Banco BMG com customização avançada de SQL Server. Atuação como desenvolvedor front-end em e-commerce e portais de reservas de viagens com área do cliente.",
       ],
       skills: ["PHP", "NodeJS", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
     },
@@ -194,7 +194,7 @@ export const cvData: CVData = {
       company: "Agências de Publicidade",
       period: "05/2013 - 03/2018",
       responsibilities: [
-        "Desenvolvimento de sites e lojas online (produtos e serviços), criação e customização de temas, plugins, integrações com apis de frete, gateways de pagamentos e mídias sociais",
+        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento e integrações com mídias sociais.\n\n Desenvolvi e-commerces nos segmentos de turismo, fotografia e produtos odontológicos; com cálculo dinâmico de preços x regras de vendas \n- Lave Online: plataforma de lavanderia com pacotes por kg/peças, retirada em domicílio, integração com gateways de pagamentos para assinaturas recorrentes e histórico do cliente\n- SOS Neuro: agendamento online por especialidade, médico e horário; entrega de resultados e área do cliente personalizada",
       ],
       skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL"],
     },
@@ -203,7 +203,7 @@ export const cvData: CVData = {
       company: "Corptech (Corporate Technologies)",
       period: "04/2011 - 04/2013",
       responsibilities: [
-        "Desenvolvimento e customização de funcionalidades, relatórios e gráficos dinâmicos do ERP web integrado ao SAP | ABAP",
+        "Desenvolvi funcionalidades para o WebSuite (uma aplicação web ERP integrado ao SAP | ABAP). Criei dashboards, customizei gráficos dinâmicos, relatórios diversos. Diagnostiquei problemas e otimizei performance da aplicação.",
       ],
       skills: ["Java", "J2EE", "JSP", "JSF", "MySQL", "PostgreSQL", "Hibernate", "Google Maps", "JasperReports"],
     },
