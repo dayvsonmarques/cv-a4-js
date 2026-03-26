@@ -10,6 +10,14 @@
 [rodapé opcional]
 ```
 
+Regras essenciais:
+
+Descrição em inglês (padrão do mercado) e no imperativo — "add" e não "added"
+Máximo 72 caracteres na primeira linha
+Sem ponto final na descrição
+Escopo é opcional mas ajuda em projetos grandes
+Uma alteração por commit — evite commits "faz tudo"
+
 ---
 
 ## Tipos
