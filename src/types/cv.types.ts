@@ -24,6 +24,7 @@ export interface Experience {
   company: string;
   period: string;
   responsibilities: string[];
+  skills?: string[];
 }
 
 export interface SkillCategory {

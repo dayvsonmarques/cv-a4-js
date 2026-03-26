@@ -7,14 +7,8 @@ interface ExperienceItemProps {
 export function ExperienceItem({ experience }: ExperienceItemProps) {
   const periods = experience.period.split(' | ');
 
-  // Separate descriptive bullets from the tech stack line
-  const bulletItems = experience.responsibilities.filter(
-    r => !r.trimStart().toLowerCase().startsWith('stack:')
-  );
-  const techLine = experience.responsibilities.find(
-    r => r.trimStart().toLowerCase().startsWith('stack:')
-  );
-  const techStack = techLine ? techLine.slice(techLine.indexOf(':') + 1).trim() : null;
+  const bulletItems = experience.responsibilities;
+  const techStack = experience.skills ? experience.skills.join(', ') : null;
 
   return (
     <li className="experiences__item">
@@ -31,11 +25,13 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
       </header>
 
       {bulletItems.length > 0 && (
-        <ul className="experiences__responsibilities list-disc list-inside text-gray-700 ml-4 space-y-0.5">
+        <div className="experiences__responsibilities text-gray-700">
           {bulletItems.map((responsibility, index) => (
-            <li key={index} className="experiences__responsibility">{responsibility}</li>
+            <p key={index} className="experiences__responsibility">
+              {index === 0 && <strong>Atividades: </strong>}{responsibility}
+            </p>
           ))}
-        </ul>
+        </div>
       )}
 
       {techStack && (

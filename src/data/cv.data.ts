@@ -109,10 +109,10 @@ export const cvData: CVData = {
     {
       title: "IA & Ferramentas",
       skills: [
-        "GitHub Copilot",
         "Cursor",
-        "Automação de código",
         "Claude Code",
+        "GitHub Copilot",
+        "Automação de código",
       ],
       badgeClass: "bg-gray-900 text-white",
     },
@@ -159,8 +159,8 @@ export const cvData: CVData = {
       period: "10/2025 - 2026",
       responsibilities: [
         "Desenvolvimento e manutenção de sites, aplicações web e e-commerces responsivos",
-        "Stack: Next.js, React, JavaScript | TypeScript, NodeJS, PostgreSQL, PHP, Laravel, WordPress",
       ],
+      skills: ["Next.js", "React", "JavaScript", "TypeScript", "NodeJS", "PostgreSQL", "PHP", "Laravel", "WordPress"],
     },
     {
       title: "Desenvolvedor Fullstack",
@@ -168,8 +168,8 @@ export const cvData: CVData = {
       period: "06/2023 - 09/2025",
       responsibilities: [
         "Prototipação de produto minimo viável (MVP) aprovado em programa de aceleração. Desenvolvimento e manutenção de e-commerce B2B integrado com multi ERPs.",
-        "Stack: Laravel, PHP 7, HTML5, CSS3, JavaScript, Bootstrap, Responsive Design.",
       ],
+      skills: ["Laravel", "PHP 7", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
     },
     {
       title: "Analista Front-end Sênior",
@@ -177,8 +177,8 @@ export const cvData: CVData = {
       period: "08/2019 - 03/2023",
       responsibilities: [
         "Desenvolvimento e customização de e-commerce de serviços e plataforma de streaming de vídeos.",
-        "Stack: ReactJS, HTML5, CSS3 | SASS, Bootstrap, JavaScript, NodeJS, Liferay CMS & Oracle Cloud Commerce",
       ],
+      skills: ["ReactJS", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
     },
     {
       title: "Desenvolvedor PHP",
@@ -186,8 +186,8 @@ export const cvData: CVData = {
       period: "03/2018 - 01/2019",
       responsibilities: [
         "Desenvolvimento e Manutenção de Sistemas web EAD, e-commerces e gestão financeira",
-        "Stack: PHP, NodeJS, Docker, Laravel, CakePHP, HTML5, CSS3, JavaScript, jQuery, MySQL e SQL Server",
       ],
+      skills: ["PHP", "NodeJS", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
     },
     {
       title: "Desenvolvedor Wordpress",
@@ -195,8 +195,8 @@ export const cvData: CVData = {
       period: "05/2013 - 03/2018",
       responsibilities: [
         "Desenvolvimento de sites e lojas online (produtos e serviços), criação e customização de temas, plugins, integrações com apis de frete, gateways de pagamentos e mídias sociais",
-        "Stack: PHP 7, WordPress, WooCommerce, Laravel, NodeJS, OpenCart, HTML5, CSS3/SASS, JavaScript, MySQL, PostgreSQL",
       ],
+      skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL"],
     },
     {
       title: "Desenvolvedor Web",
@@ -204,8 +204,8 @@ export const cvData: CVData = {
       period: "04/2011 - 04/2013",
       responsibilities: [
         "Desenvolvimento e customização de funcionalidades, relatórios e gráficos dinâmicos do ERP web integrado ao SAP | ABAP",
-        "Stack: Java (J2EE, JSP, JSF), MySQL, PostgreSQL, Hibernate, Google Maps e Charts, JasperReports",
       ],
+      skills: ["Java", "J2EE", "JSP", "JSF", "MySQL", "PostgreSQL", "Hibernate", "Google Maps", "JasperReports"],
     },
   ],
 };
