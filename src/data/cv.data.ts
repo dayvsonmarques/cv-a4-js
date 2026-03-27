@@ -29,9 +29,8 @@ export const cvData: CVData = {
 
   about: [
     "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista no desenvolvimento de aplicações web diversas: ERPs, e-commerces B2B/B2C, plataformas EAD, sistemas corporativos e SaaS.",
-    "Sólida experiência em bancos de dados relacionais (PostgreSQL, MySQL, SQL Server) e NoSQL (MongoDB, Redis), com atuação em planejamento, implementação, otimização de performance e escalabilidade. Domínio avançado em back-end (PHP, Laravel, Node.js) e front-end (React, Vue.js), integração de APIs, gateways de pagamentos e manutenção em sistemas legados.",
-    "Experiência relevante em ambientes ágeis (scrum, git, jira). Vivência no desenvolvimento de projetos de inovação, MVP de e-commerce com integração a ERPs, dashboards analíticos, painéis administrativos, mapas georreferenciados e relatórios customizados diversos.",
-    "Atuação em multinacional como Analista Front-end Sênior, responsável por soluções de ecommerces de serviços e plataforma de stream de vídeos por assinatura, com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança.",
+    "Sólida experiência em bancos de dados relacionais e NoSQL. Domínio avançado em back-end (PHP, Laravel) e front-end (React, Vue.js), integração de APIs, gateways de pagamentos e manutenção em sistemas legados.",
+    "Experiência relevante em ambientes ágeis (scrum, git, jira) com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança. ",
   ],
 
   education: [
@@ -65,13 +64,13 @@ export const cvData: CVData = {
         "React Native",
         "Vue.js",
         "Next.js",
-        "jQuery",
-        "Responsive Design",
-        "UX/UI",
-        "Figma",
+        // "jQuery",
+        // "Responsive Design",
+        // "UX/UI",
+        // "Figma",
         "Bootstrap",
         "Tailwind CSS",
-        "Material UI",
+        // "Material UI",
       ],
       badgeClass: "bg-gray-200 text-gray-800",
     },
@@ -161,10 +160,10 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor Web Full Stack",
-      company: "Consultor Independente (Freelancer)",
+      company: "Consultor Independente (PJ)",
       period: "10/2025 - 2026",
       responsibilities: [
-        "Prestação de serviços como PJ para empresas dos setores de cartão de crédito e planos de saúde. Desenvolvimento de sites e portais para clientes nos setores de saúde, governo e eventos públicos — incluindo site oficial de seminário da Secretaria de Saúde (DGASP/PE) e site para profissional de saúde.",
+        "Prestação de serviços para empresas dos setores de cartão de crédito e planos de saúde. Desenvolvimento de sites para profissionais da área de saúde e comércio online. ",
       ],
       skills: ["Next.js", "React", "JavaScript", "TypeScript", "NodeJS", "PostgreSQL", "PHP", "Laravel", "WordPress"],
     },
@@ -173,7 +172,7 @@ export const cvData: CVData = {
       company: "Agile Ecommerce [Startup]",
       period: "06/2023 - 09/2025",
       responsibilities: [
-        "Desenvolvimento fullstack de plataforma SaaS B2B que sincroniza vendas online com ERPs de indústrias e distribuidores, automatizando pedidos, estoque e faturamento em tempo real. MVP aprovado no programa de aceleração de startups do Grupo Ser Educacional. Atuação no desenvolvimento de APIs REST com Laravel Lumen e no front-end do produto.",
+        "Desenvolvimento de SaaS B2B que sincroniza vendas online com ERPs de indústrias e distribuidores, automatizando pedidos, estoque e faturamento em tempo real. MVP aprovado no programa de aceleração de startups do Grupo Ser Educacional.",
       ],
       skills: ["Laravel", "Laravel Lumen", "REST API", "PHP", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
     },
@@ -182,7 +181,7 @@ export const cvData: CVData = {
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 03/2023",
       responsibilities: [
-        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Promovido a Sênior após resultados consistentes. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile (React Native), implementando melhorias e novas funcionalidades.",
+        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile (React Native), implementando melhorias e novas funcionalidades.",
       ],
       skills: ["ReactJS", "React Native", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
     },
@@ -191,7 +190,7 @@ export const cvData: CVData = {
       company: "Idealizza",
       period: "03/2018 - 01/2019",
       responsibilities: [
-        "Desenvolvimento de plataformas EAD (Thinkr) para concursos públicos (OAB, Bombeiros, Enfermagem...) e treinamentos corporativos, com simulados online e acompanhamento de progresso. Sistema de gestão de empréstimos para o Banco BMG com customização avançada de SQL Server. Atuação como desenvolvedor front-end em e-commerce e portais de reservas de viagens com área do cliente.",
+        "Desenvolvimento de plataformas EAD para concursos públicos (OAB, Bombeiros, Enfermagem...) e treinamentos corporativos, com simulados online. ERP Emprestimos Bancário.",
       ],
       skills: ["PHP", "NodeJS", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
     },
@@ -200,7 +199,7 @@ export const cvData: CVData = {
       company: "Agências de Publicidade",
       period: "05/2013 - 03/2018",
       responsibilities: [
-        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento, mail marketing e integrações com mídias sociais. Deploy via SSH, configuração de ambiente de produção e segurança com Cloudflare. Desenvolvi e-commerces nos segmentos de turismo, fotografia e produtos odontológicos. Lave Online: plataforma de lavanderia com cálculo automático de itens x preços, retirada em domicílio e assinaturas recorrentes. SOS Neuro: agendamento online por especialidade, médico e horário, com área do cliente personalizada.",
+        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento, mail marketing e integrações com mídias sociais. E-commerces nos segmentos de turismo, fotografia e produtos odontológicos, Serviços de Lavanderia Online, Clinica Neurológica.",
       ],
       skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL", "SSH", "Cloudflare", "Linux"],
     },

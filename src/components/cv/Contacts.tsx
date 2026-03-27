@@ -8,7 +8,7 @@ export function Contacts({ contacts }: ContactsProps) {
   return (
     <section className="cv__section">
       <h3 className="cv__section-title">Contatos</h3>
-      <ul className="cv__contacts-list">
+      <ul className="cv__contacts-list grid grid-cols-2">
         {contacts.slice(2).map((c, i) => {
           if (c.icon === 'whatsapp') {
             return (

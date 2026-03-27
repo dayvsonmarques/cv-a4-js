@@ -114,12 +114,15 @@ h4 { font-size: 1rem; }
     padding: 0 !important;
   }
   
-  /* Força grid de 2 colunas na impressão */
+  /* Força grid na impressão */
   .grid {
     display: grid !important;
     align-items: start !important;
   }
   .grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   
@@ -283,7 +286,7 @@ h4 { font-size: 1rem; }
 }
 
 .cv__education-list li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 /* Make languages list display in two columns on medium+ screens */
