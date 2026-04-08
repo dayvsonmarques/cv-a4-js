@@ -14,6 +14,9 @@ export function EducationList({ items }: EducationListProps) {
           <strong className="font-semibold text-gray-900">{item.title}</strong>
           <br />
           <span className="text-gray-600">{item.institution} · {item.period}</span>
+          {item.description && (
+            <p className="text-gray-500 text-xs mt-0.5 leading-snug">{item.description}</p>
+          )}
         </li>
       ))}
       </ul>

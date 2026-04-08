@@ -30,7 +30,8 @@ export const cvData: CVData = {
   about: [
     "Desenvolvedor web full stack com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista no desenvolvimento de aplicações web diversas: ERPs, e-commerces B2B/B2C, plataformas EAD, sistemas corporativos e SaaS.",
     "Sólida experiência em bancos de dados relacionais e NoSQL. Domínio avançado em back-end (PHP, Laravel) e front-end (React, Vue.js), integração de APIs, gateways de pagamentos e manutenção em sistemas legados.",
-    "Experiência relevante em ambientes ágeis (scrum, git, jira) com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança. ",
+    "Especialista em WordPress e WooCommerce: desenvolvimento de plugins customizados, templates, hooks e filtros, integração com APIs RESTful, com foco em segurança e performance.",
+    "Experiência relevante em ambientes ágeis (scrum, git, jira) com foco em altas escala de usuários e demandas de alta disponibilidade, SEO, performance e segurança.",
   ],
 
   education: [
@@ -38,16 +39,19 @@ export const cvData: CVData = {
       title: "Bacharelado em Sistemas de Informação",
       institution: "UniNabuco",
       period: "2008 - 2012",
+      description: "TCC: Desenvolvimento de aplicações web com JavaServer Faces (JSF) — abordando componentização e reuso de elementos de interface numa época em que esses conceitos ainda não eram amplamente difundidos no ecossistema web, antecipando práticas que se tornariam padrão com frameworks modernos.",
     },
     {
       title: "Desenvolvimento Web com Java",
       institution: "Softex Recife",
       period: "2013",
+      description: "Desenvolvi uma aplicação web com Java (J2EE) integrada com banco de dados, para gerenciamento de dados (CRUD), aplicando na pratica os conceitos abordados."
     },
     {
       title: "Github Copilot e Desenvolvimento Web com IA",
       institution: "EV.G (Escola Virtual do Governo)| Microsoft",
       period: "2026",
+      description: "Participei de um programa de capacitação sobre o uso do GitHub Copilot para desenvolvimento web com inteligência artificial, aprendendo a integrar a ferramenta em fluxos de trabalho de desenvolvimento."
     },
   ],
 
@@ -79,8 +83,9 @@ export const cvData: CVData = {
       skills: [
         "PHP",
         "Laravel",
-        "NodeJS",
+        "Node.js",
         "REST API",
+        "RESTful",
         "AdonisJS",
         "Prisma",
         "WordPress",
@@ -117,14 +122,14 @@ export const cvData: CVData = {
         "Cursor",
         "Claude Code",
         "GitHub Copilot",
-        "Automação de código",
+        "AI-assisted Development",
       ],
       badgeClass: "bg-gray-900 text-white",
     },
     {
       title: "Análise & Monitoramento",
       skills: [
-        "Laravel Horizons",
+        "Laravel Horizon",
         "CloudWatch",
         "Grafana",
         "Datadog",
@@ -141,7 +146,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello", "Asana"],
+      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello"],
       badgeClass: "bg-gray-600 text-white",
     },
   ],
@@ -160,19 +165,23 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor Web Full Stack",
-      company: "Consultor Independente (PJ)",
-      period: "10/2025 - 2026",
+      company: "Consultor Independente",
+      period: "07/2024 - 2026",
       responsibilities: [
-        "Prestação de serviços para empresas dos setores de cartão de crédito e planos de saúde. Desenvolvimento de sites para profissionais da área de saúde e comércio online. ",
+        "Atuação como consultor independente, entregando mais de 15 projetos web sob demanda para clientes de diferentes segmentos.",
+        "Entrega de sites institucionais, landing pages, sites de eventos e portfólios com foco em performance, SEO e identidade visual — incluindo projetos contemplados por editais da Lei Aldir Blanc.",
+        "Consultoria técnica para empresas dos setores de cartão de crédito e saúde: levantamento de requisitos, arquitetura de soluções e desenvolvimento de sistemas internos.",
       ],
-      skills: ["Next.js", "React", "JavaScript", "TypeScript", "NodeJS", "PostgreSQL", "PHP", "Laravel", "WordPress"],
+      skills: ["Next.js", "React", "JavaScript", "TypeScript", "Node.js", "PostgreSQL", "PHP", "Laravel", "WordPress"],
     },
     {
       title: "Desenvolvedor Full Stack",
-      company: "Agile Ecommerce [Startup]",
-      period: "06/2023 - 09/2025",
+      company: "Agile Ecommerce Startup",
+      period: "01/2019 - 06/2019 | 01/2024 - 06/2024",
       responsibilities: [
-        "Desenvolvimento de SaaS B2B que sincroniza vendas online com ERPs de indústrias e distribuidores, automatizando pedidos, estoque e faturamento em tempo real. MVP aprovado no programa de aceleração de startups do Grupo Ser Educacional.",
+        "Desenvolvimento de plataforma SaaS B2B para sincronização de vendas online com ERPs corporativos de indústrias e distribuidores — automatizando pedidos, controle de estoque e faturamento em tempo real para dezenas de clientes B2B.",
+        "Arquitetura e implementação de APIs RESTful para integração com múltiplos ERPs e marketplaces, reduzindo em mais de 80% o tempo de processamento de pedidos antes feito de forma manual.",
+        "MVP aprovado no programa de aceleração de startups do Grupo Ser Educacional, validando a proposta de valor junto ao mercado.",
       ],
       skills: ["Laravel", "Laravel Lumen", "REST API", "PHP", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
     },
@@ -181,34 +190,39 @@ export const cvData: CVData = {
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 03/2023",
       responsibilities: [
-        "Desenvolvedor front-end no e-commerce da SKY Brasil: construção de Design System, UX/UI, landing pages, testes A/B e otimização de performance. Na DirecTV SKY Latam, integrei o time do portal de streaming e app mobile (React Native), implementando melhorias e novas funcionalidades.",
+        "Na SKY Brasil, atuei como desenvolvedor front-end sênior no e-commerce da marca por mais de 3 anos: construção de Design System componente a componente, desenvolvimento de landing pages de alta conversão, testes A/B e otimização contínua de performance.",
+        "Na DirecTV SKY Latam, integrei o time do portal de streaming e do aplicativo mobile (React Native), implementando novas funcionalidades e melhorias de UX em produto com mais de 5 milhões de usuários ativos.",
       ],
-      skills: ["ReactJS", "React Native", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "NodeJS", "Liferay CMS", "Oracle Cloud Commerce"],
+      skills: ["React", "React Native", "HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "Node.js", "Liferay CMS", "Oracle Cloud Commerce"],
     },
     {
       title: "Desenvolvedor PHP",
       company: "Idealizza",
       period: "03/2018 - 01/2019",
       responsibilities: [
-        "Desenvolvimento de plataformas EAD para concursos públicos (OAB, Bombeiros, Enfermagem...) e treinamentos corporativos, com simulados online. ERP Emprestimos Bancário.",
+        "Desenvolvimento e manutenção de plataformas EAD com mais de 10.000 alunos ativos, voltadas à preparação para concursos públicos de alto volume (OAB, Bombeiros, Enfermagem), com simulados online, controle de progresso e emissão de certificados.",
+        "Desenvolvimento de ERP para gestão de empréstimos bancários: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais.",
       ],
-      skills: ["PHP", "NodeJS", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
+      skills: ["PHP", "Node.js", "Docker", "Laravel", "CakePHP", "HTML5", "CSS3", "JavaScript", "jQuery", "MySQL", "SQL Server"],
     },
     {
       title: "Desenvolvedor Web Full Stack",
       company: "Agências de Publicidade",
       period: "05/2013 - 03/2018",
       responsibilities: [
-        "Criação e customização de sites e lojas virtuais — temas, plugins, APIs de frete, gateways de pagamento, mail marketing e integrações com mídias sociais. E-commerces nos segmentos de turismo, fotografia e produtos odontológicos, Serviços de Lavanderia Online, Clinica Neurológica.",
+        "Desenvolvimento e customização de mais de 30 sites e lojas virtuais para clientes de múltiplos segmentos: turismo, fotografia, odontologia, neurologia, lavanderias e agências de viagem.",
+        "Implementação de integrações com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; configuração de temas, plugins e hooks em WordPress/WooCommerce.",
+        "Participação em todo o ciclo dos projetos: levantamento de requisitos, desenvolvimento, deploy e manutenção em infraestrutura Linux com DNS e SSL via Cloudflare.",
       ],
-      skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "NodeJS", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL", "SSH", "Cloudflare", "Linux"],
+      skills: ["PHP 7", "WordPress", "WooCommerce", "Laravel", "Node.js", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "MySQL", "PostgreSQL", "SSH", "Cloudflare", "Linux"],
     },
     {
       title: "Desenvolvedor Web",
       company: "Corptech (Corporate Technologies)",
       period: "04/2011 - 04/2013",
       responsibilities: [
-        "Desenvolvi funcionalidades para o WebSuite (uma aplicação web ERP integrado ao SAP | ABAP). Criei dashboards, customizei gráficos dinâmicos, relatórios diversos. Diagnostiquei problemas e otimizei performance da aplicação.",
+        "Desenvolvimento de funcionalidades para o WebSuite, uma aplicação web ERP integrada ao SAP/ABAP, utilizada por grandes empresas com centenas de usuários simultâneos para gestão de processos corporativos.",
+        "Criação de dashboards analíticos, customização de gráficos dinâmicos e geração de relatórios gerenciais com JasperReports; diagnóstico e otimização de performance com redução significativa no tempo de resposta de queries críticas.",
       ],
       skills: ["Java", "J2EE", "JSP", "JSF", "MySQL", "PostgreSQL", "Hibernate", "Google Maps", "JasperReports"],
     },
