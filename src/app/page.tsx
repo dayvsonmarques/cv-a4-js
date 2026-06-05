@@ -21,14 +21,9 @@ export default function Home() {
 
       <Skills />
 
-      <div className="row">
-        <div className="col col--2-3">
-          <EducationSection items={education} />
-        </div>
-        <div className="col col--1-3">
-          <LanguagesSection languages={languages} columns={1} />
-        </div>
-      </div>
+      <LanguagesSection languages={languages} columns={2} />
+
+      <EducationSection items={education} />
 
       <ExperiencesSection experiences={experiences} />
     </main>
