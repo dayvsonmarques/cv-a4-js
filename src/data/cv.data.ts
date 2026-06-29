@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor Web Full Stack",
+    title: "Desenvolvedor Laravel | PHP & Back-end",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "36 anos" },
