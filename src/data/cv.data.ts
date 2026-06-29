@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor Laravel | PHP & Back-end",
+    title: "Desenvolvedor PHP | Laravel & Back-end",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "36 anos" },
@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor back-end PHP/Laravel com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista na construção de APIs RESTful, plataformas SaaS B2B, sistemas corporativos e ERPs — com foco em arquitetura limpa, escalabilidade e manutenção de sistemas de alta complexidade.",
-    "Profundo domínio em Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM, migrations, service containers, políticas de acesso e integrações com múltiplos ERPs e marketplaces. Experiência consolidada em PHP 8+, MySQL, PostgreSQL e Redis.",
-    "Experiência em infraestrutura cloud (AWS, GCP, Azure) com Docker, CI/CD, Linux e deploy em ambientes de alta disponibilidade. Monitoramento e observabilidade com Datadog, Sentry e Grafana.",
-    "Sólida vivência em ambientes ágeis (Scrum, Kanban, Jira) em times de produto com grandes volumes de usuários — incluindo 3 anos na Accenture em produto com mais de 5 milhões de usuários ativos.",
+    "Desenvolvedor PHP back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista na construção de APIs RESTful, plataformas SaaS B2B, sistemas corporativos e ERPs — com foco em Clean Code, princípios SOLID, arquitetura MVC e manutenção de sistemas de alta complexidade.",
+    "Profundo domínio em PHP 8+ e Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM, migrations e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance) e documentação de APIs com Swagger/OpenAPI.",
+    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS e validação rigorosa de entrada de dados. Experiência em infraestrutura com Docker, Linux, Apache/Nginx, CI/CD e versionamento com Git (Azure DevOps e GitHub).",
+    "Sólida vivência em ambientes ágeis (Scrum, Kanban, Jira) e experiência com testes automatizados (PHPUnit, Pest) — incluindo 3 anos na Accenture em produto com mais de 5 milhões de usuários ativos.",
   ],
 
   education: [
@@ -59,7 +59,7 @@ export const cvData: CVData = {
     {
       title: "Back-end",
       skills: [
-        "PHP",
+        "PHP 8+",
         "Laravel",
         "Laravel Lumen",
         "Laravel Horizon",
@@ -68,9 +68,11 @@ export const cvData: CVData = {
         "Eloquent ORM",
         "REST API",
         "RESTful",
+        "Swagger/OpenAPI",
+        "SOLID",
+        "Clean Code",
+        "MVC",
         "Node.js",
-        "AdonisJS",
-        "Prisma",
         "WordPress",
       ],
       badgeClass: "bg-gray-300 text-gray-900",
@@ -107,10 +109,12 @@ export const cvData: CVData = {
         "Docker",
         "Linux",
         "CI/CD",
-        "SSH",
-        "Cloudflare",
+        "Git",
+        "Azure DevOps",
         "Apache",
         "Nginx",
+        "SSH",
+        "Cloudflare",
         "Jenkins",
       ],
       badgeClass: "bg-gray-500 text-white",
@@ -168,22 +172,22 @@ export const cvData: CVData = {
       company: "Consultor Independente",
       period: "07/2024 - 2026",
       responsibilities: [
-        "Atuação como consultor independente com foco em back-end PHP/Laravel: desenvolvimento de APIs RESTful, sistemas internos e integrações para clientes dos setores de cartão de crédito e saúde.",
-        "Arquitetura e implementação de soluções Laravel com filas, jobs, autenticação via Sanctum e integração com serviços externos — garantindo rastreabilidade, escalabilidade e manutenibilidade.",
-        "Consultoria técnica: levantamento de requisitos, modelagem de banco de dados (MySQL/PostgreSQL), definição de padrões de código e revisão de sistemas legados PHP.",
+        "Atuação como consultor independente com foco em back-end PHP 8+/Laravel: desenvolvimento de APIs RESTful documentadas com Swagger/OpenAPI, sistemas internos e integrações para clientes dos setores de cartão de crédito e saúde.",
+        "Arquitetura orientada a Clean Code e princípios SOLID: filas com Laravel Horizon, autenticação via Sanctum, separação em camadas (MVC) e implementação de práticas de segurança (proteção contra SQL Injection, XSS e validação de entrada).",
+        "Consultoria técnica: levantamento de requisitos, modelagem de banco de dados (PostgreSQL/MySQL), otimização de queries críticas e revisão de sistemas legados PHP.",
       ],
-      skills: ["PHP", "Laravel", "Laravel Horizon", "REST API", "MySQL", "PostgreSQL", "Docker", "Next.js", "React", "JavaScript", "TypeScript", "Node.js"],
+      skills: ["PHP 8+", "Laravel", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "Clean Code", "PostgreSQL", "MySQL", "Docker", "Azure DevOps", "Next.js", "React", "TypeScript"],
     },
     {
       title: "Desenvolvedor Laravel / Back-end",
       company: "Agile Ecommerce Startup",
       period: "01/2019 - 06/2019 | 01/2024 - 06/2024",
       responsibilities: [
-        "Desenvolvimento de plataforma SaaS B2B em Laravel para sincronização de vendas online com ERPs corporativos de indústrias e distribuidores — automatizando pedidos, controle de estoque e faturamento em tempo real para dezenas de clientes B2B.",
-        "Arquitetura e implementação de APIs RESTful com Laravel Lumen para integração com múltiplos ERPs e marketplaces, reduzindo em mais de 80% o tempo de processamento de pedidos antes feito de forma manual.",
-        "Implementação de filas com Laravel Horizon para processamento assíncrono de alto volume; MVP aprovado no programa de aceleração do Grupo Ser Educacional.",
+        "Desenvolvimento de plataforma SaaS B2B em Laravel (PHP 8) para sincronização de vendas online com ERPs corporativos — automatizando pedidos, controle de estoque e faturamento em tempo real para dezenas de clientes B2B, seguindo Clean Code e princípios SOLID.",
+        "Arquitetura e implementação de APIs RESTful com Laravel Lumen, documentadas via Swagger/OpenAPI, para integração com múltiplos ERPs e marketplaces — reduzindo em mais de 80% o tempo de processamento de pedidos.",
+        "Implementação de filas com Laravel Horizon para processamento assíncrono de alto volume e testes automatizados com PHPUnit; MVP aprovado no programa de aceleração do Grupo Ser Educacional.",
       ],
-      skills: ["Laravel", "Laravel Lumen", "Laravel Horizon", "REST API", "PHP", "MySQL", "Redis", "Docker", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      skills: ["PHP 8+", "Laravel", "Laravel Lumen", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "PHPUnit", "PostgreSQL", "MySQL", "Redis", "Docker", "Git"],
     },
     {
       title: "Desenvolvedor Full Stack Sênior",
@@ -200,10 +204,10 @@ export const cvData: CVData = {
       company: "Idealizza",
       period: "03/2018 - 01/2019",
       responsibilities: [
-        "Desenvolvimento e manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel/CakePHP: simulados online, controle de progresso e emissão de certificados para concursos de alto volume (OAB, Bombeiros, Enfermagem).",
-        "Desenvolvimento de ERP para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos, relatórios gerenciais e integração com SQL Server.",
+        "Desenvolvimento e manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel/CakePHP: simulados online, controle de progresso e emissão de certificados para concursos de alto volume (OAB, Bombeiros, Enfermagem) — com testes automatizados via PHPUnit e boas práticas de segurança (SQL Injection, XSS).",
+        "Desenvolvimento de ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — sistema financeiro de alta criticidade com SQL Server e queries complexas otimizadas.",
       ],
-      skills: ["PHP", "Laravel", "CakePHP", "MySQL", "SQL Server", "Docker", "Node.js", "HTML5", "CSS3", "JavaScript", "jQuery"],
+      skills: ["PHP", "Laravel", "CakePHP", "PHPUnit", "MySQL", "SQL Server", "PostgreSQL", "SOLID", "Clean Code", "Docker", "Node.js", "JavaScript", "jQuery"],
     },
     {
       title: "Desenvolvedor PHP / Back-end",
