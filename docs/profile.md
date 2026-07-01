@@ -1,0 +1,3 @@
+Sou desenvolvedor PHP back-end com mais de 15 anos de experiência — PHP 5 ao 8+, Laravel, APIs RESTful, SOLID e Clean Code. Já construí ERPs financeiros, plataformas SaaS B2B com integração a múltiplos ERPs e sistemas de alto volume, sempre com foco em segurança (SQL Injection, XSS), testes com PHPUnit e documentação via Swagger/OpenAPI.
+
+Para a vaga, encaixo direto: tenho experiência real no ciclo completo — do refinamento técnico ao deploy — e com o stack que vocês usam. Busco um time onde eu possa contribuir com código de qualidade e evoluir sistemas corporativos robustos.

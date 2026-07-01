@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor PHP | Laravel & Back-end",
+    title: "Desenvolvedor PHP Pleno | Laravel & Back-end",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "36 anos" },
@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor PHP back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Especialista na construção de APIs RESTful, plataformas SaaS B2B, sistemas corporativos e ERPs — com foco em Clean Code, princípios SOLID, arquitetura MVC e manutenção de sistemas de alta complexidade.",
+    "Desenvolvedor PHP Pleno back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP: desde PHP 5 e PHP 6+ em sistemas legados, passando por PHP 7+ em projetos de alta demanda, até PHP 8+ com tipagem estrita e recursos modernos da linguagem. Especialista na construção de APIs RESTful, plataformas SaaS B2B, sistemas corporativos e ERPs — com foco em Clean Code, princípios SOLID, arquitetura MVC e manutenção de sistemas de alta complexidade.",
     "Profundo domínio em PHP 8+ e Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM, migrations e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance) e documentação de APIs com Swagger/OpenAPI.",
     "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS e validação rigorosa de entrada de dados. Experiência em infraestrutura com Docker, Linux, Apache/Nginx, CI/CD e versionamento com Git (Azure DevOps e GitHub).",
     "Sólida vivência em ambientes ágeis (Scrum, Kanban, Jira) e experiência com testes automatizados (PHPUnit, Pest) — incluindo 3 anos na Accenture em produto com mais de 5 milhões de usuários ativos.",
@@ -60,6 +60,8 @@ export const cvData: CVData = {
       title: "Back-end",
       skills: [
         "PHP 8+",
+        "PHP 7+",
+        "PHP 5/6",
         "Laravel",
         "Laravel Lumen",
         "Laravel Horizon",
@@ -169,8 +171,8 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor Laravel / Back-end",
-      company: "Consultor Independente",
-      period: "07/2024 - 2026",
+      company: "Freelancer",
+      period: "08/2025 - 2026",
       responsibilities: [
         "Atuação como consultor independente com foco em back-end PHP 8+/Laravel: desenvolvimento de APIs RESTful documentadas com Swagger/OpenAPI, sistemas internos e integrações para clientes dos setores de cartão de crédito e saúde.",
         "Arquitetura orientada a Clean Code e princípios SOLID: filas com Laravel Horizon, autenticação via Sanctum, separação em camadas (MVC) e implementação de práticas de segurança (proteção contra SQL Injection, XSS e validação de entrada).",
@@ -180,8 +182,8 @@ export const cvData: CVData = {
     },
     {
       title: "Desenvolvedor Laravel / Back-end",
-      company: "Agile Ecommerce Startup",
-      period: "01/2019 - 06/2019 | 01/2024 - 06/2024",
+      company: "Agile Ecommerce (Startup)",
+      period: "01/2024 - 07/2025",
       responsibilities: [
         "Desenvolvimento de plataforma SaaS B2B em Laravel (PHP 8) para sincronização de vendas online com ERPs corporativos — automatizando pedidos, controle de estoque e faturamento em tempo real para dezenas de clientes B2B, seguindo Clean Code e princípios SOLID.",
         "Arquitetura e implementação de APIs RESTful com Laravel Lumen, documentadas via Swagger/OpenAPI, para integração com múltiplos ERPs e marketplaces — reduzindo em mais de 80% o tempo de processamento de pedidos.",
