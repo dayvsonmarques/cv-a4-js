@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor PHP Pleno back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP: desde PHP 5 e PHP 6+ em sistemas legados, passando por PHP 7+ em projetos de alta demanda, até PHP 8+ com tipagem estrita e recursos modernos da linguagem. Especialista na construção de APIs RESTful, plataformas SaaS B2B, sistemas corporativos e ERPs — com foco em Clean Code, princípios SOLID, arquitetura MVC e manutenção de sistemas de alta complexidade.",
-    "Profundo domínio em PHP 8+ e Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM, migrations e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance) e documentação de APIs com Swagger/OpenAPI.",
-    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS e validação rigorosa de entrada de dados. Experiência em infraestrutura com Docker, Linux, Apache/Nginx, CI/CD e versionamento com Git (Azure DevOps e GitHub).",
-    "Sólida vivência em ambientes ágeis (Scrum, Kanban, Jira) e experiência com testes automatizados (PHPUnit, Pest) — incluindo 3 anos na Accenture em produto com mais de 5 milhões de usuários ativos.",
+    "Desenvolvedor PHP Pleno back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP — desde PHP 5/6 em sistemas legados, PHP 7+ em projetos de alta demanda, até PHP 8+ com tipagem estrita — especializado na construção de APIs RESTful, ERPs, plataformas SaaS B2B e sistemas corporativos de alta complexidade.",
+    "Profundo domínio em Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance), documentação de APIs com Swagger/OpenAPI e gerenciamento de dependências com Composer.",
+    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS, validação rigorosa de entrada de dados e testes automatizados com PHPUnit e Pest. Infraestrutura com Docker, Linux, Apache/Nginx, CI/CD e versionamento com Git e Azure DevOps.",
+    "Integro IA em todo o ciclo de desenvolvimento — do refinamento técnico a testes, documentação e deploy — acelerando entregas sem abrir mão de qualidade e padronização. Vivência em times ágeis (Scrum, Kanban, Jira) com participação ativa em code review e proposição de melhorias técnicas.",
   ],
 
   education: [
@@ -74,6 +74,7 @@ export const cvData: CVData = {
         "SOLID",
         "Clean Code",
         "MVC",
+        "Composer",
         "Node.js",
         "WordPress",
       ],
@@ -125,9 +126,8 @@ export const cvData: CVData = {
     {
       title: "IA & Ferramentas",
       skills: [
-        "Cursor",
         "Claude Code",
-        "GitHub Copilot",
+        "Cursor",
         "AI-assisted Development",
       ],
       badgeClass: "bg-gray-900 text-white",
