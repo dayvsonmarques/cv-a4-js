@@ -100,7 +100,7 @@ export const cvData: CVData = {
     },
     {
       title: "Banco de Dados",
-      skills: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB", "Redis"],
+      skills: ["MySQL", "PostgreSQL", "Oracle DB", "SQL Server", "MongoDB", "Redis", "Stored Procedures", "Functions", "PL/SQL"],
       badgeClass: "bg-gray-400 text-white",
     },
     {
@@ -113,6 +113,7 @@ export const cvData: CVData = {
         "Linux",
         "CI/CD",
         "Git",
+        "GitLab",
         "Azure DevOps",
         "Apache",
         "Nginx",
@@ -196,10 +197,10 @@ export const cvData: CVData = {
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 03/2023",
       responsibilities: [
-        "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: integração com APIs de back-end (Oracle Cloud Commerce), construção de Design System, landing pages de alta conversão e testes A/B.",
+        "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: integração com APIs de back-end (Oracle Cloud Commerce e Oracle DB), construção de Design System, landing pages de alta conversão e testes A/B.",
         "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos — implementando novas funcionalidades, melhorias de performance e integrações com APIs RESTful de conteúdo e autenticação.",
       ],
-      skills: ["React", "React Native", "JavaScript", "Node.js", "REST API", "Oracle Cloud Commerce", "Liferay CMS", "HTML5", "CSS3", "SASS", "Bootstrap"],
+      skills: ["React", "React Native", "JavaScript", "Node.js", "REST API", "Oracle Cloud Commerce", "Oracle DB", "Liferay CMS", "HTML5", "CSS3", "SASS", "Bootstrap"],
     },
     {
       title: "Desenvolvedor PHP / Laravel",
@@ -207,9 +208,9 @@ export const cvData: CVData = {
       period: "03/2018 - 01/2019",
       responsibilities: [
         "Desenvolvimento e manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel/CakePHP: simulados online, controle de progresso e emissão de certificados para concursos de alto volume (OAB, Bombeiros, Enfermagem) — com testes automatizados via PHPUnit e boas práticas de segurança (SQL Injection, XSS).",
-        "Desenvolvimento de ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — sistema financeiro de alta criticidade com SQL Server e queries complexas otimizadas.",
+        "Desenvolvimento de ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — sistema financeiro de alta criticidade com SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
       ],
-      skills: ["PHP", "Laravel", "CakePHP", "PHPUnit", "MySQL", "SQL Server", "PostgreSQL", "SOLID", "Clean Code", "Docker", "Node.js", "JavaScript", "jQuery"],
+      skills: ["PHP", "Laravel", "CakePHP", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "PostgreSQL", "SOLID", "Clean Code", "Docker", "Node.js", "JavaScript", "jQuery"],
     },
     {
       title: "Desenvolvedor PHP / Back-end",
