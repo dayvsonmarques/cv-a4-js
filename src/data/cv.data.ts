@@ -30,7 +30,7 @@ export const cvData: CVData = {
   about: [
     "Desenvolvedor PHP Pleno back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP — desde PHP 5/6 em sistemas legados, PHP 7+ em projetos de alta demanda, até PHP 8+ com tipagem estrita — especializado na construção de APIs RESTful, ERPs, plataformas SaaS B2B e sistemas corporativos de alta complexidade.",
     "Profundo domínio em Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance), documentação de APIs com Swagger/OpenAPI e gerenciamento de dependências com Composer.",
-    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS, validação rigorosa de entrada de dados e testes automatizados com PHPUnit e Pest. Infraestrutura com Docker, Linux, Apache/Nginx, CI/CD e versionamento com Git e Azure DevOps.",
+    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS, validação rigorosa de entrada de dados e testes automatizados com PHPUnit e Pest. Infraestrutura com Docker, Linux, Apache/Nginx, CI/CD, GitLab e Azure DevOps. Experiência com mensageria assíncrona (Kafka, RabbitMQ) e troubleshooting em ambientes produtivos — análise de logs, resolução de incidentes e documentação técnica de fluxos críticos.",
     "Integro IA em todo o ciclo de desenvolvimento — do refinamento técnico a testes, documentação e deploy — acelerando entregas sem abrir mão de qualidade e padronização. Vivência em times ágeis (Scrum, Kanban, Jira) com participação ativa em code review e proposição de melhorias técnicas.",
   ],
 
@@ -75,6 +75,7 @@ export const cvData: CVData = {
         "Clean Code",
         "MVC",
         "Composer",
+        "Doctrine ORM",
         "Node.js",
         "WordPress",
       ],
@@ -115,6 +116,8 @@ export const cvData: CVData = {
         "Git",
         "GitLab",
         "Azure DevOps",
+        "Kafka",
+        "RabbitMQ",
         "Apache",
         "Nginx",
         "SSH",
@@ -177,7 +180,7 @@ export const cvData: CVData = {
       responsibilities: [
         "Atuação como consultor independente com foco em back-end PHP 8+/Laravel: desenvolvimento de APIs RESTful documentadas com Swagger/OpenAPI, sistemas internos e integrações para clientes dos setores de cartão de crédito e saúde.",
         "Arquitetura orientada a Clean Code e princípios SOLID: filas com Laravel Horizon, autenticação via Sanctum, separação em camadas (MVC) e implementação de práticas de segurança (proteção contra SQL Injection, XSS e validação de entrada).",
-        "Consultoria técnica: levantamento de requisitos, modelagem de banco de dados (PostgreSQL/MySQL), otimização de queries críticas e revisão de sistemas legados PHP.",
+        "Consultoria técnica: levantamento de requisitos, modelagem de banco de dados (PostgreSQL/MySQL), otimização de queries críticas, troubleshooting e resolução de incidentes em produção, e evolução de sistemas legados PHP com documentação técnica dos fluxos críticos.",
       ],
       skills: ["PHP 8+", "Laravel", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "Clean Code", "PostgreSQL", "MySQL", "Docker", "Azure DevOps", "Next.js", "React", "TypeScript"],
     },
