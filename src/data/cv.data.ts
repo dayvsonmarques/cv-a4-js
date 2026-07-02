@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor PHP Pleno | Laravel & Back-end",
+    title: "Desenvolvedor PHP Sênior | Microservices & Cloud",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "36 anos" },
@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor PHP Pleno back-end com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP — desde PHP 5/6 em sistemas legados, PHP 7+ em projetos de alta demanda, até PHP 8+ com tipagem estrita — especializado na construção de APIs RESTful, ERPs, plataformas SaaS B2B e sistemas corporativos de alta complexidade.",
-    "Profundo domínio em Laravel: filas e workers com Laravel Horizon, autenticação com Sanctum/Passport, Eloquent ORM e service containers. Experiência consolidada em PostgreSQL e MySQL com SQL avançado (joins complexos, subqueries, otimização de performance), documentação de APIs com Swagger/OpenAPI e gerenciamento de dependências com Composer.",
-    "Boas práticas de segurança em todas as camadas: proteção contra SQL Injection, XSS, validação rigorosa de entrada de dados e testes automatizados com PHPUnit e Pest. Infraestrutura com Docker, Linux, Apache/Nginx, CI/CD, GitLab e Azure DevOps. Experiência com mensageria assíncrona (Kafka, RabbitMQ) e troubleshooting em ambientes produtivos — análise de logs, resolução de incidentes e documentação técnica de fluxos críticos.",
-    "Integro IA em todo o ciclo de desenvolvimento — do refinamento técnico a testes, documentação e deploy — acelerando entregas sem abrir mão de qualidade e padronização. Vivência em times ágeis (Scrum, Kanban, Jira) com participação ativa em code review e proposição de melhorias técnicas.",
+    "Desenvolvedor PHP Sênior com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP — desde PHP 5/6 em sistemas legados até PHP 8+ com tipagem estrita — especializado na construção de plataformas de alta complexidade do zero: SaaS B2B, ERPs, APIs de larga escala e microsserviços com foco em escalabilidade, performance e soluções sustentáveis.",
+    "Profundo domínio em Design Patterns, princípios SOLID e Clean Code aplicados em arquiteturas de microsserviços e sistemas distribuídos. Laravel avançado: Eloquent ORM, Horizon, Sanctum/Passport, service containers e Composer. SQL avançado (PostgreSQL, MySQL) e NoSQL (MongoDB, Redis) com modelagem e otimização de queries em ambientes de alto volume.",
+    "Testes automatizados em todas as camadas: unitários e de integração com PHPUnit e Pest, com alta cobertura de código. CI/CD com GitLab, Azure DevOps e Docker. Infraestrutura cloud (AWS, GCP, Azure) e mensageria assíncrona (Kafka, RabbitMQ). Troubleshooting e resolução de incidentes em ambientes produtivos críticos.",
+    "Perfil independente e orientado a resultados, com capacidade de atuar em times globais e remotos. Experiência com metodologias ágeis intermediárias (Scrum, Kanban) e code review — construindo soluções que equilibram inovação, robustez e manutenibilidade a longo prazo.",
   ],
 
   education: [
@@ -66,18 +66,17 @@ export const cvData: CVData = {
         "Laravel Lumen",
         "Laravel Horizon",
         "Laravel Sanctum",
-        "Laravel Passport",
         "Eloquent ORM",
         "REST API",
-        "RESTful",
-        "Swagger/OpenAPI",
+        "Microserviços",
+        "Design Patterns",
         "SOLID",
         "Clean Code",
-        "MVC",
+        "Clean Architecture",
+        "Algoritmos e Estruturas de Dados",
+        "Swagger/OpenAPI",
         "Composer",
-        "Doctrine ORM",
         "Node.js",
-        "WordPress",
       ],
       badgeClass: "bg-gray-300 text-gray-900",
     },
@@ -151,7 +150,7 @@ export const cvData: CVData = {
     },
     {
       title: "Testes",
-      skills: ["Jest", "React Testing Library", "PHPUnit", "Pest"],
+      skills: ["PHPUnit", "Pest", "Testes Unitários", "Testes de Integração", "Cobertura de Código", "Jest", "TDD"],
       badgeClass: "bg-gray-800 text-white",
     },
     {
@@ -178,20 +177,20 @@ export const cvData: CVData = {
       company: "Freelancer",
       period: "08/2025 - 2026",
       responsibilities: [
-        "Atuação como consultor independente com foco em back-end PHP 8+/Laravel: desenvolvimento de APIs RESTful documentadas com Swagger/OpenAPI, sistemas internos e integrações para clientes dos setores de cartão de crédito e saúde.",
-        "Arquitetura orientada a Clean Code e princípios SOLID: filas com Laravel Horizon, autenticação via Sanctum, separação em camadas (MVC) e implementação de práticas de segurança (proteção contra SQL Injection, XSS e validação de entrada).",
-        "Consultoria técnica: levantamento de requisitos, modelagem de banco de dados (PostgreSQL/MySQL), otimização de queries críticas, troubleshooting e resolução de incidentes em produção, e evolução de sistemas legados PHP com documentação técnica dos fluxos críticos.",
+        "Desenvolvimento de sistemas do zero em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI, microsserviços e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns, Clean Architecture e princípios SOLID.",
+        "Testes automatizados unitários e de integração com PHPUnit (alta cobertura de código), CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries críticas.",
+        "Atuação independente e autônoma: levantamento de requisitos, decisões arquiteturais, troubleshooting em produção e evolução de sistemas legados PHP com documentação técnica.",
       ],
-      skills: ["PHP 8+", "Laravel", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "Clean Code", "PostgreSQL", "MySQL", "Docker", "Azure DevOps", "Next.js", "React", "TypeScript"],
+      skills: ["PHP 8+", "Laravel", "Microserviços", "Design Patterns", "Clean Architecture", "SOLID", "REST API", "Swagger/OpenAPI", "PHPUnit", "TDD", "PostgreSQL", "MySQL", "Docker", "CI/CD"],
     },
     {
       title: "Desenvolvedor Laravel / Back-end",
       company: "Agile Ecommerce (Startup)",
       period: "01/2024 - 07/2025",
       responsibilities: [
-        "Desenvolvimento de plataforma SaaS B2B em Laravel (PHP 8) para sincronização de vendas online com ERPs corporativos — automatizando pedidos, controle de estoque e faturamento em tempo real para dezenas de clientes B2B, seguindo Clean Code e princípios SOLID.",
-        "Arquitetura e implementação de APIs RESTful com Laravel Lumen, documentadas via Swagger/OpenAPI, para integração com múltiplos ERPs e marketplaces — reduzindo em mais de 80% o tempo de processamento de pedidos.",
-        "Implementação de filas com Laravel Horizon para processamento assíncrono de alto volume e testes automatizados com PHPUnit; MVP aprovado no programa de aceleração do Grupo Ser Educacional.",
+        "Construção do zero de plataforma SaaS B2B em Laravel (PHP 8) com arquitetura de microsserviços: sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B — Design Patterns, SOLID e Clean Code aplicados em solução escalável de alto volume.",
+        "Desenvolvimento de APIs RESTful com Laravel Lumen, processamento assíncrono com filas (Laravel Horizon/SQS), Redis para cache e testes automatizados unitários e de integração com PHPUnit — reduzindo em mais de 80% o tempo de processamento manual de pedidos.",
+        "MVP aprovado no programa de aceleração do Grupo Ser Educacional. CI/CD com GitLab, containerização com Docker e deploy em cloud.",
       ],
       skills: ["PHP 8+", "Laravel", "Laravel Lumen", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "PHPUnit", "PostgreSQL", "MySQL", "Redis", "Docker", "Git"],
     },

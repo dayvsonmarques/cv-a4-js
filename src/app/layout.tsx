@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Plus_Jakarta_Sans } from "next/font/google";
+import { cvData } from "@/data/cv.data";
 import "./globals.css";
 
 const headingFont = Space_Grotesk({
@@ -14,8 +15,10 @@ const bodyFont = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+const currentYear = new Date().getFullYear();
+
 export const metadata: Metadata = {
-  title: "Currículo Profissional | CV",
+  title: `CV ${currentYear} | ${cvData.personalInfo.name} | ${cvData.personalInfo.title}`,
   description: "Currículo profissional criado com Next.js e Tailwind CSS",
 };
 
