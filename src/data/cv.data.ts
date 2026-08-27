@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor PHP Sênior | Microservices & Cloud",
+    title: "Desenvolvedor PHP Pleno | Laravel & IA",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "36 anos" },
@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor PHP Sênior com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória completa em PHP — desde PHP 5/6 em sistemas legados até PHP 8+ com tipagem estrita — especializado na construção de plataformas de alta complexidade do zero: SaaS B2B, ERPs, APIs de larga escala e microsserviços com foco em escalabilidade, performance e soluções sustentáveis.",
-    "Profundo domínio em Design Patterns, princípios SOLID e Clean Code aplicados em arquiteturas de microsserviços e sistemas distribuídos. Laravel avançado: Eloquent ORM, Horizon, Sanctum/Passport, service containers e Composer. SQL avançado (PostgreSQL, MySQL) e NoSQL (MongoDB, Redis) com modelagem e otimização de queries em ambientes de alto volume.",
-    "Testes automatizados em todas as camadas: unitários e de integração com PHPUnit e Pest, com alta cobertura de código. CI/CD com GitLab, Azure DevOps e Docker. Infraestrutura cloud (AWS, GCP, Azure) e mensageria assíncrona (Kafka, RabbitMQ). Troubleshooting e resolução de incidentes em ambientes produtivos críticos.",
-    "Perfil independente e orientado a resultados, com capacidade de atuar em times globais e remotos. Experiência com metodologias ágeis intermediárias (Scrum, Kanban) e code review — construindo soluções que equilibram inovação, robustez e manutenibilidade a longo prazo.",
+    "Desenvolvedor PHP com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória em PHP do legado (PHP 5/6) ao PHP 8+ com tipagem estrita, atuando principalmente com Laravel na construção e manutenção de APIs REST, integrações e aplicações web — SaaS B2B, ERPs e e-commerces. Conduz demandas de ponta a ponta, do levantamento de requisitos à entrega em produção, com investigação de causa raiz e troubleshooting.",
+    "Boas práticas de código com Design Patterns, princípios SOLID e Clean Code. Laravel na prática: Eloquent ORM, filas (Horizon), autenticação (Sanctum/Passport), service container e Composer. SQL (PostgreSQL, MySQL) com modelagem e otimização de queries; Redis para cache e MongoDB.",
+    "Testes automatizados unitários e de integração com PHPUnit e Pest. Versionamento com Git, CI/CD (GitLab) e Docker em ambientes conteinerizados. Noções de mensageria assíncrona (RabbitMQ) e infraestrutura Linux.",
+    "Atuação em code review, definição de contratos de API e alinhamento técnico com times de Produto e Design. Uso de IA (Claude Code, Cursor, GitHub Copilot) integrado ao fluxo de desenvolvimento. Baseado no Recife/PE, disponível para atuação presencial ou híbrida.",
   ],
 
   education: [
@@ -67,13 +67,13 @@ export const cvData: CVData = {
         "Laravel Horizon",
         "Laravel Sanctum",
         "Eloquent ORM",
+        "CakePHP",
+        "MVC",
         "REST API",
-        "Microserviços",
         "Design Patterns",
         "SOLID",
         "Clean Code",
-        "Clean Architecture",
-        "Algoritmos e Estruturas de Dados",
+        "POO",
         "Swagger/OpenAPI",
         "Composer",
         "Node.js",
@@ -131,7 +131,9 @@ export const cvData: CVData = {
       skills: [
         "Claude Code",
         "Cursor",
+        "GitHub Copilot",
         "AI-assisted Development",
+        "Prompt Engineering",
       ],
       badgeClass: "bg-gray-900 text-white",
     },
@@ -173,24 +175,24 @@ export const cvData: CVData = {
 
   experiences: [
     {
-      title: "Desenvolvedor Laravel / Back-end",
+      title: "Desenvolvedor PHP / Laravel",
       company: "Freelancer",
       period: "08/2025 - 2026",
       responsibilities: [
-        "Desenvolvimento de sistemas do zero em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI, microsserviços e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns, Clean Architecture e princípios SOLID.",
-        "Testes automatizados unitários e de integração com PHPUnit (alta cobertura de código), CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries críticas.",
-        "Atuação independente e autônoma: levantamento de requisitos, decisões arquiteturais, troubleshooting em produção e evolução de sistemas legados PHP com documentação técnica.",
+        "Desenvolvimento de sistemas em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns e princípios SOLID.",
+        "Testes automatizados unitários e de integração com PHPUnit, CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries.",
+        "Atuação autônoma de ponta a ponta: levantamento de requisitos com o cliente, definição da solução técnica, troubleshooting em produção e evolução de sistemas legados PHP, usando IA (Claude Code, Cursor, GitHub Copilot) para acelerar as entregas.",
       ],
-      skills: ["PHP 8+", "Laravel", "Microserviços", "Design Patterns", "Clean Architecture", "SOLID", "REST API", "Swagger/OpenAPI", "PHPUnit", "TDD", "PostgreSQL", "MySQL", "Docker", "CI/CD"],
+      skills: ["PHP 8+", "Laravel", "Design Patterns", "SOLID", "REST API", "Swagger/OpenAPI", "PHPUnit", "TDD", "PostgreSQL", "MySQL", "Docker", "CI/CD", "IA"],
     },
     {
       title: "Desenvolvedor Laravel / Back-end",
       company: "Agile Ecommerce (Startup)",
       period: "01/2024 - 07/2025",
       responsibilities: [
-        "Construção do zero de plataforma SaaS B2B em Laravel (PHP 8) com arquitetura de microsserviços: sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B — Design Patterns, SOLID e Clean Code aplicados em solução escalável de alto volume.",
+        "Construção de plataforma SaaS B2B em Laravel (PHP 8): sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B — Design Patterns, SOLID e Clean Code aplicados na solução.",
         "Desenvolvimento de APIs RESTful com Laravel Lumen, processamento assíncrono com filas (Laravel Horizon/SQS), Redis para cache e testes automatizados unitários e de integração com PHPUnit — reduzindo em mais de 80% o tempo de processamento manual de pedidos.",
-        "MVP aprovado no programa de aceleração do Grupo Ser Educacional. CI/CD com GitLab, containerização com Docker e deploy em cloud.",
+        "Iniciativa na proposta de melhorias técnicas e no code review do time. MVP aprovado no programa de aceleração do Grupo Ser Educacional. CI/CD com GitLab, containerização com Docker e deploy em cloud.",
       ],
       skills: ["PHP 8+", "Laravel", "Laravel Lumen", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "PHPUnit", "PostgreSQL", "MySQL", "Redis", "Docker", "Git"],
     },
