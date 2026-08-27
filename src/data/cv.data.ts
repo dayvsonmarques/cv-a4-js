@@ -6,7 +6,7 @@ export const cvData: CVData = {
     title: "Desenvolvedor PHP Pleno | Laravel & IA",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
-      { icon: "age", text: "36 anos" },
+      { icon: "age", text: "37 anos" },
       { icon: "whatsapp", text: "(81) 99962-3374" },
       {
         icon: "email",
