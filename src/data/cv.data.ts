@@ -30,7 +30,7 @@ export const cvData: CVData = {
   about: [
     "Residente no Recife/PE, disponível para atuação presencial, híbrida ou remota. Desenvolvedor PHP com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória em PHP do legado (PHP 5/6) ao PHP 8+ com tipagem estrita, atuando principalmente com Laravel na construção e manutenção de APIs REST, integrações e aplicações web — SaaS B2B, ERPs e e-commerces. Atua de forma autônoma em todo o ciclo de entrega — do levantamento de requisitos ao deploy em produção — incluindo diagnóstico e correção de problemas.",
     "Boas práticas de código com Design Patterns, princípios SOLID e Clean Code. Laravel na prática: Eloquent ORM, filas (Horizon), autenticação (Sanctum/Passport), service container e Composer. SQL (PostgreSQL, MySQL) com modelagem e otimização de queries; Redis para cache e MongoDB.",
-    "Testes automatizados unitários e de integração com PHPUnit e Pest. Versionamento com Git, CI/CD (GitLab) e Docker em ambientes conteinerizados. Noções de mensageria assíncrona (RabbitMQ) e infraestrutura Linux.",
+    "Testes automatizados unitários e de integração com PHPUnit e Pest. Versionamento com Git, CI/CD (GitLab) e Docker em ambientes conteinerizados. Noções de mensageria assíncrona (RabbitMQ). Mais de 15 anos de Linux — de usuário a administrador de servidores VPS, provisionando e mantendo ambientes de hospedagem para sites e aplicações web (Nginx/Apache, SSH, DNS, SSL).",
     "Atuação em code review, definição de contratos de API e alinhamento técnico com times de Produto e Design. Uso de IA (Claude Code, Cursor, GitHub Copilot) integrado ao fluxo de desenvolvimento.",
   ],
 
@@ -111,6 +111,8 @@ export const cvData: CVData = {
         "Azure",
         "Docker",
         "Linux",
+        "Administração de Servidores",
+        "VPS",
         "CI/CD",
         "Git",
         "GitLab",
