@@ -178,7 +178,7 @@ export const cvData: CVData = {
   experiences: [
     {
       title: "Desenvolvedor PHP / Laravel",
-      company: "Freelancer",
+      company: "Profissional Autônomo",
       period: "08/2025 - 2026",
       responsibilities: [
         "Desenvolvimento de sistemas em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns e princípios SOLID.",
