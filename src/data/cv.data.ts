@@ -162,11 +162,11 @@ export const cvData: CVData = {
       skills: ["PHP", "Laravel", "ERP", "Análise de Crédito", "Regras de Negócio", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
     },
     {
-      title: "Desenvolvedor PHP / Back-end",
+      title: "Desenvolvedor Web Full Stack",
       company: "Agências de Publicidade",
       period: "04/2015 - 03/2018",
       responsibilities: [
-        "Desenvolvimento back-end em PHP para mais de 30 projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo).",
+        "Desenvolvimento front-end (HTML5, CSS3, JavaScript) e back-end em PHP para mais de 30 projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
         "Gestão completa do ciclo de desenvolvimento: levantamento de requisitos, arquitetura, deploy e manutenção em infraestrutura Linux com DNS, SSL via Cloudflare e versionamento com Git.",
       ],
