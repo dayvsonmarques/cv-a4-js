@@ -123,7 +123,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor PHP / Laravel",
       company: "Profissional Autônomo",
-      period: "08/2025 - 2026",
+      period: "07/2026 - 2026",
       responsibilities: [
         "Desenvolvimento de sistemas em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns e princípios SOLID.",
         "Testes automatizados unitários e de integração com PHPUnit, CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries.",
@@ -134,7 +134,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor Laravel / Back-end",
       company: "Agile Ecommerce (Startup)",
-      period: "01/2024 - 07/2025",
+      period: "07/2023 - 06/2026",
       responsibilities: [
         "Construção de plataforma SaaS B2B multi-tenant em Laravel (PHP 8): sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B — Design Patterns, SOLID e Clean Code aplicados na solução.",
         "Desenvolvimento de APIs RESTful com Laravel Lumen, processamento assíncrono com filas (Laravel Horizon/SQS), Redis para cache e testes automatizados unitários e de integração com PHPUnit — reduzindo em mais de 80% o tempo de processamento manual de pedidos.",
@@ -145,7 +145,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor Full Stack Sênior",
       company: "Accenture (SKY | DirectvGo)",
-      period: "08/2019 - 03/2023",
+      period: "08/2019 - 04/2023",
       responsibilities: [
         "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: integração com APIs de back-end (Oracle Cloud Commerce e Oracle DB), construção de Design System, landing pages de alta conversão e testes A/B.",
         "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos — implementando novas funcionalidades, melhorias de performance e integrações com APIs RESTful de conteúdo e autenticação.",
@@ -155,7 +155,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor PHP / Analista de Sistemas",
       company: "Idealizza",
-      period: "03/2018 - 01/2019",
+      period: "03/2018 - 07/2019",
       responsibilities: [
         "ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — regras de negócio complexas de um sistema financeiro de alta criticidade, com SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
         "Manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel/CakePHP, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
@@ -165,7 +165,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor PHP / Back-end",
       company: "Agências de Publicidade",
-      period: "05/2013 - 03/2018",
+      period: "04/2015 - 03/2018",
       responsibilities: [
         "Desenvolvimento back-end em PHP para mais de 30 projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
@@ -176,7 +176,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor / Analista de Sistemas",
       company: "Corptech (Corporate Technologies)",
-      period: "04/2011 - 04/2013",
+      period: "04/2011 - 04/2015",
       responsibilities: [
         "Desenvolvimento de funcionalidades para o WebSuite, ERP web integrado ao SAP/ABAP, usado por grandes empresas com centenas de usuários simultâneos para gestão de processos corporativos — sistema com regras de negócio complexas.",
         "Criação de dashboards analíticos com grandes volumes de informação, gráficos dinâmicos e relatórios gerenciais com JasperReports; diagnóstico e otimização de performance com redução significativa no tempo de resposta de queries críticas.",
