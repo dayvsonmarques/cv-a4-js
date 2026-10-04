@@ -18,6 +18,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
           <p className="experiences__company text-gray-600">{experience.company}</p>
         </div>
         <p className="experiences__period text-sm text-gray-500 text-right">
+          <strong>Período: </strong>
           {periods.map((period, index) => (
             <span key={index} className="block">{period}</span>
           ))}
