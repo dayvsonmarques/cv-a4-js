@@ -125,9 +125,9 @@ export const cvData: CVData = {
       company: "Profissional Autônomo",
       period: "07/2026 - Atualmente",
       responsibilities: [
-        "Desenvolvimento de lojas online em formato SaaS com Next.js, com infraestrutura em VPS Linux na cloud e banco de dados PostgreSQL.",
+        "Desenvolvimento de lojas online em formato SaaS e de sites com Next.js, com infraestrutura em VPS Linux na cloud e banco de dados PostgreSQL.",
         "Testes automatizados unitários e de integração com PHPUnit, CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries.",
-        "Atuação autônoma de ponta a ponta: análise de sistemas legados, levantamento de regras de negócio com o cliente, definição da solução técnica, troubleshooting em produção, usando Claude Code (VS Code) para acelerar as entregas.",
+        "Atuação independente, do levantamento de regras de negócio com o cliente à entrega em produção: análise de sistemas legados, definição da solução técnica e diagnóstico e correção de problemas, usando Claude Code (VS Code) para acelerar as entregas.",
       ],
       skills: ["Next.js", "E-commerce", "SaaS", "VPS Linux", "Cloud", "PostgreSQL", "PHP 8+", "Laravel", "Análise de Regras de Negócio", "PHPUnit", "Docker", "CI/CD"],
     },
