@@ -68,7 +68,7 @@ export const cvData: CVData = {
     },
     {
       title: "APIs & Integrações",
-      skills: ["REST API", "Swagger/OpenAPI", "Webhooks", "Autenticação por Token", "JSON"],
+      skills: ["REST API", "Swagger/OpenAPI", "Webhooks", "JSON"],
       badgeClass: "bg-gray-600 text-white",
     },
     {
