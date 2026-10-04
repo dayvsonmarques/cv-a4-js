@@ -38,7 +38,7 @@ export const cvData: CVData = {
       title: "Bacharelado em Sistemas de Informação",
       institution: "UniNabuco",
       period: "2008 - 2012",
-      description: "TCC: Desenvolvimento de aplicações web com JavaServer Faces (JSF) — abordando componentização e reuso de elementos de interface numa época em que esses conceitos ainda não eram amplamente difundidos no ecossistema web, antecipando práticas que se tornariam padrão com frameworks modernos.",
+      description: "TCC: Desenvolvimento de aplicações web com JavaServer Faces (JSF), abordando componentização e reuso de elementos de interface numa época em que esses conceitos ainda não eram amplamente difundidos no ecossistema web, antecipando práticas que se tornariam padrão com frameworks modernos.",
     },
     {
       title: "Desenvolvimento Web com Java",
@@ -135,8 +135,8 @@ export const cvData: CVData = {
       company: "Agile Ecommerce (Startup)",
       period: "07/2023 - 06/2026",
       responsibilities: [
-        "Construção de plataforma SaaS B2B multi-tenant em Laravel (PHP 8): sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B — Design Patterns, SOLID e Clean Code aplicados na solução.",
-        "Desenvolvimento de APIs RESTful com Laravel Lumen, processamento assíncrono com filas (Laravel Horizon/SQS), Redis para cache e testes automatizados unitários e de integração com PHPUnit — reduzindo em mais de 80% o tempo de processamento manual de pedidos.",
+        "Construção de plataforma SaaS B2B multi-tenant em Laravel (PHP 8): sincronização de pedidos com ERPs corporativos em tempo real para dezenas de clientes B2B, com Design Patterns, SOLID e Clean Code aplicados na solução.",
+        "Desenvolvimento de APIs RESTful com Laravel Lumen, processamento assíncrono com filas (Laravel Horizon/SQS), Redis para cache e testes automatizados unitários e de integração com PHPUnit, reduzindo em mais de 80% o tempo de processamento manual de pedidos.",
         "Iniciativa na proposta de melhorias técnicas e no code review do time. MVP aprovado no programa de aceleração do Grupo Ser Educacional. CI/CD com GitLab, containerização com Docker e deploy em cloud.",
       ],
       skills: ["PHP 8+", "Laravel", "Laravel Lumen", "Laravel Horizon", "REST API", "Swagger/OpenAPI", "SOLID", "PHPUnit", "PostgreSQL", "MySQL", "Redis", "Docker", "Git"],
@@ -147,7 +147,7 @@ export const cvData: CVData = {
       period: "08/2019 - 04/2023",
       responsibilities: [
         "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: integração com APIs de back-end (Oracle Cloud Commerce e Oracle DB), construção de Design System, landing pages de alta conversão e testes A/B.",
-        "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos — implementando novas funcionalidades, melhorias de performance e integrações com APIs RESTful de conteúdo e autenticação.",
+        "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos, implementando novas funcionalidades, melhorias de performance e integrações com APIs RESTful de conteúdo e autenticação.",
       ],
       skills: ["React", "React Native", "JavaScript", "Node.js", "REST API", "Oracle Cloud Commerce", "Oracle DB", "Liferay CMS", "HTML5", "CSS3", "SASS", "Bootstrap"],
     },
@@ -156,7 +156,7 @@ export const cvData: CVData = {
       company: "Idealizza",
       period: "03/2018 - 07/2019",
       responsibilities: [
-        "ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — regras de negócio complexas de um sistema financeiro de alta criticidade, com SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
+        "ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais, em um sistema financeiro de alta criticidade com regras de negócio complexas, SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
         "Manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
       ],
       skills: ["PHP", "Laravel", "ERP", "Análise de Crédito", "Regras de Negócio", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
@@ -177,7 +177,7 @@ export const cvData: CVData = {
       company: "Corptech (Corporate Technologies)",
       period: "04/2011 - 04/2015",
       responsibilities: [
-        "Desenvolvimento de funcionalidades para o WebSuite, ERP web integrado ao SAP/ABAP, usado por grandes empresas com centenas de usuários simultâneos para gestão de processos corporativos — sistema com regras de negócio complexas.",
+        "Desenvolvimento de funcionalidades para o WebSuite, ERP web integrado ao SAP/ABAP, usado por grandes empresas com centenas de usuários simultâneos para gestão de processos corporativos, com regras de negócio complexas.",
         "Criação de dashboards analíticos com grandes volumes de informação, gráficos dinâmicos e relatórios gerenciais com JasperReports; diagnóstico e otimização de performance com redução significativa no tempo de resposta de queries críticas.",
       ],
       skills: ["Java", "J2EE", "JSP", "JSF", "ERP", "Dashboards", "Regras de Negócio", "MySQL", "PostgreSQL", "Hibernate", "JasperReports"],
