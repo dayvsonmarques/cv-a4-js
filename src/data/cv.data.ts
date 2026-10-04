@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Residente em Recife/PE, disponível para PJ remoto ou híbrido. Desenvolvedor Full Stack PHP/React com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória sólida em frameworks PHP MVC (Laravel, CakePHP) e React no front-end, com foco em analisar sistemas existentes, entender regras de negócio e transformá-las em soluções técnicas.",
+    "Residente em Recife/PE. Desenvolvedor Full Stack PHP/React com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória sólida em frameworks PHP MVC (Laravel, CakePHP) e React no front-end, com foco em analisar sistemas existentes, entender regras de negócio e transformá-las em soluções técnicas.",
     "Experiência real com sistemas corporativos: ERP para gestão de empréstimos bancários (cadastro de clientes, análise de crédito, contratos, relatórios gerenciais) e plataforma SaaS B2B com sincronização de pedidos entre ERPs. Arquitetura com separação de responsabilidades (Design Patterns, SOLID, Clean Code), autenticação e controle de acesso (Laravel Sanctum/Passport).",
     "Modelagem de banco de dados relacional (MySQL, PostgreSQL), migrations, consultas e otimização de queries. APIs REST documentadas (Swagger/OpenAPI), integrações entre sistemas, filas e processamento assíncrono (RabbitMQ/SQS), Redis para cache. Boas práticas de segurança (prevenção de SQL Injection e XSS).",
     "Testes automatizados (PHPUnit, Jest), Git, CI/CD e Docker. Ambiente Linux/Ubuntu com Apache — administração de servidores e deploy. Autonomia para conduzir demandas de ponta a ponta, code review e documentação técnica.",
