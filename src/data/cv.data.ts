@@ -125,11 +125,11 @@ export const cvData: CVData = {
       company: "Profissional Autônomo",
       period: "07/2026 - Atualmente",
       responsibilities: [
-        "Desenvolvimento de sistemas em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns e princípios SOLID.",
+        "Desenvolvimento de lojas online com Next.js e de um SaaS de e-commerce, com infraestrutura em VPS Linux na cloud e banco de dados PostgreSQL.",
         "Testes automatizados unitários e de integração com PHPUnit, CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries.",
         "Atuação autônoma de ponta a ponta: análise de sistemas legados, levantamento de regras de negócio com o cliente, definição da solução técnica, troubleshooting em produção, usando Claude Code (VS Code) para acelerar as entregas.",
       ],
-      skills: ["PHP 8+", "Laravel", "Análise de Regras de Negócio", "Design Patterns", "SOLID", "REST API", "Swagger/OpenAPI", "PHPUnit", "TDD", "PostgreSQL", "MySQL", "Docker", "CI/CD"],
+      skills: ["Next.js", "E-commerce", "SaaS", "VPS Linux", "Cloud", "PostgreSQL", "PHP 8+", "Laravel", "Análise de Regras de Negócio", "PHPUnit", "Docker", "CI/CD"],
     },
     {
       title: "Desenvolvedor Laravel / Back-end",
