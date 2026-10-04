@@ -20,7 +20,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
         <p className="experiences__period text-sm text-gray-500 text-right">
           <strong>Período: </strong>
           {periods.map((period, index) => (
-            <span key={index} className="block">{period}</span>
+            <span key={index}>{period}{index < periods.length - 1 ? ', ' : ''}</span>
           ))}
         </p>
       </header>
