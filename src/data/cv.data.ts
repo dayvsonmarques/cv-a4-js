@@ -28,7 +28,7 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Residente em Recife/PE. Desenvolvedor Full Stack PHP/React com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória sólida em frameworks PHP MVC (Laravel, CakePHP) e React no front-end, com foco em analisar sistemas existentes, entender regras de negócio e transformá-las em soluções técnicas.",
+    "Residente em Recife/PE. Desenvolvedor Full Stack PHP/React com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória sólida em frameworks PHP MVC (Laravel) e React no front-end, com foco em analisar sistemas existentes, entender regras de negócio e transformá-las em soluções técnicas.",
     "Experiência real com sistemas corporativos: ERP para gestão de empréstimos bancários (cadastro de clientes, análise de crédito, contratos, relatórios gerenciais) e plataforma SaaS B2B com sincronização de pedidos entre ERPs. Arquitetura com separação de responsabilidades (Design Patterns, SOLID, Clean Code), autenticação e controle de acesso (Laravel Sanctum/Passport).",
     "Modelagem de banco de dados relacional (MySQL, PostgreSQL), migrations, consultas e otimização de queries. APIs REST documentadas (Swagger/OpenAPI), integrações entre sistemas, filas e processamento assíncrono (RabbitMQ/SQS), Redis para cache. Boas práticas de segurança (prevenção de SQL Injection e XSS).",
     "Testes automatizados (PHPUnit, Jest), Git, CI/CD e Docker. Ambiente Linux/Ubuntu com Apache — administração de servidores e deploy. Autonomia para conduzir demandas de ponta a ponta, code review e documentação técnica.",
@@ -58,7 +58,7 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: "Back-end & Arquitetura",
-      skills: ["PHP 8+", "Laravel", "CakePHP", "MVC", "Eloquent ORM", "Migrations", "Design Patterns", "SOLID", "Clean Code", "Composer"],
+      skills: ["PHP 8+", "Laravel", "MVC", "Eloquent ORM", "Migrations", "Design Patterns", "SOLID", "Clean Code", "Composer"],
       badgeClass: "bg-gray-300 text-gray-900",
     },
     {
@@ -158,9 +158,9 @@ export const cvData: CVData = {
       period: "03/2018 - 07/2019",
       responsibilities: [
         "ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais — regras de negócio complexas de um sistema financeiro de alta criticidade, com SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
-        "Manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel/CakePHP, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
+        "Manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
       ],
-      skills: ["PHP", "Laravel", "CakePHP", "ERP", "Análise de Crédito", "Regras de Negócio", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
+      skills: ["PHP", "Laravel", "ERP", "Análise de Crédito", "Regras de Negócio", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
     },
     {
       title: "Desenvolvedor PHP / Back-end",
