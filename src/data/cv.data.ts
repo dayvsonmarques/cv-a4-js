@@ -31,7 +31,7 @@ export const cvData: CVData = {
     "Desenvolvedor Full Stack com mais de 15 anos de experiência, atuando principalmente com PHP e Laravel no back-end e React no front-end. Graduado em Sistemas de Informação pela UniNabuco (2012), com sólida vivência na construção, manutenção, monitoramento e análise de sistemas, incluindo correção de falhas e otimização de performance e segurança.",
     "Atua em sistemas corporativos como ERPs, com módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais, e em plataformas SaaS B2B com integração entre múltiplos sistemas. Aplica boas práticas de arquitetura como Design Patterns, SOLID e Clean Code, e implementa autenticação e controle de acesso com Laravel Sanctum e Passport.",
     "Modela bancos de dados relacionais em MySQL e PostgreSQL, com migrations e otimização de consultas SQL. Desenvolve APIs REST documentadas com Swagger/OpenAPI, realiza integrações entre sistemas, trabalha com filas e processamento assíncrono (RabbitMQ, SQS) e usa Redis para cache. Mantém atenção constante a segurança, prevenindo SQL Injection e XSS.",
-    "Escreve testes automatizados com PHPUnit e Jest, versiona código com Git e utiliza CI/CD e Docker no deploy. Administra servidores Linux/Ubuntu com Apache, atua em times ágeis (Scrum, Kanban) e usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
+    "Escreve testes automatizados com PHPUnit e Jest, com versionamento de código em Git, e utiliza CI/CD e Docker no deploy. Administra servidores Linux/Ubuntu com Apache, atua em times ágeis (Scrum, Kanban) e usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
   ],
 
   education: [
