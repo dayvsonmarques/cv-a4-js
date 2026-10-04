@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Residente em Recife/PE. Desenvolvedor Full Stack PHP/React com mais de 15 anos de experiência, graduado em Sistemas de Informação pela UniNabuco (2012). Trajetória sólida em frameworks PHP MVC (Laravel) e React no front-end, com foco em analisar sistemas existentes, entender regras de negócio e transformá-las em soluções técnicas.",
-    "Experiência real com sistemas corporativos: ERP para gestão de empréstimos bancários (cadastro de clientes, análise de crédito, contratos, relatórios gerenciais) e plataforma SaaS B2B com sincronização de pedidos entre ERPs. Arquitetura com separação de responsabilidades (Design Patterns, SOLID, Clean Code), autenticação e controle de acesso (Laravel Sanctum/Passport).",
-    "Modelagem de banco de dados relacional (MySQL, PostgreSQL), migrations, consultas e otimização de queries. APIs REST documentadas (Swagger/OpenAPI), integrações entre sistemas, filas e processamento assíncrono (RabbitMQ/SQS), Redis para cache. Boas práticas de segurança (prevenção de SQL Injection e XSS).",
-    "Testes automatizados (PHPUnit, Jest), Git, CI/CD e Docker. Ambiente Linux/Ubuntu com Apache — administração de servidores e deploy. Autonomia para conduzir demandas de ponta a ponta, code review e documentação técnica.",
+    "Desenvolvedor Full Stack com mais de 15 anos de experiência em PHP e Laravel no back-end e React no front-end. Graduado em Sistemas de Informação pela UniNabuco (2012), com histórico de análise de sistemas existentes, levantamento de regras de negócio e definição de soluções técnicas — da arquitetura à entrega em produção.",
+    "Experiência prática em sistemas corporativos: ERPs (cadastro de clientes, análise de crédito, contratos, relatórios gerenciais) e plataformas SaaS B2B com integração entre múltiplos sistemas. Arquitetura orientada a boas práticas — Design Patterns, SOLID e Clean Code —, com autenticação e controle de acesso via Laravel Sanctum e Passport.",
+    "Modelagem de banco de dados relacional (MySQL, PostgreSQL), migrations e otimização de consultas SQL. Desenvolvimento de APIs REST documentadas com Swagger/OpenAPI, integrações entre sistemas, filas e processamento assíncrono (RabbitMQ, SQS) e cache com Redis. Aplicação de boas práticas de segurança, incluindo prevenção de SQL Injection e XSS.",
+    "Testes automatizados com PHPUnit e Jest, versionamento com Git, integração contínua (CI/CD) e containerização com Docker. Administração de servidores Linux/Ubuntu com Apache, trabalho em metodologias ágeis (Scrum, Kanban) e uso de ferramentas de IA (Claude Code) para ganhar produtividade no desenvolvimento.",
   ],
 
   education: [
