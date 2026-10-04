@@ -28,10 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor Full Stack com mais de 15 anos de experiência, atuando principalmente com PHP e Laravel no back-end e React no front-end. Sou graduado em Sistemas de Informação pela UniNabuco (2012), com sólida vivência na construção, manutenção, monitoramento e análise de sistemas, incluindo correção de falhas e otimização de performance e segurança.",
-    "Já trabalhei em sistemas corporativos como ERPs, com módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais, e também em plataformas SaaS B2B que integram múltiplos sistemas. Sigo boas práticas de arquitetura, como Design Patterns, SOLID e Clean Code, e uso Laravel Sanctum e Passport para autenticação e controle de acesso.",
-    "No banco de dados, modelo estruturas relacionais em MySQL e PostgreSQL, uso migrations e otimizo consultas SQL. Desenvolvo APIs REST documentadas com Swagger/OpenAPI, faço integrações entre sistemas, trabalho com filas e processamento assíncrono (RabbitMQ, SQS) e uso Redis para cache. Presto atenção a segurança, prevenindo SQL Injection e XSS.",
-    "Escrevo testes automatizados com PHPUnit e Jest, uso Git no dia a dia, CI/CD e Docker para deploy. Administro servidores Linux/Ubuntu com Apache, trabalho em times ágeis (Scrum, Kanban) e uso o Claude Code como ferramenta de produtividade no desenvolvimento.",
+    "Desenvolvedor Full Stack com mais de 15 anos de experiência, atuando principalmente com PHP e Laravel no back-end e React no front-end. Graduado em Sistemas de Informação pela UniNabuco (2012), com sólida vivência na construção, manutenção, monitoramento e análise de sistemas, incluindo correção de falhas e otimização de performance e segurança.",
+    "Atua em sistemas corporativos como ERPs, com módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais, e em plataformas SaaS B2B com integração entre múltiplos sistemas. Aplica boas práticas de arquitetura como Design Patterns, SOLID e Clean Code, e implementa autenticação e controle de acesso com Laravel Sanctum e Passport.",
+    "Modela bancos de dados relacionais em MySQL e PostgreSQL, com migrations e otimização de consultas SQL. Desenvolve APIs REST documentadas com Swagger/OpenAPI, realiza integrações entre sistemas, trabalha com filas e processamento assíncrono (RabbitMQ, SQS) e usa Redis para cache. Mantém atenção constante a segurança, prevenindo SQL Injection e XSS.",
+    "Escreve testes automatizados com PHPUnit e Jest, versiona código com Git e utiliza CI/CD e Docker no deploy. Administra servidores Linux/Ubuntu com Apache, atua em times ágeis (Scrum, Kanban) e usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
   ],
 
   education: [
