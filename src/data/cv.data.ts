@@ -166,7 +166,7 @@ export const cvData: CVData = {
       company: "Agências de Publicidade",
       period: "04/2015 - 03/2018",
       responsibilities: [
-        "Desenvolvimento front-end (HTML5, CSS3, JavaScript) e back-end em PHP para mais de 30 projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, festivais literários, portfólios e comércio de produtos e serviços).",
+        "Desenvolvimento front-end (HTML5, CSS3, JavaScript) e back-end em PHP para diversos projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, festivais literários, portfólios e comércio de produtos e serviços).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
         "Gestão completa do ciclo de desenvolvimento: levantamento de requisitos, arquitetura, deploy e manutenção em infraestrutura Linux com DNS, SSL via Cloudflare e versionamento com Git.",
       ],
