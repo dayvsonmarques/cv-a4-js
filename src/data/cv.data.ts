@@ -51,7 +51,7 @@ export const cvData: CVData = {
       title: "Github Copilot e Desenvolvimento Web com IA",
       institution: "EV.G (Escola Virtual do Governo)| Microsoft",
       period: "2026",
-      description: "Participei de um programa de capacitação sobre o uso do GitHub Copilot para desenvolvimento web com inteligência artificial, aprendendo a integrar a ferramenta em fluxos de trabalho de desenvolvimento."
+      description: "Capacitação sobre o uso do GitHub Copilot em desenvolvimento web com inteligência artificial, com foco na integração da ferramenta a fluxos de trabalho de desenvolvimento."
     },
   ],
 
