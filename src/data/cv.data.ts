@@ -121,13 +121,13 @@ export const cvData: CVData = {
 
   experiences: [
     {
-      title: "Desenvolvedor PHP / Laravel",
+      title: "Desenvolvedor Web Fullstack",
       company: "Profissional Autônomo",
-      period: "07/2026 - 2026",
+      period: "07/2026 - Atualmente",
       responsibilities: [
         "Desenvolvimento de sistemas em PHP 8+/Laravel: APIs RESTful documentadas com Swagger/OpenAPI e integrações para clientes dos setores de cartão de crédito e saúde — com Design Patterns e princípios SOLID.",
         "Testes automatizados unitários e de integração com PHPUnit, CI/CD com Docker e pipelines automatizados. Modelagem de banco de dados (PostgreSQL/MySQL) e otimização de queries.",
-        "Atuação autônoma de ponta a ponta: análise de sistemas legados, levantamento de regras de negócio com o cliente, definição da solução técnica, troubleshooting em produção, usando IA (Claude Code, Cursor, GitHub Copilot) para acelerar as entregas.",
+        "Atuação autônoma de ponta a ponta: análise de sistemas legados, levantamento de regras de negócio com o cliente, definição da solução técnica, troubleshooting em produção, usando Claude Code (VS Code) para acelerar as entregas.",
       ],
       skills: ["PHP 8+", "Laravel", "Análise de Regras de Negócio", "Design Patterns", "SOLID", "REST API", "Swagger/OpenAPI", "PHPUnit", "TDD", "PostgreSQL", "MySQL", "Docker", "CI/CD"],
     },
