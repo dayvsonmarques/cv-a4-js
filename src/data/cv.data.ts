@@ -157,7 +157,7 @@ export const cvData: CVData = {
       period: "03/2018 - 07/2019",
       responsibilities: [
         "ERP corporativo para gestão de empréstimos bancários em Laravel: módulos de cadastro de clientes, análise de crédito, contratos e relatórios gerenciais, em um sistema financeiro de alta criticidade com regras de negócio complexas, SQL Server, Stored Procedures, Functions e queries complexas otimizadas.",
-        "Manutenção de plataformas EAD com mais de 10.000 alunos ativos em Laravel, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
+        "Manutenção de plataformas EAD em Laravel com mais de 10.000 alunos ativos, com controle de usuários e permissões, testes automatizados (PHPUnit) e boas práticas de segurança (SQL Injection, XSS).",
       ],
       skills: ["PHP", "Laravel", "ERP", "Análise de Crédito", "Regras de Negócio", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
     },
