@@ -164,7 +164,7 @@ export const cvData: CVData = {
     {
       title: "Desenvolvedor Web Full Stack",
       company: "Agências de Publicidade",
-      period: "04/2015 - 03/2018",
+      period: "06/2015 - 03/2018",
       responsibilities: [
         "Desenvolvimento front-end (HTML5, CSS3, JavaScript) e back-end em PHP para diversos projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, projetos de edital aprovados, portfólios e comércio de produtos e serviços).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
