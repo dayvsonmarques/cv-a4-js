@@ -97,7 +97,7 @@ export const cvData: CVData = {
     },
     {
       title: "IA & Ferramentas",
-      skills: ["Claude Code", "Cursor", "GitHub Copilot"],
+      skills: ["Claude Code", "Codex", "Cursor", "GitHub Copilot"],
       badgeClass: "bg-gray-900 text-white",
     },
     {
