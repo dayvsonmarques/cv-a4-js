@@ -30,7 +30,7 @@ export const cvData: CVData = {
   about: [
     "Desenvolvedor Full Stack com mais de 15 anos de experiência, atuando principalmente com PHP e Laravel no back-end e React no front-end. Graduado em Sistemas de Informação pela UniNabuco (2012), com vivência na construção, manutenção e análise de sistemas corporativos como ERPs e plataformas SaaS B2B, do levantamento de regras de negócio à entrega em produção.",
     "Aplica boas práticas de arquitetura (Design Patterns, SOLID, Clean Code), modela bancos de dados relacionais em MySQL e PostgreSQL e desenvolve APIs REST documentadas com Swagger/OpenAPI. Trabalha com autenticação e controle de acesso, filas e processamento assíncrono, cache com Redis e segurança (prevenção de SQL Injection e XSS).",
-    "Escreve testes automatizados com PHPUnit e Jest, usa Git, CI/CD e Docker no dia a dia, administra servidores Linux/Ubuntu com Apache e atua em times ágeis (Scrum, Kanban). Usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
+    "Escreve testes automatizados com PHPUnit e Jest, usa Git, CI/CD e Docker no dia a dia, administra servidores Linux e atua em times ágeis (Scrum, Kanban). Usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
   ],
 
   education: [
@@ -72,7 +72,7 @@ export const cvData: CVData = {
     },
     {
       title: "Banco de Dados",
-      skills: ["MySQL", "PostgreSQL", "SQL Server", "Modelagem Relacional", "Foreign Keys", "Índices", "Stored Procedures"],
+      skills: ["MySQL", "PostgreSQL", "SQL Server"],
       badgeClass: "bg-gray-400 text-white",
     },
     {
@@ -87,7 +87,7 @@ export const cvData: CVData = {
     },
     {
       title: "Infraestrutura & Versionamento",
-      skills: ["Linux/Ubuntu", "Apache2", "Docker", "Git", "GitLab", "CI/CD"],
+      skills: ["Linux", "Docker", "Git", "GitLab", "CI/CD"],
       badgeClass: "bg-gray-500 text-white",
     },
     {
