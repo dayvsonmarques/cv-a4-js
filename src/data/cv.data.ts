@@ -57,12 +57,12 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: "Back-end & Arquitetura",
-      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Node.js"],
+      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Node.js", "AdonisJS"],
       badgeClass: "bg-gray-300 text-gray-900",
     },
     {
       title: "Front-end",
-      skills: ["React", "Vue.js", "JavaScript", "TypeScript", "HTML5", "CSS3"],
+      skills: ["React", "React Native", "Vue.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Sass", "Tailwind CSS", "Material UI", "Bootstrap"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
     {
@@ -72,7 +72,7 @@ export const cvData: CVData = {
     },
     {
       title: "Banco de Dados",
-      skills: ["MySQL", "PostgreSQL", "SQL Server"],
+      skills: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB", "Prisma"],
       badgeClass: "bg-gray-400 text-white",
     },
     {
@@ -87,13 +87,23 @@ export const cvData: CVData = {
     },
     {
       title: "Infraestrutura & Versionamento",
-      skills: ["Linux", "Docker", "Git", "GitLab", "CI/CD"],
+      skills: ["Linux", "Docker", "Git", "GitLab", "CI/CD", "AWS", "Google Cloud", "Nginx", "Apache", "Jenkins"],
       badgeClass: "bg-gray-500 text-white",
     },
     {
       title: "Testes",
-      skills: ["PHPUnit", "Jest"],
+      skills: ["PHPUnit", "Pest", "Jest", "React Testing Library"],
       badgeClass: "bg-gray-800 text-white",
+    },
+    {
+      title: "Design & CMS",
+      skills: ["Figma", "WordPress", "WooCommerce"],
+      badgeClass: "bg-gray-400 text-white",
+    },
+    {
+      title: "Observabilidade & Analytics",
+      skills: ["Grafana", "Datadog", "Sentry", "CloudWatch", "Google Analytics", "Hotjar"],
+      badgeClass: "bg-gray-700 text-white",
     },
     {
       title: "IA & Ferramentas",
@@ -102,7 +112,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban", "Jira"],
+      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello", "Asana"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
   ],
