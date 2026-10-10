@@ -57,12 +57,12 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: "Back-end & Arquitetura",
-      skills: ["PHP 8+", "Laravel", "MVC", "Eloquent ORM", "Migrations", "Design Patterns", "SOLID", "Clean Code", "Composer"],
+      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Composer"],
       badgeClass: "bg-gray-300 text-gray-900",
     },
     {
       title: "Front-end",
-      skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Responsive Design"],
+      skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
     {
@@ -77,12 +77,12 @@ export const cvData: CVData = {
     },
     {
       title: "Segurança",
-      skills: ["Laravel Sanctum", "Laravel Passport", "Controle de Acesso", "Prevenção de SQL Injection", "Prevenção de XSS"],
+      skills: ["Laravel Sanctum", "Laravel Passport"],
       badgeClass: "bg-gray-700 text-white",
     },
     {
       title: "Performance & Mensageria",
-      skills: ["Redis", "RabbitMQ", "SQS", "Filas e Processamento Assíncrono", "Otimização de Queries"],
+      skills: ["Redis", "RabbitMQ", "SQS"],
       badgeClass: "bg-gray-500 text-white",
     },
     {
@@ -92,7 +92,7 @@ export const cvData: CVData = {
     },
     {
       title: "Testes",
-      skills: ["PHPUnit", "Jest", "TDD", "Testes Automatizados"],
+      skills: ["PHPUnit", "Jest"],
       badgeClass: "bg-gray-800 text-white",
     },
     {
@@ -102,7 +102,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban", "Code Review"],
+      skills: ["Scrum", "Kanban"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
   ],
