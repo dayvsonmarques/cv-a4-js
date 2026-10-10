@@ -57,17 +57,17 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: "Back-end & Arquitetura",
-      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Composer"],
+      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Node.js"],
       badgeClass: "bg-gray-300 text-gray-900",
     },
     {
       title: "Front-end",
-      skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3"],
+      skills: ["React", "Vue.js", "JavaScript", "TypeScript", "HTML5", "CSS3"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
     {
       title: "APIs & Integrações",
-      skills: ["REST API", "Swagger/OpenAPI", "Webhooks", "JSON"],
+      skills: ["REST API", "Swagger/OpenAPI"],
       badgeClass: "bg-gray-600 text-white",
     },
     {
@@ -102,7 +102,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban"],
+      skills: ["Scrum", "Kanban", "Jira"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
   ],
