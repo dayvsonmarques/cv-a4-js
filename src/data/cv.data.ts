@@ -38,7 +38,7 @@ export const cvData: CVData = {
       title: "Bacharelado em Sistemas de Informação",
       institution: "UniNabuco",
       period: "2008 - 2012",
-      description: "TCC: Desenvolvimento de aplicações web com JavaServer Faces (JSF), abordando componentização e reuso de elementos de interface numa época em que esses conceitos ainda não eram amplamente difundidos no ecossistema web, antecipando práticas que se tornariam padrão com frameworks modernos.",
+      description: "TCC: Desenvolvimento de aplicações web com JavaServer Faces (JSF), com foco em componentização e reuso de elementos de interface.",
     },
     {
       title: "Desenvolvimento Web com Java",
