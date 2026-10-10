@@ -44,7 +44,7 @@ export const cvData: CVData = {
       title: "Desenvolvimento Web com Java",
       institution: "Softex Recife",
       period: "2013",
-      description: "Desenvolvi uma aplicação web com Java (J2EE) integrada com banco de dados, para gerenciamento de dados (CRUD), aplicando na pratica os conceitos abordados."
+      description: "Construção de um sistema web básico em Java (J2EE) integrado a banco de dados, para gerenciamento de dados (CRUD), aplicando na prática os conceitos abordados no curso."
     },
     {
       title: "Github Copilot e Desenvolvimento Web com IA",
