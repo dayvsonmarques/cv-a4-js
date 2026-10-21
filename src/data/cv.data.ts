@@ -3,7 +3,7 @@ import { CVData } from "@/types/cv.types";
 export const cvData: CVData = {
   personalInfo: {
     name: "Dayvson Marques",
-    title: "Desenvolvedor Full Stack | PHP, Laravel & React",
+    title: "Web Designer | WordPress & Landing Pages",
     contacts: [
       { icon: "location", text: "Recife – PE, Brasil" },
       { icon: "age", text: "37 anos" },
@@ -28,9 +28,10 @@ export const cvData: CVData = {
   },
 
   about: [
-    "Desenvolvedor Full Stack com mais de 15 anos de experiência, atuando principalmente com PHP e Laravel no back-end e React no front-end. Graduado em Sistemas de Informação pela UniNabuco (2012), com vivência na construção, manutenção e análise de sistemas corporativos como ERPs e plataformas SaaS B2B, do levantamento de regras de negócio à entrega em produção.",
-    "Aplica boas práticas de arquitetura (Design Patterns, SOLID, Clean Code), modela bancos de dados relacionais em MySQL e PostgreSQL e desenvolve APIs REST documentadas com Swagger/OpenAPI. Trabalha com autenticação e controle de acesso, filas e processamento assíncrono, cache com Redis e segurança (prevenção de SQL Injection e XSS).",
-    "Escreve testes automatizados com PHPUnit e Jest, usa Git, CI/CD e Docker no dia a dia, administra servidores Linux e atua em times ágeis (Scrum, Kanban). Usa o Claude Code como ferramenta de produtividade no desenvolvimento.",
+    "Web Designer e desenvolvedor com mais de 15 anos de experiência, atuando na criação de sites institucionais, landing pages e lojas online com WordPress. Trabalha com HTML, CSS e JavaScript para garantir responsividade em celulares, tablets e desktops.",
+    "Desenvolveu dezenas de projetos web para clientes de múltiplos segmentos (turismo, artes, livraria, saúde, varejo, jurídico), com customizações visuais e funcionais específicas para cada site. Experiência com WooCommerce para e-commerce em WordPress.",
+    "Participou da construção de Design System e landing pages de alta conversão em produto de e-commerce de grande escala (Accenture/SKY), com foco em performance e testes A/B. Usa Figma para protótipos e handoff de telas.",
+    "Organização e autonomia para conduzir projetos do início ao fim, atenção aos detalhes e cumprimento de prazos. Disponível para trabalho 100% remoto.",
   ],
 
   education: [
@@ -56,54 +57,24 @@ export const cvData: CVData = {
 
   skillCategories: [
     {
-      title: "Back-end & Arquitetura",
-      skills: ["PHP 8+", "Laravel", "Eloquent ORM", "Node.js", "AdonisJS"],
-      badgeClass: "bg-gray-300 text-gray-900",
+      title: "Design & WordPress",
+      skills: ["WordPress", "WooCommerce", "Figma", "UX/UI", "Landing Pages", "SEO Técnico"],
+      badgeClass: "bg-gray-400 text-white",
     },
     {
       title: "Front-end",
-      skills: ["React", "React Native", "Vue.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Sass", "Tailwind CSS", "Material UI", "Bootstrap"],
+      skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Responsive Design"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
     {
-      title: "APIs & Integrações",
-      skills: ["REST API", "Swagger/OpenAPI"],
-      badgeClass: "bg-gray-600 text-white",
+      title: "Back-end",
+      skills: ["PHP 8+", "Laravel", "Node.js", "MySQL", "PostgreSQL"],
+      badgeClass: "bg-gray-300 text-gray-900",
     },
     {
-      title: "Banco de Dados",
-      skills: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB", "Prisma"],
-      badgeClass: "bg-gray-400 text-white",
-    },
-    {
-      title: "Segurança",
-      skills: ["Laravel Sanctum", "Laravel Passport"],
-      badgeClass: "bg-gray-700 text-white",
-    },
-    {
-      title: "Performance & Mensageria",
-      skills: ["Redis", "RabbitMQ", "SQS"],
+      title: "Ferramentas & Versionamento",
+      skills: ["Git", "GitLab", "Docker", "CI/CD"],
       badgeClass: "bg-gray-500 text-white",
-    },
-    {
-      title: "Infraestrutura & Versionamento",
-      skills: ["Linux", "Docker", "Git", "GitLab", "CI/CD", "AWS", "Google Cloud", "Nginx", "Apache", "Jenkins"],
-      badgeClass: "bg-gray-500 text-white",
-    },
-    {
-      title: "Testes",
-      skills: ["PHPUnit", "Pest", "Jest", "React Testing Library"],
-      badgeClass: "bg-gray-800 text-white",
-    },
-    {
-      title: "Design & CMS",
-      skills: ["Figma", "WordPress", "WooCommerce"],
-      badgeClass: "bg-gray-400 text-white",
-    },
-    {
-      title: "Observabilidade & Analytics",
-      skills: ["Grafana", "Datadog", "Sentry", "CloudWatch", "Google Analytics", "Hotjar"],
-      badgeClass: "bg-gray-700 text-white",
     },
     {
       title: "IA & Ferramentas",
@@ -112,7 +83,7 @@ export const cvData: CVData = {
     },
     {
       title: "Metodologias & Gestão",
-      skills: ["Scrum", "Kanban", "XP", "Jira", "Trello", "Asana"],
+      skills: ["Scrum", "Kanban", "Jira", "Trello"],
       badgeClass: "bg-gray-200 text-gray-800",
     },
   ],
@@ -156,10 +127,10 @@ export const cvData: CVData = {
       company: "Accenture (SKY | DirectvGo)",
       period: "08/2019 - 04/2023",
       responsibilities: [
-        "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: integração com APIs de back-end (Oracle Cloud Commerce e Oracle DB), construção de Design System, landing pages de alta conversão e testes A/B.",
-        "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos, implementando novas funcionalidades, melhorias de performance e integrações com APIs RESTful de conteúdo e autenticação.",
+        "Na SKY Brasil, atuei em produto de e-commerce de grande escala por mais de 3 anos: construção de Design System, landing pages de alta conversão e testes A/B, com protótipos e handoff via Figma.",
+        "Na DirecTV SKY Latam, integrei o time do portal de streaming com mais de 5 milhões de usuários ativos, implementando novas funcionalidades e melhorias de performance.",
       ],
-      skills: ["React", "React Native", "JavaScript", "Node.js", "REST API", "Oracle Cloud Commerce", "Oracle DB", "Liferay CMS", "HTML5", "CSS3", "SASS", "Bootstrap"],
+      skills: ["Design System", "Figma", "Landing Pages", "Testes A/B", "React", "HTML5", "CSS3", "SASS", "Bootstrap"],
     },
     {
       title: "Desenvolvedor PHP / Analista de Sistemas",
@@ -173,11 +144,11 @@ export const cvData: CVData = {
       skills: ["PHP", "Laravel", "ERP", "Empréstimos Consignados", "Análise de Crédito", "Regras de Negócio", "EAD", "E-commerce", "PHPUnit", "MySQL", "SQL Server", "Stored Procedures", "SOLID", "Segurança"],
     },
     {
-      title: "Desenvolvedor Web Full Stack",
+      title: "Web Designer / Desenvolvedor Front-end",
       company: "Agências de Publicidade",
       period: "06/2015 - 03/2018",
       responsibilities: [
-        "Desenvolvimento front-end (HTML5, CSS3, JavaScript) e back-end em PHP para diversos projetos web: e-commerces, portais corporativos e lojas virtuais para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, projetos de edital aprovados, portfólios e comércio de produtos e serviços).",
+        "Desenvolvimento de sites institucionais, landing pages e lojas virtuais responsivas (HTML5, CSS3, JavaScript, WordPress/WooCommerce) para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, projetos de edital aprovados, portfólios e comércio de produtos e serviços).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
         "Gestão completa do ciclo de desenvolvimento: levantamento de requisitos, arquitetura, deploy e manutenção em infraestrutura Linux com DNS, SSL via Cloudflare e versionamento com Git.",
       ],
