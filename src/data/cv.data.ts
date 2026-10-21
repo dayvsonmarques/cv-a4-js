@@ -58,7 +58,7 @@ export const cvData: CVData = {
   skillCategories: [
     {
       title: "Design & WordPress",
-      skills: ["WordPress", "WooCommerce", "Figma", "UX/UI", "Landing Pages", "SEO Técnico"],
+      skills: ["WordPress", "Elementor", "Divi", "Page Builder", "WooCommerce", "Figma", "UX/UI", "Landing Pages", "SEO Técnico"],
       badgeClass: "bg-gray-400 text-white",
     },
     {
@@ -148,11 +148,11 @@ export const cvData: CVData = {
       company: "Agências de Publicidade",
       period: "06/2015 - 03/2018",
       responsibilities: [
-        "Desenvolvimento de sites institucionais, landing pages e lojas virtuais responsivas (HTML5, CSS3, JavaScript, WordPress/WooCommerce) para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, projetos de edital aprovados, portfólios e comércio de produtos e serviços).",
+        "Desenvolvimento de sites institucionais, landing pages e lojas virtuais responsivas (HTML5, CSS3, JavaScript, WordPress/WooCommerce com Elementor, Divi e outros page builders) para clientes de múltiplos segmentos (turismo, saúde, varejo, jurídico, concursos, projetos de edital aprovados, portfólios e comércio de produtos e serviços).",
         "Integração com APIs de frete, gateways de pagamento (PagSeguro, Cielo, PayPal) e plataformas de e-mail marketing; modelagem e otimização de queries MySQL/PostgreSQL em sistemas de alta frequência.",
         "Gestão completa do ciclo de desenvolvimento: levantamento de requisitos, arquitetura, deploy e manutenção em infraestrutura Linux com DNS, SSL via Cloudflare e versionamento com Git.",
       ],
-      skills: ["PHP 7", "Laravel", "MySQL", "PostgreSQL", "REST API", "WordPress", "WooCommerce", "OpenCart", "Node.js", "HTML5", "CSS3/SASS", "JavaScript", "Git", "Linux", "Cloudflare"],
+      skills: ["WordPress", "Elementor", "Divi", "WooCommerce", "OpenCart", "HTML5", "CSS3/SASS", "JavaScript", "PHP 7", "Laravel", "MySQL", "PostgreSQL", "REST API", "Git", "Linux", "Cloudflare"],
     },
     {
       title: "Desenvolvedor / Analista de Sistemas",
